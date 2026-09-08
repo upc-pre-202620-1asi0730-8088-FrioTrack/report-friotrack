@@ -427,8 +427,6 @@ El Lean UX Canvas funciona como un artefacto integrador y de trabajo colaborativ
 
 ## 1.3. Segmentos objetivo
 
-## 1.3. Segmentos objetivo
-
 La delimitación de los segmentos objetivo de FrioTrack responde a un diagnóstico integral sobre las falencias críticas en el transporte terrestre de productos perecibles, la factibilidad de contacto directo para las fases de validación operativa y el respaldo de reportes estadísticos emitidos por instituciones oficiales del sector. A partir de este análisis, se han estructurado dos grupos clave de usuarios cuyos roles interactúan de forma directa y complementaria a lo largo de la cadena de suministro agroalimentaria:
 
 ---
