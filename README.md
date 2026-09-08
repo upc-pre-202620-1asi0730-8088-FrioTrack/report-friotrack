@@ -321,8 +321,6 @@ Además el ciclo de vida de desarrollo de FrioTrack está sujeto a un conjunto d
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
-El equipo aplicó la versión *Brand new initiative* del template de Lean UX Problem Statement:
-
 **The current state of** cold chain monitoring for perishable food transportation in Peru **has focused mainly on** manual, non-continuous temperature checks performed by drivers or logistics staff, without digital sensors or centralized records, leaving producers, carriers, and buyers unable to detect cold chain breaks in real time.
 
 **What existing products/services fail to address is** an affordable, sector-specific digital platform that consolidates continuous temperature and humidity monitoring, automated alerts, and route visibility for small and medium-sized refrigerated transport operators in Peru.
@@ -334,8 +332,6 @@ El equipo aplicó la versión *Brand new initiative* del template de Lean UX Pro
 **We'll know we are successful when we see** at least 150 active users within the first 8 months, a monthly user retention rate above 75% starting from month 3, a 30% reduction in cold chain deviation incidents during transit, and a Net Promoter Score (NPS) exceeding 40 points after 3 months of platform usage.
 
 #### 1.2.2.2. Lean UX Assumptions
-
-En concordancia con el proceso Lean UX, el equipo identificó los siguientes supuestos (*assumptions*) agrupados por categoría operacional:
 
 **Business Assumptions**
 1. Creemos que existe un mercado suficientemente amplio de empresas de transporte refrigerado, productores agrícolas y agroexportadores en el Perú dispuestos a adoptar una plataforma digital de monitoreo térmico, debido al impacto económico directo que representan las pérdidas por ruptura de la cadena de frío.
@@ -375,6 +371,49 @@ En concordancia con el proceso Lean UX, el equipo identificó los siguientes sup
 7. Creemos que un sistema de búsqueda y filtros avanzados sobre el listado de envíos facilitará la navegación para empresas que gestionan un alto volumen de viajes simultáneos.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+ 
+**Hypothesis Statement 1:**
+*We believe we will achieve* **an active adoption target within the first months of launch**
+*If* **logistics and quality coordinators**
+*Attain* **centralized, near real-time visibility over the temperature, humidity and location of active refrigerated shipments without relying on manual checks**
+*With* **a near real-time monitoring dashboard displaying live sensor readings, status, and location of active transport operations.**
+ 
+**Hypothesis Statement 2:**
+*We believe we will achieve* **a reduction in undetected cold chain break incidents**
+*If* **logistics coordinators and buyers**
+*Attain* **the ability to be immediately notified when a shipment's temperature or humidity deviates from the configured safe range**
+*With* **an automated thermal alert system integrated directly into the shipment details page.**
+ 
+**Hypothesis Statement 3:**
+*We believe we will achieve* **a high monthly user retention rate starting from the early months of operation**
+*If* **transport companies and quality coordinators**
+*Attain* **a reliable historical thermal record of past shipments to support quality audits, certifications, and commercial claims**
+*With* **an operation history management module with advanced search, filtering, and exportable thermal logs.**
+ 
+**Hypothesis Statement 4:**
+*We believe we will achieve* **a high Net Promoter Score (NPS) among early adopters**
+*If* **producers, exporters and buyers**
+*Attain* **an intuitive and highly visual way to track the location and thermal condition of shipments along national transport corridors**
+*With* **an interactive map interface integrated with an external geolocation service.**
+ 
+**Hypothesis Statement 5:**
+*We believe we will achieve* **a high monthly user retention rate starting from the early months of operation**
+*If* **logistics coordinators**
+*Attain* **an orderly mechanism to register refrigerated units, assign available drivers, and organize dispatch workflows**
+*With* **a fleet and driver management module with status indicators and simplified registry forms.**
+ 
+**Hypothesis Statement 6:**
+*We believe we will achieve* **a reduction in undetected cold chain break incidents**
+*If* **logistics coordinators and buyers**
+*Attain* **instant awareness of critical thermal deviations to execute contingency plans immediately**
+*With* **an automated system of push alerts and in-app notifications triggered upon threshold breaches.**
+ 
+**Hypothesis Statement 7:**
+*We believe we will achieve* **a high Net Promoter Score (NPS) among early adopters**
+*If* **logistics coordinators with high daily operational volumes**
+*Attain* **the ability to find specific shipments, units, or routes within seconds, minimizing search fatigue**
+*With* **an advanced search bar and multi-criteria filters on the active shipments dashboard.**
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
