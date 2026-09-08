@@ -373,46 +373,46 @@ Además el ciclo de vida de desarrollo de FrioTrack está sujeto a un conjunto d
 #### 1.2.2.3. Lean UX Hypothesis Statements
  
 **Hypothesis Statement 1:**
-*We believe we will achieve* **an active adoption target within the first months of launch**
-*If* **logistics and quality coordinators**
-*Attain* **centralized, near real-time visibility over the temperature, humidity and location of active refrigerated shipments without relying on manual checks**
-*With* **a near real-time monitoring dashboard displaying live sensor readings, status, and location of active transport operations.**
- 
+*We believe we will achieve* an active adoption target within the first months of launch
+*If* logistics and quality coordinators
+*Attain* centralized, near real-time visibility over the temperature, humidity and location of active refrigerated shipments without relying on manual checks
+*With* a near real-time monitoring dashboard displaying live sensor readings, status, and location of active transport operations.
+
 **Hypothesis Statement 2:**
-*We believe we will achieve* **a reduction in undetected cold chain break incidents**
-*If* **logistics coordinators and buyers**
-*Attain* **the ability to be immediately notified when a shipment's temperature or humidity deviates from the configured safe range**
-*With* **an automated thermal alert system integrated directly into the shipment details page.**
- 
+*We believe we will achieve* a reduction in undetected cold chain break incidents
+*If* logistics coordinators and buyers
+*Attain* the ability to be immediately notified when a shipment's temperature or humidity deviates from the configured safe range
+*With* an automated thermal alert system integrated directly into the shipment details page.
+
 **Hypothesis Statement 3:**
-*We believe we will achieve* **a high monthly user retention rate starting from the early months of operation**
-*If* **transport companies and quality coordinators**
-*Attain* **a reliable historical thermal record of past shipments to support quality audits, certifications, and commercial claims**
-*With* **an operation history management module with advanced search, filtering, and exportable thermal logs.**
- 
+*We believe we will achieve* a high monthly user retention rate starting from the early months of operation
+*If* transport companies and quality coordinators
+*Attain* a reliable historical thermal record of past shipments to support quality audits, certifications, and commercial claims
+*With* an operation history management module with advanced search, filtering, and exportable thermal logs.
+
 **Hypothesis Statement 4:**
-*We believe we will achieve* **a high Net Promoter Score (NPS) among early adopters**
-*If* **producers, exporters and buyers**
-*Attain* **an intuitive and highly visual way to track the location and thermal condition of shipments along national transport corridors**
-*With* **an interactive map interface integrated with an external geolocation service.**
- 
+*We believe we will achieve* a high Net Promoter Score (NPS) among early adopters
+*If* producers, exporters and buyers
+*Attain* an intuitive and highly visual way to track the location and thermal condition of shipments along national transport corridors
+*With* an interactive map interface integrated with an external geolocation service.
+
 **Hypothesis Statement 5:**
-*We believe we will achieve* **a high monthly user retention rate starting from the early months of operation**
-*If* **logistics coordinators**
-*Attain* **an orderly mechanism to register refrigerated units, assign available drivers, and organize dispatch workflows**
-*With* **a fleet and driver management module with status indicators and simplified registry forms.**
- 
+*We believe we will achieve* a high monthly user retention rate starting from the early months of operation
+*If* logistics coordinators
+*Attain* an orderly mechanism to register refrigerated units, assign available drivers, and organize dispatch workflows
+*With* a fleet and driver management module with status indicators and simplified registry forms.
+
 **Hypothesis Statement 6:**
-*We believe we will achieve* **a reduction in undetected cold chain break incidents**
-*If* **logistics coordinators and buyers**
-*Attain* **instant awareness of critical thermal deviations to execute contingency plans immediately**
-*With* **an automated system of push alerts and in-app notifications triggered upon threshold breaches.**
- 
+*We believe we will achieve* a reduction in undetected cold chain break incidents
+*If* logistics coordinators and buyers
+*Attain* instant awareness of critical thermal deviations to execute contingency plans immediately
+*With* an automated system of push alerts and in-app notifications triggered upon threshold breaches.
+
 **Hypothesis Statement 7:**
-*We believe we will achieve* **a high Net Promoter Score (NPS) among early adopters**
-*If* **logistics coordinators with high daily operational volumes**
-*Attain* **the ability to find specific shipments, units, or routes within seconds, minimizing search fatigue**
-*With* **an advanced search bar and multi-criteria filters on the active shipments dashboard.**
+*We believe we will achieve* a high Net Promoter Score (NPS) among early adopters
+*If* logistics coordinators with high daily operational volumes
+*Attain* the ability to find specific shipments, units, or routes within seconds, minimizing search fatigue
+*With* an advanced search bar and multi-criteria filters on the active shipments dashboard.
 
 #### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas funciona como un artefacto integrador y de trabajo colaborativo que concentra, en un único marco visual, las premisas estratégicas y las decisiones de diseño fundamentales que dan forma al proyecto. La siguiente matriz consolidada sintetiza el modelo de análisis desarrollado por el equipo para orientar la concepción, iteración y validación funcional de la plataforma FrioTrack:
