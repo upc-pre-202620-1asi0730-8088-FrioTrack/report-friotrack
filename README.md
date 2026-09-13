@@ -42,36 +42,13 @@ Proyecto
 
 <br>
 
-<table align="center" border="0">
-  <tr>
-    <td align="left" style="border: none;"><b>Código</b></td>
-    <td align="left" style="border: none; padding-left: 20px;"><b>Apellidos y Nombres</b></td>
-  </tr>
-  <tr>
-    <td align="left" style="border: none;">u20191e999</td>
-    <td align="left" style="border: none; padding-left: 20px;">Carranza Pérez, Jhordi Luis</td>
-  </tr>
-  <tr>
-    <td align="left" style="border: none;">u202315000</td>
-    <td align="left" style="border: none; padding-left: 20px;">Alvarez Falen, Esteban Valentino</td>
-  </tr>
-  <tr>
-    <td align="left" style="border: none;">u202311999</td>
-    <td align="left" style="border: none; padding-left: 20px;">Valdivia Pérez, Julio Renan</td>
-  </tr>
-  <tr>
-    <td align="left" style="border: none;">u20191e999</td>
-    <td align="left" style="border: none; padding-left: 20px;">Carranza Chirinos, Álamo Luis</td>
-  </tr>
-  <tr>
-    <td align="left" style="border: none;">u202415000</td>
-    <td align="left" style="border: none; padding-left: 20px;">Alvarez Torres, Andrés Orlando</td>
-  </tr>
-  <tr>
-    <td align="left" style="border: none;">u202411999</td>
-    <td align="left" style="border: none; padding-left: 20px;">Valdivia Quispe, Stephano Renan</td>
-  </tr>
-</table>
+**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**  
+u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
+u202315000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
+u202311999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
+u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Chirinos, Álamo Luis  
+u202415000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Torres, Andrés Orlando  
+u202411999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan  
 
 <br>
 <br>
