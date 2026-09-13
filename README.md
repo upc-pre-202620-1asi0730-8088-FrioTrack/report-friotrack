@@ -362,6 +362,6 @@ Proyecto
 
 # Video About-the-Team
 
-# Bibliografía
+# Bibliografí
 
 # Anexos
