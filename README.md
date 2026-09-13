@@ -19,7 +19,6 @@ NRC
 ### **10215**
 
 <br>
-
 ### **Informe del Trabajo Final**
 
 Docente
