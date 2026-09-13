@@ -4,9 +4,8 @@
 
 <br>
 
-**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
-
-**Carrera de Ingeniería de Software**
+Universidad Peruana de Ciencias Aplicadas  
+Carrera de Ingeniería de Software  
 
 <br>
 
@@ -16,7 +15,7 @@
 
 NRC
 
-### **8080**
+### **8088**
 
 <br>
 
@@ -24,39 +23,41 @@ NRC
 
 Docente
 
-### **Bautista Ubillús, Efraín Ricardo**
+### **Bautista Ubillús, Efrain Ricardo**
 
 <br>
 
 Equipo
 
-### **ColdTech Solutions**
+### **BlackStartup**
 
 Proyecto
 
-### **FrioTrack**
+### **FríoTrack**
 
 <br>
 
-**Integrantes**
+### **Integrantes**
 
 <br>
 
-**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**  
-u20241f246 &nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián  
-XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
-XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
-XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
-XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
+| Código | Apellidos y Nombres |
+| :--- | :--- |
+| u20191e999 | Carranza Pérez, Jhordi Luis |
+| u202315000 | Alvarez Falen, Esteban Valentino |
+| u202311999 | Valdivia Pérez, Julio Renan |
+| u20191e999 | Carranza Chirinos, Álamo Luis |
+| u202415000 | Alvarez Torres, Andrés Orlando |
+| u202411999 | Valdivia Quispe, Stephano Renan |
 
 <br>
 <br>
 
-### **Periodo 202620**
+### **Período 202620**
 
 <br>
 
-### **Agosto, 2026**
+### **Septiembre 2026**
 
 </div>
 
