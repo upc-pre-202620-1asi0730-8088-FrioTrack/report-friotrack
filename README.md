@@ -1,39 +1,45 @@
-<div align="center">
-    <img src="assets/logoUPC.png" alt="Logo UPC">
+![Logo UPC](media/image1.png)
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+Universidad Peruana de Ciencias Aplicadas
 
-**Carrera de Ingeniería de Software**
+Carrera de Ingeniería de Software
 
-**1ASI0730** <br>
-**Aplicaciones Web** <br>
-NRC <br>
-**8080**
+**1ASI0730**
 
-## **Informe del Trabajo Final**
-Docente <br>
-#### **Bautista Ubillús, Efraín Ricardo**
-Equipo <br>
-#### **ColdTech Solutions**
-Proyecto <br>
-#### **FrioTrack**
+**Aplicaciones Web**
+
+NRC
+
+**10215**
+
+# Informe del Trabajo Final
+
+Docente
+
+**Bautista Ubillús, Efrain Ricardo**
+
+Equipo
+
+**BlackStartup**
+
+Proyecto
+
+**Qahwa**
 
 **Integrantes**
 
-<div style="text-align: center;">
-    <table style="margin: 0 auto; display: inline-table;">
-        <tr><th>Código</th><th>Apellidos y Nombres</th></tr>
-        <tr><th>u20241f246</th><th>Atauje Barreto, Alexander Sebastián</th></tr>
-        <tr><th>XXXXX</th><th>XXXXX</th></tr>
-        <tr><th>XXXXX</th><th>XXXXX</th></tr>
-        <tr><th>XXXXX</th><th>XXXXX</th></tr>
-        <tr><th>XXXXX</th><th>XXXXX</th></tr>
-    </table>
-</div>
+| **Código** | **Apellidos y Nombres** |
+|---|---|
+| u20191e999 | Carranza Pérez, Jhordi Luis |
+| u202315000 | Alvarez Falen, Esteban Valentino |
+| u202311999 | Valdivia Pérez, Julio Renan |
+| u20191e999 | Carranza Chirinos, Álamo Luis |
+| u202415000 | Alvarez Torres, Andrés Orlando |
+| u202411999 | Valdivia Quispe, Stephano Renan |
 
-**Periodo 202620**
+**Período 202620**
 
-<strong>Agosto, 2026</strong>
+**Septiembre 2026**
 </div>
 
 ## Registro de Versiones del Informe
