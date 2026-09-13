@@ -1,42 +1,37 @@
-![](Aspose.Words.894f8dfd-8de0-4b18-a2c0-06c4ca5df9f9.001.png)
+<div align="center">
 
-Universidad Peruana de Ciencias Aplicadas
+# Universidad Peruana de Ciencias Aplicadas
+### Carrera de Ingeniería de Software
 
-Carrera de Ingeniería de Software
+<br>
 
-**1ASI0730**
+**Curso:** 1ASI0730 - Aplicaciones Web  
+**NRC:** 10215  
 
-**Aplicaciones Web**
+<br>
 
-NRC
+## Informe del Trabajo Final
 
-**10215**
+**Docente:** Bautista Ubillús, Efrain Ricardo  
+**Equipo:** BlackStartup  
+**Proyecto:** Qahwa  
 
-**Informe del Trabajo Final**
+<br>
 
-Docente
+### Integrantes
 
-**Bautista Ubillús, Efrain Ricardo**
+| Código | Apellidos y Nombres |
+| :---: | :--- |
+| u20191e999 | Carranza Pérez, Jhordi Luis |
+| u202315000 | Alvarez Falen, Esteban Valentino |
+| u202311999 | Valdivia Pérez, Julio Renan |
+| u20191e999 | Carranza Chirinos, Álamo Luis |
+| u202415000 | Alvarez Torres, Andrés Orlando |
+| u202411999 | Valdivia Quispe, Stephano Renan |
 
-Equipo
+<br>
 
-**BlackStartup**
-
-Proyecto
-
-**Qahwa**
-
-**Integrantes**
-
-|**Código**|**Apellidos y Nombres**|
-| :- | - |
-|u20191e999|Carranza Pérez, Jhordi Luis|
-|u202315000|Alvarez Falen, Esteban Valentino|
-|u202311999|Valdivia Pérez, Julio Renan|
-|u20191e999|Carranza Chirinos, Álamo Luis|
-|u202415000|Alvarez Torres, Andrés Orlando|
-|u202411999|Valdivia Quispe, Stephano Renan|
-
-**Período 202620**
-
+**Período 202620**  
 **Septiembre 2026**
+
+</div>
