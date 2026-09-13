@@ -19,6 +19,7 @@ NRC
 ### **10215**
 
 <br>
+
 ### **Informe del Trabajo Final**
 
 Docente
@@ -41,14 +42,31 @@ Proyecto
 
 <br>
 
-**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**
+**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**
 
-u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
-u202315000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
-u202311999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
-u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Chirinos, Álamo Luis  
-u202415000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Torres, Andrés Orlando  
-u202411999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan  
+<br>
+
+u20191e999 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
+
+<br>
+
+u202315000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
+
+<br>
+
+u202311999 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
+
+<br>
+
+u20191e999 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Carranza Chirinos, Álamo Luis  
+
+<br>
+
+u202415000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alvarez Torres, Andrés Orlando  
+
+<br>
+
+u202411999 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan  
 
 <br>
 <br>
