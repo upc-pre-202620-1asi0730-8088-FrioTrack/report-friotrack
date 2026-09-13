@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="UPC Logo" width="100" />
+<img src="assets/logoUPC.png" alt="Logo UPC" width="100" />
 
 <br>
 
-**Universidad Peruana de Ciencias Aplicadas**
+**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
 **Carrera de Ingeniería de Software**
 
@@ -16,7 +16,7 @@
 
 NRC
 
-### **10215**
+### **8080**
 
 <br>
 
@@ -24,17 +24,17 @@ NRC
 
 Docente
 
-### **Bautista Ubillús, Efrain Ricardo**
+### **Bautista Ubillús, Efraín Ricardo**
 
 <br>
 
 Equipo
 
-### **BlackStartup**
+### **ColdTech Solutions**
 
 Proyecto
 
-### **Qahwa**
+### **FrioTrack**
 
 <br>
 
@@ -43,21 +43,20 @@ Proyecto
 <br>
 
 **Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**  
-u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
-u202315000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
-u202311999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
-u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Chirinos, Álamo Luis  
-u202415000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Torres, Andrés Orlando  
-u202411999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan  
+u20241f246 &nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián  
+XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
+XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
+XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
+XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XXXXX  
 
 <br>
 <br>
 
-### **Período 202620**
+### **Periodo 202620**
 
 <br>
 
-### **Septiembre 2026**
+### **Agosto, 2026**
 
 </div>
 
@@ -177,7 +176,7 @@ u202411999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan
             - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
             - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
             - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3. Validation Interviews](#53.1-diseño-de-entrevistas)
         - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
         - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
         - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
