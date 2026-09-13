@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logoUPC.png" alt="Logo UPC" width="100" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="UPC Logo" width="100" />
 
 <br>
 
@@ -176,7 +176,7 @@ XXXXX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X
             - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
             - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
             - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53.1-diseño-de-entrevistas)
+    - [5.3. Validation Interviews](#531-diseño-de-entrevistas)
         - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
         - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
         - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
