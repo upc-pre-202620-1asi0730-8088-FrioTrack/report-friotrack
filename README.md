@@ -42,7 +42,8 @@ Proyecto
 
 <br>
 
-**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**  
+**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**
+
 u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
 u202315000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
 u202311999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
