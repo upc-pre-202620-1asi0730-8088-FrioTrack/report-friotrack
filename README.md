@@ -42,12 +42,11 @@ Proyecto
 <br>
 
 **Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**  
-u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
-u202315000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
-u202311999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
-u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Chirinos, Álamo Luis  
-u202415000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Torres, Andrés Orlando  
-u202411999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan  
+u20241f246 &nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián  
+u202421137 &nbsp;&nbsp;&nbsp;&nbsp; Bardales Rodriguez, Benjamin Elias  
+u202219829 &nbsp;&nbsp;&nbsp;&nbsp; Daga Chávez, Joaquín Leonardo  
+u20241D811 &nbsp;&nbsp;&nbsp;&nbsp; Saavedra Flores, Rodrigo Andree  
+u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena  
 
 <br>
 <br>
