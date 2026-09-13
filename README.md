@@ -41,14 +41,13 @@ Proyecto
 
 <br>
 
- Código  Apellidos y Nombres 
- :---  :--- 
- u20191e999  Carranza Pérez, Jhordi Luis 
- u202315000  Alvarez Falen, Esteban Valentino 
- u202311999  Valdivia Pérez, Julio Renan 
- u20191e999  Carranza Chirinos, Álamo Luis 
- u202415000  Alvarez Torres, Andrés Orlando 
- u202411999  Valdivia Quispe, Stephano Renan 
+**Código** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Apellidos y Nombres**  
+u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Pérez, Jhordi Luis  
+u202315000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Falen, Esteban Valentino  
+u202311999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Pérez, Julio Renan  
+u20191e999 &nbsp;&nbsp;&nbsp;&nbsp; Carranza Chirinos, Álamo Luis  
+u202415000 &nbsp;&nbsp;&nbsp;&nbsp; Alvarez Torres, Andrés Orlando  
+u202411999 &nbsp;&nbsp;&nbsp;&nbsp; Valdivia Quispe, Stephano Renan  
 
 <br>
 <br>
