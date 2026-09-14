@@ -41,13 +41,14 @@ Proyecto
 
 <br>
 
-<pre align="center" style="font-family: inherit; background: transparent; border: none;">
-<b>Código</b>            <b>Apellidos y Nombres</b>
-u20241f246        Atauje Barreto, Alexander Sebastián
-u202421137        Bardales Rodriguez, Benjamin Elias
-u202219829        Daga Chávez, Joaquín Leonardo
-u20241D811        Saavedra Flores, Rodrigo Andree
-u20231H17         Vera Solsol, Nayely Macarena
+<p align="center">
+  <strong>Código</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Apellidos y Nombres</strong><br>
+  <code>u20241f246</code> &nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián<br>
+  <code>u202421137</code> &nbsp;&nbsp;&nbsp; Bardales Rodriguez, Benjamin Elias<br>
+  <code>u202219829</code> &nbsp;&nbsp;&nbsp; Daga Chávez, Joaquín Leonardo<br>
+  <code>u20241D811</code> &nbsp;&nbsp;&nbsp; Saavedra Flores, Rodrigo Andree<br>
+  <code>u20231H17</code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
+</p>
 </pre>
 <br>
 <br>
