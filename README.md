@@ -41,32 +41,14 @@ Proyecto
 
 <br>
 
-<table border="0" style="border-collapse: collapse; border: none; margin: 0 auto;">
-  <tr style="border: none;">
-    <td style="border: none; padding: 4px 15px; font-weight: bold; text-align: left;">Código</td>
-    <td style="border: none; padding: 4px 15px; font-weight: bold; text-align: left;">Apellidos y Nombres</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 4px 15px; text-align: left;">u20241f246</td>
-    <td style="border: none; padding: 4px 15px; text-align: left;">Atauje Barreto, Alexander Sebastián</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 4px 15px; text-align: left;">u202421137</td>
-    <td style="border: none; padding: 4px 15px; text-align: left;">Bardales Rodriguez, Benjamin Elias</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 4px 15px; text-align: left;">u202219829</td>
-    <td style="border: none; padding: 4px 15px; text-align: left;">Daga Chávez, Joaquín Leonardo</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 4px 15px; text-align: left;">u20241D811</td>
-    <td style="border: none; padding: 4px 15px; text-align: left;">Saavedra Flores, Rodrigo Andree</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 4px 15px; text-align: left;">u20231H17</td>
-    <td style="border: none; padding: 4px 15px; text-align: left;">Vera Solsol, Nayely Macarena</td>
-  </tr>
-</table>
+<pre align="center" style="font-family: inherit; background: transparent; border: none;">
+<b>Código</b>            <b>Apellidos y Nombres</b>
+u20241f246        Atauje Barreto, Alexander Sebastián
+u202421137        Bardales Rodriguez, Benjamin Elias
+u202219829        Daga Chávez, Joaquín Leonardo
+u20241D811        Saavedra Flores, Rodrigo Andree
+u20231H17         Vera Solsol, Nayely Macarena
+</pre>
 <br>
 <br>
 
