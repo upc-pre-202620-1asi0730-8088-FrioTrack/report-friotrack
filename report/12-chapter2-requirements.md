@@ -1,7 +1,5 @@
 # Capítulo II: Requirements Elicitation & Analysis
 
-# Capítulo II: Requirements Elicitation & Analysis
-
 ## 2.1. Competidores
 
 En esta sección se identifican y describen los principales competidores de **FrioTrack**, tanto directos como indirectos. Estos ofrecen soluciones digitales relacionadas con la gestión logística, el control de inventario y el monitoreo de productos sensibles a la temperatura dentro de la cadena de frío.
@@ -317,7 +315,10 @@ En la sesión de **Big Picture EventStorming**, el equipo exploró de forma visu
 
 Asimismo, se identificaron los sistemas externos que interactúan con la plataforma, como los sensores IoT y los servicios utilizados para generar alertas. Esta primera aproximación permitió alinear el entendimiento del equipo sobre el dominio y establecer las bases para el diseño detallado de la solución.
 
-![Big Picture EventStorming - FrioTrack](./images/big-picture.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/big-picture.jpg" alt="Big Picture EventStorming - FrioTrack" width="600">
+  <p><i>Figura X. Big Picture EventStorming del proyecto FrioTrack.</i></p>
+</div>
 
 **Primera fase: Eventos**
 
