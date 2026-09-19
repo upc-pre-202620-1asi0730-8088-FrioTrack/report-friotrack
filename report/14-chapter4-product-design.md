@@ -1462,6 +1462,7 @@ El recorrido que se muestra en la Figura 4.86 sigue el camino principal del Coor
 | :--- | :--- |
 | Prototipo interactivo en HTML (archivo del repositorio) | [`assets/prototype/friotrack-prototype.html`](assets/prototype/friotrack-prototype.html). Para verlo, descargue el archivo y ábralo en un navegador. |
 | Archivo de diseño en Figma del equipo | [figma.com/design/A9GdNlVpNyS7lYS7agf83X/myfigma](https://www.figma.com/design/A9GdNlVpNyS7lYS7agf83X/myfigma?t=BHeH2sG0m5VK3vkG-0) |
+| Archivo de Figma del Bloque 4 (Product Design) | [figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv](https://www.figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv). Contiene las páginas Portada, 4.1 Style Guidelines, 4.2 IA y User Flows, 4.3 Landing Page y 4.5 Web App (wireframes y mock-ups). Los archivos SVG de origen están en [`assets/figma/`](assets/figma/README.md). |
 | Video demostrativo del prototipo | Pendiente de completar por el equipo. |
 
 ## 4.6. Domain-Driven Software Architecture
