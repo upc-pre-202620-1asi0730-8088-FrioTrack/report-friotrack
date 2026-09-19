@@ -1714,7 +1714,7 @@ El diagrama de componentes (nivel 3 del modelo C4) descompone el contenedor API 
 *Diagrama de componentes de la API web (modelo C4, nivel 3)*
 
 <p align="center">
-  <img src="assets/images/chapter-4/c4-componentes.png" alt="Diagrama de componentes de la API web (modelo C4, nivel 3)" width="1000"><br>
+  <img src="assets/images/chapter-04/c4-componentes.png" alt="Diagrama de componentes de la API web (modelo C4, nivel 3)" width="1000"><br>
   <i>Nota.</i> Elaboración propia, con base en el modelo C4 y en Domain-Driven Design.
 </p>
 
