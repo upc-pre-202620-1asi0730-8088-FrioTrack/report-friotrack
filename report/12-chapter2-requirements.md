@@ -253,7 +253,27 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+
+Para realizar el proceso de *needfinding* en **FrioTrack**, se llevaron a cabo entrevistas en profundidad con actores clave de los segmentos objetivo. Estas incluyeron representantes de empresas distribuidoras de productos perecibles, así como propietarios y administradores de tiendas y bodegas. Las entrevistas permitieron conocer sus actividades diarias, métodos de control de inventario y principales dificultades relacionadas con la conservación de productos, el control de temperatura, el vencimiento y las pérdidas de productos perecibles.
+
+A partir de esta exploración, se identificaron oportunidades de mejora relacionadas con el uso de controles manuales, la falta de supervisión continua, las dificultades para realizar un seguimiento adecuado del inventario y el acceso limitado a herramientas tecnológicas sencillas. También se evidenció una diferencia entre el registro de información y la capacidad de tomar decisiones preventivas de manera oportuna.
+
+Durante las entrevistas se identificaron necesidades recurrentes, principalmente la posibilidad de recibir alertas ante variaciones de temperatura, contar con mayor visibilidad del inventario y facilitar el control de las fechas de vencimiento. Asimismo, se identificó la necesidad de contar con herramientas que permitan gestionar estos procesos de manera sencilla.
+
+De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, una plataforma digital orientada al monitoreo de la cadena de frío y la gestión de productos perecibles, buscando reducir las pérdidas y facilitar el control de las operaciones.
+
 ### 2.3.1. User Personas
+
+**Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
+
+![User Persona - Segmento 1](./images/user-persona.jpg)
+![User Persona - Segmento 1](./images/user-persona2.jpg)
+
+**Segmento Objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos:**
+
+![User Persona - Segmento 2](./images/user-persona-segmento2.jpg)
+![User Persona - Segmento 2](./images/user-persona-segmento2-2.jpg)
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
