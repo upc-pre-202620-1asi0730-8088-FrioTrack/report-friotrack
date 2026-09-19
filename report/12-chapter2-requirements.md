@@ -303,7 +303,13 @@ De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, u
 
 ### 2.3.4. Empathy Mapping
 
+**Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
 
+![Empathy Mapping - Segmento 1](./images/empathy-mapping-seg1.jpg)
+
+**Segmento objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos**
+
+![Empathy Mapping - Segmento 2](./images/empathy-mapping-seg2.jpg)
 
 ## 2.4. Big Picture EventStorming
 
