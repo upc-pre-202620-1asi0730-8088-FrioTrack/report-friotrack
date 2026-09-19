@@ -264,13 +264,23 @@ De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, u
 
 **Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
 
-![User Persona - Segmento 1](./images/user-persona.jpg)
-![User Persona - Segmento 1](./images/user-persona2.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/user-persona.jpg" alt="User Persona - Segmento 1 - Parte 1" width="600">
+</div>
+
+<div align="center">
+  <img src="assets/images/chapter-02/user-persona2.jpg" alt="User Persona - Segmento 1 - Parte 2" width="600">
+</div>
 
 **Segmento Objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos:**
 
-![User Persona - Segmento 2](./images/user-persona-segmento2.jpg)
-![User Persona - Segmento 2](./images/user-persona-segmento2-2.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/user-persona-segmento2.jpg" alt="User Persona - Segmento 2 - Parte 1" width="600">
+</div>
+
+<div align="center">
+  <img src="assets/images/chapter-02/user-persona-segmento2-2.jpg" alt="User Persona - Segmento 2 - Parte 2" width="600">
+</div>
 
 ### 2.3.2. User Task Matrix
 
@@ -293,21 +303,29 @@ De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, u
 
 **Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
 
-![User Journey Mapping - Segmento 1](./images/user-journey-mapping.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/user-journey-mapping.jpg" alt="User Journey Mapping - Segmento 1" width="600">
+</div>
 
 **Segmento objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos**
 
-![User Journey Mapping - Segmento 2](./images/user-journey-mapping-seg2.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/user-journey-mapping-seg2.jpg" alt="User Journey Mapping - Segmento 2" width="600">
+</div>
 
 ### 2.3.4. Empathy Mapping
 
 **Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
 
-![Empathy Mapping - Segmento 1](./images/empathy-mapping-seg1.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/empathy-mapping-seg1.jpg" alt="Empathy Mapping - Segmento 1" width="600">
+</div>
 
 **Segmento objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos**
 
-![Empathy Mapping - Segmento 2](./images/empathy-mapping-seg2.jpg)
+<div align="center">
+  <img src="assets/images/chapter-02/empathy-mapping-seg2.jpg" alt="Empathy Mapping - Segmento 2" width="600">
+</div>
 
 ### 2.4. Big Picture EventStorming
 
