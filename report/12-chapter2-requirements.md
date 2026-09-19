@@ -275,8 +275,35 @@ De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, u
 ![User Persona - Segmento 2](./images/user-persona-segmento2-2.jpg)
 
 ### 2.3.2. User Task Matrix
+
+| **Task** | **Javier Mendoza (Jefe de Almacén y Logística)** |  | **Rosa Huamán (Propietaria de Bodega)** |  |
+|---|---|---|---|---|
+|  | **Frequency** | **Importance** | **Frequency** | **Importance** |
+| Monitorear temperatura de cámaras/vitrinas | High | High | High | High |
+| Registrar fecha de vencimiento y lote de productos | High | High | Medium | High |
+| Verificar rotación de inventario bajo criterio FEFO | High | High | Medium | High |
+| Detectar desviaciones térmicas fuera de horario laboral | High | High | Low | High |
+| Revisar manualmente el estado físico de los equipos de frío | Medium | High | High | High |
+| Lanzar promociones o remates por caducidad cercana | Low | Medium | High | High |
+| Preparar pedidos o despachos para clientes/rutas | High | High | High | High |
+| Generar reportes de mermas y pérdidas económicas | Medium | High | Low | Medium |
+| Justificar trazabilidad térmica ante clientes o auditorías | Medium | High | Low | Low |
+| Coordinar mantenimiento de equipos de refrigeración | Low | High | Low | High |
+| Separar y desechar mercadería deteriorada/vencida | Medium | High | Medium | High |
+
 ### 2.3.3. User Journey Mapping
+
+**Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
+
+![User Journey Mapping - Segmento 1](./images/user-journey-mapping.jpg)
+
+**Segmento objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos**
+
+![User Journey Mapping - Segmento 2](./images/user-journey-mapping-seg2.jpg)
+
 ### 2.3.4. Empathy Mapping
+
+
 
 ## 2.4. Big Picture EventStorming
 
