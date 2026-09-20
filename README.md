@@ -91,6 +91,8 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 | Saavedra Flores, Rodrigo Andree | Product Implementation, Validation & Deployment (Chapter 5), apoyo en la implementación y despliegue del Landing Page |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3), configuración y gestión del tablero Trello |
 
+</div>
+
 En esta versión del trabajo se realizaron los capítulos I a IV en su totalidad, a la vez que se avanzó el capítulo V hasta el punto correspondiente al Sprint 1, tal como dispone la rúbrica para el primer entregable.
 
 Debido a que se manejan dos repositorios dentro de la organización, uno para el reporte y otro para el despliegue de la Landing Page, con el fin de aplicar correctamente el flujo de trabajo GitFlow, se presenta a continuación la actividad de commits del repositorio principal del reporte.
@@ -98,9 +100,7 @@ Debido a que se manejan dos repositorios dentro de la organización, uno para el
 Link de la organización: https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack
 
 Collaboration Insight (Repositorio del reporte):
-<div align="center">
-  <img src="./assets/images/chapter-00/commits-friotrack-report.png" alt="Top Committers FríoTrack AV1" width="500">
-</div>
+<br> <img src="./assets/images/chapter-00/commits-friotrack-report.png" alt="Top Committers FríoTrack AV1" width="300"> <br>
 
 ## **AV1:**
 
