@@ -72,7 +72,7 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Configuración de repositorio, estructura GitFlow y Capítulo I |
+| Atauje Barreto, Alexander Sebastián | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
 | Bardales Rodriguez, Benjamin Elias | [Pendiente de asignar] |
 | Daga Chávez, Joaquín Leonardo | [Pendiente de asignar] |
 | Saavedra Flores, Rodrigo Andree | [Pendiente de asignar] |
