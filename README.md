@@ -64,9 +64,9 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 |:-------:|:----------:|:-----------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | AV1 | 17-09-2026 | Atauje Barreto, Alexander Sebastián | Creación de la estructura base del repositorio y Frontmatter |
 | AV1 | 14/09/2026 | Alexander | Redacción de Startup Profile: Descripción de la Startup y Perfiles de integrantes del equipo |
-| AV1 | 14/09/2026 | Alexander | Elaboración de Solution Profile: Antecedentes y problemática del sector agrícola |
-| AV1 | 14/09/2026 | Alexander | Definición del Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas |
-| AV1 | 14/09/2026 | Alexander | Redacción y caracterización detallada de los Segmentos Objetivo y referencias en formato APA 7 |
+| AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
+| AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
+| AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Product Backlog |
 
 </div>
 
