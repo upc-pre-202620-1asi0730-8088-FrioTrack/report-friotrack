@@ -1,5 +1,23 @@
 # Conclusiones y Recomendaciones
 
+## Conclusiones
+
+* **Atención a una brecha estructural del sector logístico peruano:** El posicionamiento del Perú en el puesto 61 de 139 países del Índice de Desempeño Logístico del Banco Mundial (2023), sumado a la pérdida de más de 12 millones de toneladas de alimentos reportada por la FAO (2022), evidencia que la ausencia de monitoreo remoto en el transporte refrigerado es una falla estructural y no un problema aislado de unas pocas empresas. FríoTrack responde a esta brecha centralizando en un panel interactivo la telemetría térmica, la geolocalización y la emisión automática de alertas, dirigido específicamente a los corredores logísticos de mayor movimiento agroexportador (La Libertad, Ica, Piura y Lambayeque hacia Lima Metropolitana).
+
+* **Complementariedad entre los dos segmentos objetivo:** El diseño de FríoTrack reconoce que las empresas de transporte refrigerado y los productores/exportadores/compradores no son audiencias aisladas, sino dos extremos de una misma cadena de valor con necesidades distintas pero interdependientes: mientras el transportista necesita demostrar objetivamente el cumplimiento térmico, el comprador necesita anticipar el estado de la carga antes de recibirla. Esta doble validación, confirmada durante el proceso de *needfinding* y las entrevistas con ambos segmentos, sustenta la decisión de construir perfiles de usuario diferenciados (*Coordinador Logístico* y *Cliente de Carga*) dentro de una misma plataforma.
+
+* **Coherencia entre el modelo de dominio, el diseño de interfaz y la implementación inicial:** La arquitectura *Domain-Driven Design* (DDD) con sus cinco *Bounded Contexts* (IAM, Fleet & Resource Management, Shipment Management, Monitoring & Telemetry y Alert & Reporting) se tradujo consistentemente en las pantallas, los flujos de usuario y el modelo de base de datos documentados en el Capítulo IV. Esa misma consistencia se refleja en la primera entrega funcional del Sprint 1: la Landing Page desplegada en producción con la propuesta de valor, los planes de suscripción y el formulario de contacto B2B, validando que el diseño conceptual es efectivamente implementable con el *stack* tecnológico elegido (Vue 3, ASP.NET Core y PostgreSQL).
+
+---
+
+## Recomendaciones
+
+* **Priorizar la simplicidad de adopción para el segmento transportista:** Dado que las entrevistas evidenciaron una familiaridad limitada con plataformas telemáticas avanzadas entre los coordinadores de flota, se recomienda mantener el enfoque de incorporación sencilla —con soporte en español, tutoriales breves y compatibilidad con sensores IoT ya disponibles en el mercado para no generar una barrera de entrada adicional en un sector con baja penetración tecnológica previa.
+
+* **Formalizar alianzas con gremios y cooperativas del sector agroexportador:** Para acelerar la adopción en los corredores logísticos priorizados, se sugiere establecer acuerdos con asociaciones de transportistas refrigerados y con agroexportadoras de La Libertad, Ica, Piura y Lambayeque, aprovechando que estos actores concentran gran parte del volumen de carga perecible identificado por el MTC (2023) y que una recomendación entre pares (*early adopters*) puede impulsar un crecimiento orgánico más rápido que la adquisición individual de clientes.
+
+* **Consolidar el roadmap hacia los módulos de auditoría y reportería:** En las siguientes iteraciones, conviene priorizar el desarrollo completo de los *endpoints* de generación de reportes térmicos en PDF y de exportación de trazabilidad (US24, US27), ya que estas funcionalidades son las que sustentan el valor diferencial de FríoTrack frente a competidores genéricos como Óptima ERP o Sinapsys WMS: la capacidad de convertir la telemetría recolectada en evidencia auditable para certificaciones de calidad y resolución de reclamaciones comerciales.
+
 # Bibliografía
 
 * Agafonkin, V. (s. f.). *Leaflet: An open-source JavaScript library for interactive maps*. [https://leafletjs.com](https://leafletjs.com)
