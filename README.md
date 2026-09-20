@@ -62,8 +62,17 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |:-------:|:----------:|:-----------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Redacción de Startup Profile: Descripción de la Startup y Perfiles de integrantes del equipo |
+| AV1 | 15/09/2026 | Bardales Rodriguez, Benjamin Elias | Modelado de Bounded Contexts y Design-Level EventStorming del Capítulo IV |
+| AV1 | 15/09/2026 | Atauje Barreto, Alexander Sebastián | Redacción de Solution Profile: Background & Problemática y Lean UX Process |
+| AV1 | 16/09/2026 | Bardales Rodriguez, Benjamin Elias | Elaboración de diagramas de clases y diseño de base de datos del Capítulo IV |
+| AV1 | 16/09/2026 | Saavedra Flores, Rodrigo Andree | Redacción del Capítulo V: Software Development Environment Configuration |
 | AV1 | 17-09-2026 | Atauje Barreto, Alexander Sebastián | Creación de la estructura base del repositorio y Frontmatter |
-| AV1 | 14/09/2026 | Alexander | Redacción de Startup Profile: Descripción de la Startup y Perfiles de integrantes del equipo |
+| AV1 | 17/09/2026 | Bardales Rodriguez, Benjamin Elias | Implementación de la mayor parte del Landing Page (HTML5, CSS3 y JavaScript) |
+| AV1 | 17/09/2026 | Saavedra Flores, Rodrigo Andree | Apoyo en la implementación y despliegue del Landing Page en GitHub Pages |
+| AV1 | 18/09/2026 | Daga Chávez, Joaquín Leonardo | Redacción del Capítulo III: definición de Epics y User Stories |
+| AV1 | 18/09/2026 | Vera Solsol, Nayely Macarena | Configuración y organización del tablero de Trello (Product Backlog) |
+| AV1 | 19/09/2026 | Daga Chávez, Joaquín Leonardo | Redacción de criterios de aceptación (Gherkin) del Capítulo III |
 | AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
 | AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
 | AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Product Backlog |
@@ -77,10 +86,10 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 | Integrante | Tareas Asignadas |
 |---|---|
 | Atauje Barreto, Alexander Sebastián | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
-| Bardales Rodriguez, Benjamin Elias | [Pendiente de asignar] |
-| Daga Chávez, Joaquín Leonardo | [Pendiente de asignar] |
-| Saavedra Flores, Rodrigo Andree | [Pendiente de asignar] |
-| Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3)|
+| Bardales Rodriguez, Benjamin Elias | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Architecture Context, Container and Component Diagrams, Software Object-Oriented Design Class Diagrams, Database Design and Database Diagrams, mayor parte de la implementación del Landing Page (HTML5, CSS3 y JavaScript) |
+| Daga Chávez, Joaquín Leonardo | Requirements Specification (Chapter 3): Epics, User Stories y criterios de aceptación (Gherkin) |
+| Saavedra Flores, Rodrigo Andree | Product Implementation, Validation & Deployment (Chapter 5), apoyo en la implementación y despliegue del Landing Page |
+| Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3), configuración y gestión del tablero Trello |
 
 </div>
 
