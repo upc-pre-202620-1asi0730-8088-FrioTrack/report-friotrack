@@ -121,7 +121,7 @@ Durante este avance del trabajo, se desarrollaron los siguientes puntos del repo
 - **Bardales Rodriguez, Benjamin Elias (`Benja72312`)**: 33 commits
 - **Vera Solsol, Nayely Macarena (`Macaxprogram29`)**: 19 commits
 - **Daga Chávez, Joaquín Leonardo (`Eshnikeee`)**: 6 commits
-- **Saavedra Flores, Rodrigo Andree (`rodrigoxd67`)**: 2 commits
+- **Saavedra Flores, Rodrigo Andree (`rodrigoxd67`)**: 6 commits
 - **Total de commits en AV1:** 109
 
 La colaboración del equipo al realizar el primer avance del proyecto fue activa, donde cada quien realizó una parte del reporte, distribuyéndose las tareas según su rol de liderazgo dentro de cada capítulo.
