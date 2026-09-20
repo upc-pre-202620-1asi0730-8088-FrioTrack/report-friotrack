@@ -393,8 +393,6 @@ Asimismo, se identificaron los sistemas externos que interactúan con la platafo
 
 **Primera fase: Eventos**
 
-**Mapa general:** [Miro - Big Picture EventStorming](https://miro.com/app/board/uXjVHn63Wg4=/?share_link_id=209836750968&utm_source=chatgpt.com)
-
 ### 2.5. Ubiquitous Language
 
 El **Ubiquitous Language** de **FrioTrack** establece un lenguaje común entre los integrantes del equipo y los usuarios del sistema. Los siguientes términos representan los conceptos principales del dominio de monitoreo de la cadena de frío y gestión de productos perecibles.
