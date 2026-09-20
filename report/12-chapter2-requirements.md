@@ -272,7 +272,7 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 | Duración | 04:08 |
 | URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421137_upc_edu_pe/IQAEFjC2Gb2fSr-pRZqtPllkAQef9VFRhQM8i7AwkrYuvCA) |
 | **Fotografía** | <div align="center"><img src="./assets/images/chapter-02/entrevista-segmento-2-santiago-silva-jara.png" width="500"></div> |
-| **Resumen de la entrevista** | [Pendiente: resumen breve de los principales aspectos identificados durante la entrevista.] |
+| **Resumen de la entrevista** | Santiago Silva Jara, de 22 años, del distrito de Víctor Larco Herrera (Trujillo), posee una bodega en la que vende todo tipo de productos, incluyendo productos perecibles. Registra a mano la fecha de caducidad de estos productos para tener presente cuándo puede cambiarlos y así no afectar a sus clientes. Comentó que sería muy útil contar con una aplicación que le avise sobre estos vencimientos y cambios. |
 
 ### 2.2.3. Análisis de entrevistas
 
