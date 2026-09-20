@@ -206,7 +206,7 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 *Lean UX Canvas*
 
 <p align="center">
-  <img src="assets/images/lean-ux-canvas.png" alt="Lean UX Canvas de FrioTrack" width="800"><br>
+  <img src="assets/images/chapter-01/lean-ux-canvas.png" alt="Lean UX Canvas de FrioTrack" width="800"><br>
   <i>Nota. Elaboración propia.</i>
 </p>
 
