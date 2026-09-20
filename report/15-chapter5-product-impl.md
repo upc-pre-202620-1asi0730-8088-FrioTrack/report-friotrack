@@ -14,10 +14,8 @@ Para el desarrollo de Frio Track se utilizaron distintas herramientas, cada una 
 ### Project Management
 Esta disciplina permitió organizar tareas, distribuir responsabilidades y hacer seguimiento al avance del proyecto.
 
-
 ### Requirements Management
 Esta parte estuvo enfocada en documentar, estructurar y dar seguimiento a los requerimientos del proyecto, asegurando que respondan a las necesidades de los segmentos objetivo.
-
 
 ### Product UX/UI Design
 En esta disciplina se trabajó el diseño de la experiencia de usuario y de la interfaz de la plataforma, especialmente en funciones relacionadas con inventario, trazabilidad y monitoreo de productos perecibles.
@@ -25,27 +23,37 @@ En esta disciplina se trabajó el diseño de la experiencia de usuario y de la i
 1. **UXPressia**: Herramienta utilizada para elaborar User Personas, Empathy Maps y Customer Journey Maps de los segmentos objetivo del proyecto.
    Ruta de referencia: https://uxpressia.com/
 
-![Cap5_Logo_UXPressia.png](assets/imagenes/Cap5_Logo_UXPressia.png)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_UXPressia.png" alt="UXPressia" title="UXPressia" width="250">
+</p>
 
 2. **Figma**: Herramienta de diseño colaborativo utilizada para crear wireframes, mockups y propuestas visuales de Frio Track.
    Ruta de referencia: https://www.figma.com/
-3. 
-![Cap5_Logo_Figma.png](assets/imagenes/Cap5_Logo_Figma.png)
+
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_Figma.png" alt="Figma" title="Figma" width="250">
+</p>
 
 3. **Miro**: Pizarra colaborativa empleada para ordenar ideas, analizar hallazgos y desarrollar dinámicas relacionadas con el proceso de diseño.
    Ruta de referencia: https://miro.com/
 
-![Cap5_Logo_Miro.png](assets/imagenes/Cap5_Logo_Miro.png)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_Miro.png" alt="Miro" title="Miro" width="250">
+</p>
 
 4. **Lucidchart**: Herramienta utilizada para la elaboración de diagramas, wireflows y representaciones visuales de la estructura de navegación del proyecto.
    Ruta de referencia: https://www.lucidchart.com/pages/es
 
-![Cap5_Logo_Lucidchart.png](assets/imagenes/Cap5_Logo_Lucidchart.png)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_Lucidchart.png" alt="Lucidchart" title="Lucidchart" width="250">
+</p>
 
 5. **Structurizr**: Herramienta empleada para representar de manera estructurada la arquitectura y organización de componentes del sistema.
    Ruta de referencia: https://structurizr.com/
-6. 
-![Cap5_Logo_Structurizr.png](assets/imagenes/Cap5_Logo_Structurizr.png)
+
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_Structurizr.png" alt="Structurizr" title="Structurizr" width="250">
+</p>
 
 ### Software Development
 Aquí se agrupan las herramientas utilizadas para editar archivos, organizar el proyecto y trabajar el contenido técnico y visual del reporte.
@@ -53,12 +61,16 @@ Aquí se agrupan las herramientas utilizadas para editar archivos, organizar el 
 1. **GitHub**: Plataforma utilizada para alojar el repositorio del proyecto, gestionar ramas por capítulo, registrar cambios y mantener el control de versiones del trabajo realizado en Frio Track.
    Ruta de referencia: GitHub
 
-![Cap5_Logo_GitHub.jpg](assets/imagenes/Cap5_Logo_GitHub.jpg)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_GitHub.jpg" alt="GitHub" title="GitHub" width="250">
+</p>
 
 2. **WebStorm**: Entorno de desarrollo utilizado para editar archivos del proyecto, organizar carpetas, manejar recursos visuales y trabajar el contenido del reporte de Frio Track.
    Ruta de descarga: https://www.jetbrains.com/webstorm/
 
-![Cap5_Logo_WebStorm.png](assets/imagenes/Cap5_Logo_WebStorm.png)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_WebStorm.png" alt="WebStorm" title="WebStorm" width="250">
+</p>
 
 3. **HTML, CSS3 y JavaScript**: Tecnologías fundamentales utilizadas para la estructura, el estilo y la interacción de la Landing Page del proyecto Frio Track.
    Referencias:
@@ -66,7 +78,9 @@ Aquí se agrupan las herramientas utilizadas para editar archivos, organizar el 
 - **CSS3:** https://www.w3.org/Style/CSS/
 - **JavaScript:** https://developer.mozilla.org/es/docs/Web/JavaScript
 
-![Cap5_Logo_HTML_CSS_JS.png](assets/imagenes/Cap5_Logo_HTML_CSS_JS.png)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_HTML_CSS_JS.png" alt="Logos de HTML, CSS y JS" title="HTML, CSS y JS" width="400">
+</p>
 
 ### Software Testing
 Esta parte ayudó a revisar que los entregables y componentes trabajados mantuvieran coherencia y funcionaran correctamente dentro del proyecto.
@@ -80,7 +94,9 @@ La documentación permitió organizar y explicar el contenido del proyecto de ma
 * **Markdown**: Formato principal utilizado para redactar y estructurar el reporte por capítulos.
   Ruta de referencia: https://www.markdownguide.org/
 
-![Cap5_Logo_Markdown.png](assets/imagenes/Cap5_Logo_Markdown.png)
+<p align="center">
+  <img src="assets/imagenes/Cap5_Logo_Markdown.png" alt="Markdown" title="Markdown" width="250">
+</p>
 
 ## 5.1.2. Source Code Management
 
