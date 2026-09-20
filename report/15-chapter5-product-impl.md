@@ -12,7 +12,7 @@ Para el desarrollo de Frio Track se utilizaron distintas herramientas, cada una 
 6. Software Documentation
 
 ### Project Management
-Esta disciplina permitió organizar tareas, distribuir responsabilidades y hacer seguimiento al avance del proyecto.
+Esta disciplina permitió organizar tareas distribuir responsabilidades y hacer seguimiento al avance del proyecto.
 
 ### Requirements Management
 Esta parte estuvo enfocada en documentar, estructurar y dar seguimiento a los requerimientos del proyecto, asegurando que respondan a las necesidades de los segmentos objetivo.
