@@ -99,7 +99,7 @@ Los valores de contraste se calcularon con la fórmula de luminancia relativa de
 
 #### Espaciado y cuadrícula
 
-El espaciado se basa en una cuadrícula de 8 px con un medio paso de 4 px, escala que se aplica a los componentes de la Web Application y, con valores fluidos que se ajustan al ancho de la pantalla, a la Landing Page. Los radios de borde (8 px en botones y campos, 12 px en tarjetas, 20 px en paneles grandes y circular en los chips) y tres niveles de elevación (tarjetas, controles flotantes y ventanas modales) completan el sistema. Para la maquetación se definen cuatro puntos de quiebre: móvil (360 a 767 px, cuatro columnas), tableta (768 a 1023 px, ocho columnas), laptop (1024 a 1439 px, doce columnas) y escritorio (desde 1440 px, doce columnas con un ancho máximo de 1120 px en la Landing Page). La Landing Page implementada aplica además cortes propios según su contenido: 1180 px, por debajo del cual la navegación pasa a un menú desplegable; 900 px, donde las secciones se apilan en una columna; y 560 px, donde se compactan las tarjetas. Este enfoque adaptable a distintos tamaños de pantalla sigue los tres ingredientes del diseño web adaptable descritos por Marcotte (2010): cuadrículas fluidas, imágenes flexibles y consultas de medios.
+El espaciado se basa en una cuadrícula de 8 px con un medio paso de 4 px, escala que se aplica a los componentes de la Web Application y, con valores fluidos que se ajustan al ancho de la pantalla, a la Landing Page. Los radios de borde (8 px en botones y campos, 12 px en tarjetas, 20 px en paneles grandes y circular en los chips) y tres niveles de elevación (tarjetas, controles flotantes y ventanas modales) completan el sistema. Para la maquetación se definen cuatro puntos de quiebre: móvil (360 a 767 px, cuatro columnas), tableta (768 a 1023 px, ocho columnas), laptop (1024 a 1439 px, doce columnas) y escritorio (desde 1440 px, doce columnas con un ancho máximo de 1180 px en la Landing Page). La Landing Page implementada aplica además cortes propios según su contenido: 1240 px, por debajo del cual la navegación pasa a un menú desplegable; 1000 px, donde las secciones se apilan en una columna y las tarjetas de funciones pasan a dos por fila; 720 px, donde las tarjetas ocupan todo el ancho; y 560 px, donde se compactan los bloques de equipo y de metas. Este enfoque adaptable a distintos tamaños de pantalla sigue los tres ingredientes del diseño web adaptable descritos por Marcotte (2010): cuadrículas fluidas, imágenes flexibles y consultas de medios.
 
 **Figura 4.4**
 
@@ -487,7 +487,7 @@ La información geográfica indica de forma explícita si corresponde a una ruta
 
 La Landing Page es la primera interacción de un potencial usuario con FríoTrack. Su diseño busca que el visitante comprenda en pocos segundos qué problema resuelve la plataforma, para quién está pensada y cómo comenzar. Para lograrlo se recurre a un recorrido vertical de doce secciones que se puede recorrer con la vista, en línea con la observación de Krug (2014) de que los usuarios de la web escanean las páginas en lugar de leerlas completas. Cada sección tiene un único propósito y un titular que se entiende por sí solo, y la barra de navegación permite saltar directamente a las secciones principales.
 
-La Landing Page se implementó con HTML, CSS y JavaScript sin bibliotecas externas y se publica en el repositorio `friotrack-landing` del equipo. Las capturas de este capítulo corresponden a esa implementación, de modo que el diseño que se documenta es el mismo que se entrega.
+La Landing Page se implementó con HTML, CSS y JavaScript sin bibliotecas externas y se publica en el repositorio `friotrack-landing` del equipo. Las capturas de este capítulo corresponden a esa implementación, de modo que el diseño que se documenta es el mismo que se entrega. La franja de cargas que se ubica bajo el héroe se documenta dentro de la sección 1, porque forma con él un solo bloque visual, y por eso el recorrido se mantiene en doce secciones.
 
 **Tabla 4.15**
 
@@ -496,17 +496,17 @@ La Landing Page se implementó con HTML, CSS y JavaScript sin bibliotecas extern
 
 | N.º | Sección | Propósito | Contenido principal |
 | :---: | :--- | :--- | :--- |
-| 1 | **Encabezado y héroe** | Explicar la propuesta de valor y dirigir a la acción. | Barra de navegación con logotipo, seis enlaces (Inicio, Quiénes somos, Lo que hacemos, Planes, Equipo, Contacto), «Iniciar sesión», «Registrarse» y selector ES | EN; titular «Tu carga perecible, vigilada en cada kilómetro»; botones «Probar FríoTrack» y «Ver cómo funciona»; panel simulado de una unidad con lecturas de temperatura y humedad y un botón para simular una falla del equipo de frío. |
-| 2 | **El problema** | Justificar la necesidad con datos verificables. | Tres indicadores: puesto 61 de 139 en el Índice de Desempeño Logístico (Banco Mundial, 2023), más de 12 millones de toneladas de alimentos perdidas en la cadena productiva peruana (Organización de las Naciones Unidas para la Alimentación y la Agricultura [FAO], 2022) y 41 corredores logísticos identificados (Ministerio de Transportes y Comunicaciones [MTC], 2023); comparación «Hoy, en ruta» frente a «Con FríoTrack». |
-| 3 | **Quiénes somos** | Presentar al equipo y su propósito. | Descripción de BlackStartup como empresa de base tecnológica peruana, misión y visión definidas en el Capítulo I. |
-| 4 | **Lo que hacemos** | Detallar las capacidades. | Siete tarjetas: panel en tiempo casi real, alertas automáticas, historial térmico, mapa de rutas, flota y conductores, búsqueda y filtros, y avisos dentro de la aplicación. |
-| 5 | **Cómo funciona** | Mostrar que el uso es simple. | Cuatro pasos: registrar la flota, definir los rangos seguros, seguir cada viaje, y actuar y demostrar. |
-| 6 | **Corredores** | Delimitar la zona inicial de operación. | Cuatro corredores (Piura, Lambayeque, La Libertad e Ica) hacia Lima y el Callao, con la carga típica de cada uno y un esquema animado de la ruta seleccionada. |
-| 7 | **Para quién** | Segmentar a la audiencia. | Dos pestañas, una por segmento (empresas de transporte refrigerado; productores, exportadores y compradores), cada una con lo que les preocupa y lo que obtienen con FríoTrack. |
+| 1 | **Encabezado y héroe** | Explicar la propuesta de valor y dirigir a la acción. | Barra de navegación con logotipo, seis enlaces (Inicio, Quiénes somos, Lo que hacemos, Planes, Equipo, Contacto), «Iniciar sesión», «Registrarse» y selector ES | EN; titular «Tu carga perecible, vigilada en cada kilómetro», con la segunda línea en degradado turquesa y azul; botones «Probar FríoTrack» y «Ver cómo funciona»; tres beneficios con ícono; panel simulado de una unidad con lecturas de temperatura y humedad y un botón para simular una falla del equipo de frío. La barra de navegación es transparente sobre el fondo azul noche del héroe y pasa a fondo blanco al desplazarse. Al pie del bloque, una franja con las cargas que se cuidan en ruta (arándanos, espárragos, palta, uva, mango, banano orgánico, cítricos y productos hidrobiológicos). |
+| 2 | **El problema** | Justificar la necesidad con datos verificables. | Tres indicadores: puesto 61 de 139 en el Índice de Desempeño Logístico (Banco Mundial, 2023), más de 12 millones de toneladas de alimentos perdidas en la cadena productiva peruana (Organización de las Naciones Unidas para la Alimentación y la Agricultura [FAO], 2022) y 41 corredores logísticos identificados (Ministerio de Transportes y Comunicaciones [MTC], 2023); comparación entre «Hoy, en ruta» (tarjeta de borde punteado) y «Con FríoTrack» (tarjeta azul noche). |
+| 3 | **Quiénes somos** | Presentar al equipo y su propósito. | Descripción de BlackStartup como empresa de base tecnológica peruana, misión y visión definidas en el Capítulo I, cada una en una tarjeta con ícono. |
+| 4 | **Lo que hacemos** | Detallar las capacidades. | Siete tarjetas en una cuadrícula tipo *bento* sobre fondo azul noche: panel en tiempo casi real, alertas automáticas, historial térmico, mapa de rutas, flota y conductores, búsqueda y filtros, y avisos dentro de la aplicación. Cada tarjeta incluye una mini-interfaz ilustrativa del producto. |
+| 5 | **Cómo funciona** | Mostrar que el uso es simple. | Cuatro tarjetas numeradas: registrar la flota, definir los rangos seguros, seguir cada viaje, y actuar y demostrar. |
+| 6 | **Corredores** | Delimitar la zona inicial de operación. | Cuatro corredores (Piura, Lambayeque, La Libertad e Ica) hacia Lima y el Callao, con la carga típica de cada uno y un esquema animado de la ruta seleccionada sobre un mapa de fondo oscuro. |
+| 7 | **Para quién** | Segmentar a la audiencia. | Un selector segmentado con dos pestañas, una por segmento (empresas de transporte refrigerado; productores, exportadores y compradores), cada una con una tarjeta de lo que les preocupa y otra, azul noche, con lo que obtienen con FríoTrack. |
 | 8 | **Planes** | Presentar la oferta comercial referencial. | Plan Básico (S/ 79 al mes, hasta 5 unidades), Plan Profesional (S/ 199 al mes, hasta 25 unidades, recomendado) y Plan Empresarial (a medida, más de 25 unidades); selector mensual o anual (dos meses gratis). |
-| 9 | **Metas** | Comunicar los compromisos de medición. | Cuatro metas del Capítulo I: 150 usuarios activos en ocho meses, retención mensual superior a 75 %, 30 % menos incidentes de ruptura de la cadena de frío y un Net Promoter Score mayor a 40. |
-| 10 | **Equipo** | Dar a conocer a las personas detrás del producto. | Cinco integrantes con su rol, su descripción y su fotografía o, en su defecto, sus iniciales. |
-| 11 | **Contacto** | Captar el interés del visitante. | Formulario con nombres y apellidos, empresa, correo, celular y perfil («Soy…»), y tres beneficios de la demostración. |
+| 9 | **Metas** | Comunicar los compromisos de medición. | Cuatro metas del Capítulo I, en una franja azul noche: 150 usuarios activos en ocho meses, retención mensual superior a 75 %, 30 % menos incidentes de ruptura de la cadena de frío y un Net Promoter Score mayor a 40. |
+| 10 | **Equipo** | Dar a conocer a las personas detrás del producto. | Cinco integrantes, cada uno en una tarjeta con su rol, su descripción y su fotografía o, en su defecto, sus iniciales. |
+| 11 | **Contacto** | Captar el interés del visitante. | Formulario sobre fondo azul noche con nombres y apellidos, empresa, correo, celular y perfil («Soy…»), y tres beneficios de la demostración. |
 | 12 | **Pie de página** | Ofrecer navegación secundaria y datos legales. | Logotipo, descripción breve, enlaces de Producto, Empresa y Legal (Términos y condiciones, Protección de datos), derechos reservados y referencia al curso. |
 
 *Nota.* Los precios son referenciales y están sujetos a validación con usuarios reales. Elaboración propia.
@@ -669,7 +669,9 @@ Las doce secciones se presentan a continuación en tres filas, en el mismo orden
 
 ### 4.3.2. Landing Page Mock-up
 
-Los mock-ups aplican sobre los wireframes la identidad visual definida en la sección 4.1: la paleta azul y turquesa, la tipografía Inter y el logotipo. Se mantienen la estructura y las posiciones validadas en los wireframes, de manera que las diferencias entre ambas versiones son únicamente de superficie visual. Las capturas se tomaron de la Landing Page implementada, con datos ficticios: el panel de la sección 1 es una simulación que muestra cómo se ve una lectura dentro del rango y cómo llega una alerta cuando la temperatura supera el máximo de 4 °C.
+Los mock-ups aplican sobre los wireframes la identidad visual definida en la sección 4.1: la paleta azul y turquesa, la tipografía Inter y el logotipo. Se mantienen la estructura y las posiciones validadas en los wireframes, de manera que las diferencias entre ambas versiones son únicamente de superficie visual. Para dar una sensación de frío y de precisión, la Landing Page alterna secciones oscuras (héroe, funciones, metas y contacto) con secciones claras sobre blanco y sobre un fondo «hielo», y usa tarjetas de radio de 20 px, mini-interfaces del producto y una elevación suave. Las capturas se tomaron de la Landing Page implementada, con datos ficticios: el panel de la sección 1 es una simulación que muestra cómo se ve una lectura dentro del rango y cómo llega una alerta cuando la temperatura supera el máximo de 4 °C.
+
+La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados que no se usan en la Web Application: Night (`#06132B`) y Night 2 (`#0A2247`), para los fondos oscuros; Ice (`#EEF4FC`), para las secciones claras alternas; y Aqua (`#5EEAD4`) y Sky (`#7DB4FF`), versiones claras del turquesa y del azul que solo se emplean como texto o trazo sobre fondo oscuro. Sus razones de contraste sobre Night son de 12,5 : 1 (Aqua) y 8,7 : 1 (Sky), y el texto secundario claro (`#CBD5E1`) alcanza 12,5 : 1, por lo que superan el mínimo de 4,5 : 1 del criterio 1.4.3. El texto secundario de las secciones claras usa `#475569`, con 7,6 : 1 sobre blanco y 6,9 : 1 sobre Ice, y los rótulos en azul sobre Ice alcanzan 5,3 : 1.
 
 #### Mock-ups de escritorio
 
@@ -837,11 +839,14 @@ La Landing Page incluye interacciones que los mock-ups estáticos no muestran. L
 | **Planes (sección 8)** | El selector Mensual \| Anual actualiza los precios (el plan anual equivale a diez mensualidades). |
 | **Formulario de contacto (sección 11)** | Valida los campos obligatorios y confirma en pantalla. Mientras no exista un servicio que reciba los datos, la confirmación aclara que es una versión demostrativa y que la información no se envía. |
 | **Iniciar sesión y Registrarse** | Abren una ventana modal. El inicio de sesión no exige un formato de contraseña; el registro exige al menos ocho caracteres con mayúscula, minúscula y número, y muestra un enlace a los términos y condiciones. En esta versión no se autentica: los botones se conectarán con las pantallas de acceso de la Web Application (sección 4.4). |
-| **Menú móvil** | En pantallas de hasta 1180 px la navegación se reemplaza por un menú desplegable que se cierra al elegir una sección o al pulsar Escape. |
+| **Menú móvil** | En pantallas de hasta 1240 px la navegación se reemplaza por un menú desplegable que se cierra al elegir una sección o al pulsar Escape. |
+| **Barra de navegación** | Es transparente sobre el héroe y pasa a fondo blanco con sombra ligera cuando el visitante se desplaza. El enlace de la sección visible se resalta en el menú. |
+| **Franja de cargas (sección 1)** | Las cargas cuidadas en ruta se desplazan lentamente de derecha a izquierda; con la preferencia de reducción de movimiento del sistema, la franja queda estática. |
+| **Aparición de bloques** | Las tarjetas y los titulares aparecen con un desvanecimiento suave al entrar en pantalla. Sin JavaScript o con reducción de movimiento, todo el contenido es visible desde el inicio. |
 
 *Nota.* Elaboración propia.
 
-**Verificación.** La Landing Page se revisó con pruebas automatizadas de navegador que recorren estas interacciones en español e inglés y comprueban que no aparezca desplazamiento horizontal entre 320 y 1440 px de ancho ni errores de JavaScript. Los contrastes de color se calcularon con la fórmula del criterio 1.4.3 de las WCAG 2.2 (W3C, 2024) y los bordes de los campos de formulario usan Slate (`#64748B`, 4,76 : 1), con lo que cumplen el criterio 1.4.11. Estas pruebas no sustituyen la evaluación con usuarios prevista en la sección 4.5.
+**Verificación.** La Landing Page se revisó con pruebas automatizadas de navegador que recorren estas interacciones en español e inglés y comprueban que no aparezca desplazamiento horizontal entre 320 y 1440 px de ancho ni errores de JavaScript. Los contrastes de color se calcularon con la fórmula del criterio 1.4.3 de las WCAG 2.2 (W3C, 2024) y los bordes de los campos de formulario usan Slate (`#64748B`, 4,76 : 1), con lo que cumplen el criterio 1.4.11. Al rediseñar la página se repitió el conjunto completo (72 comprobaciones) y todas se cumplieron. Estas pruebas no sustituyen la evaluación con usuarios prevista en la sección 4.5.
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1654,7 +1659,7 @@ El diagrama de contexto (nivel 1 del modelo C4) muestra FríoTrack como una sola
 *Diagrama de contexto del sistema FríoTrack (modelo C4, nivel 1)*
 
 <p align="center">
-  <img src="assets/images/chapter-4/c4-contexto.png" alt="Diagrama de contexto del sistema FríoTrack (modelo C4, nivel 1)" width="1000"><br>
+  <img src="assets/images/chapter-04/c4-contexto.png" alt="Diagrama de contexto del sistema FríoTrack (modelo C4, nivel 1)" width="1000"><br>
   <i>Nota.</i> Elaboración propia, con base en el modelo C4.
 </p>
 
@@ -1683,7 +1688,7 @@ El diagrama de contenedores (nivel 2 del modelo C4) descompone FríoTrack en sus
 *Diagrama de contenedores de FríoTrack (modelo C4, nivel 2)*
 
 <p align="center">
-  <img src="assets/images/chapter-4/c4-contenedores.png" alt="Diagrama de contenedores de FríoTrack (modelo C4, nivel 2)" width="1000"><br>
+  <img src="assets/images/chapter-04/c4-contenedores.png" alt="Diagrama de contenedores de FríoTrack (modelo C4, nivel 2)" width="1000"><br>
   <i>Nota.</i> Elaboración propia, con base en el modelo C4.
 </p>
 
@@ -1765,7 +1770,7 @@ El primer diagrama contiene los contextos IAM, Fleet & Resource Management y Shi
 *Diagrama de clases 1: IAM, Fleet & Resource Management y Shipment Management*
 
 <p align="center">
-  <img src="assets/images/chapter-4/class-diagram-1.png" alt="Diagrama de clases 1: IAM, Fleet & Resource Management y Shipment Management" width="1000"><br>
+  <img src="assets/images/chapter-04/class-diagram-1.png" alt="Diagrama de clases 1: IAM, Fleet & Resource Management y Shipment Management" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1799,7 +1804,7 @@ El segundo diagrama contiene los dos contextos que reaccionan a las lecturas de 
 *Diagrama de clases 2: Monitoring & Telemetry y Alert & Reporting*
 
 <p align="center">
-  <img src="assets/images/chapter-4/class-diagram-2.png" alt="Diagrama de clases 2: Monitoring & Telemetry y Alert & Reporting" width="1000"><br>
+  <img src="assets/images/chapter-04/class-diagram-2.png" alt="Diagrama de clases 2: Monitoring & Telemetry y Alert & Reporting" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
