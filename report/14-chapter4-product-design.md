@@ -487,7 +487,7 @@ La información geográfica indica de forma explícita si corresponde a una ruta
 
 La Landing Page es la primera interacción de un potencial usuario con FríoTrack. Su diseño busca que el visitante comprenda en pocos segundos qué problema resuelve la plataforma, para quién está pensada y cómo comenzar. Para lograrlo se recurre a un recorrido vertical de doce secciones que se puede recorrer con la vista, en línea con la observación de Krug (2014) de que los usuarios de la web escanean las páginas en lugar de leerlas completas. Cada sección tiene un único propósito y un titular que se entiende por sí solo, y la barra de navegación permite saltar directamente a las secciones principales.
 
-La Landing Page se implementó con HTML, CSS y JavaScript sin bibliotecas externas y se publica en el repositorio `friotrack-landing` del equipo. Las capturas de este capítulo corresponden a esa implementación, de modo que el diseño que se documenta es el mismo que se entrega. La franja de cargas que se ubica bajo el héroe se documenta dentro de la sección 1, porque forma con él un solo bloque visual, y por eso el recorrido se mantiene en doce secciones.
+La Landing Page se implementó con HTML, CSS y JavaScript sin bibliotecas externas y se publica en el repositorio [`friotrack-landing`](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) del equipo, con el sitio disponible en [GitHub Pages](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/). Las capturas de este capítulo corresponden a esa implementación, de modo que el diseño que se documenta es el mismo que se entrega. La franja de cargas que se ubica bajo el héroe se documenta dentro de la sección 1, porque forma con él un solo bloque visual, y por eso el recorrido se mantiene en doce secciones.
 
 **Tabla 4.15**
 
@@ -1466,8 +1466,9 @@ El recorrido que se muestra en la Figura 4.86 sigue el camino principal del Coor
 | Recurso | Enlace |
 | :--- | :--- |
 | Prototipo interactivo en HTML (archivo del repositorio) | [`assets/prototype/friotrack-prototype.html`](assets/prototype/friotrack-prototype.html). Para verlo, descargue el archivo y ábralo en un navegador. |
-| Archivo de diseño en Figma del equipo | [figma.com/design/A9GdNlVpNyS7lYS7agf83X/myfigma](https://www.figma.com/design/A9GdNlVpNyS7lYS7agf83X/myfigma?t=BHeH2sG0m5VK3vkG-0) |
-| Archivo de Figma del Bloque 4 (Product Design) | [figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv](https://www.figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv). Contiene las páginas Portada, 4.1 Style Guidelines, 4.2 IA y User Flows, 4.3 Landing Page y 4.5 Web App (wireframes y mock-ups). Los archivos SVG de origen están en [`assets/figma/`](assets/figma/README.md). |
+| Archivo de Figma del Bloque 4 (Product Design) | [figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv](https://www.figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv). Contiene las páginas Portada, 4.1 Style Guidelines, 4.2 IA y User Flows, 4.3 Landing Page y 4.5 Web App (wireframes y mock-ups). Las capturas de cada página están en [`assets/figma/capturas/`](assets/figma/README.md) y los archivos SVG de origen en [`assets/figma/svg/`](assets/figma/README.md). |
+| Landing Page publicada (GitHub Pages) | [upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/) |
+| Repositorio de la Landing Page | [github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) |
 | Video demostrativo del prototipo | Pendiente de completar por el equipo. |
 
 ## 4.6. Domain-Driven Software Architecture
