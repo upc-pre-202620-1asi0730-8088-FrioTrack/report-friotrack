@@ -91,3 +91,7 @@
 | 28 | **US07** | Inicio de Sesión (Login) | Como usuario registrado, quiero autenticarme de forma segura en la plataforma. | 3 |
 | 29 | **US08** | Recuperación de Contraseña | Como usuario, quiero recuperar mi acceso si olvidé mi clave de ingreso. | 2 |
 | 30 | **US09** | Gestión de Perfil | Como usuario, quiero editar mis datos personales y de contacto en el sistema. | 2 |
+
+## Referencia y Enlace Público
+- **Herramienta de gestión:** Trello
+- **URL Pública del Product Backlog:** https://trello.com/b/6qrvOukt/blackstartup-fr%C3%ADotrack
