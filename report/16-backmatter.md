@@ -54,3 +54,42 @@
 * Wroblewski, L. (2011). *Mobile first*. A Book Apart.
 
 # Anexos
+
+## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
+
+Evidencia del desempeño individual del equipo **BlackStartup** evaluado para el hito **AV1**:
+
+| Entrega | Documento de Rendimiento | Archivos Adjuntos |
+| :---: | :--- | :---: |
+| **AV1** | `upc-pre-202620-1asi0730-8088-blackstartup-performance-av1` | `upc-pre-202620-1asi0730-8088-blackstartup-performance-av1.docx`<br>`upc-pre-202620-1asi0730-8088-blackstartup-performance-av1.pdf` |
+
+---
+
+## Anexo B. Repositorios de Código Fuente y Control de Versiones
+
+Repositorios oficiales en la organización pública de **GitHub** para el hito **AV1**:
+
+| Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
+| :--- | :--- | :---: | :---: | :---: |
+| **Project Report** | `report-friotrack` | `main` | Active | [Ver Repositorio del Informe](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack) |
+| **Landing Page** | `friotrack-landing` | `main` | Deployed | [Ver Repositorio Landing Page](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) |
+
+---
+
+## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
+
+Acceso al sitio web estático (Landing Page) desplegado públicamente para la entrega **AV1**:
+
+| Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
+| :--- | :---: | :---: | :---: |
+| **Landing Page (FríoTrack)** | GitHub Pages | Live | [https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/) |
+
+---
+
+## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
+
+Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 1:
+
+| Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
+| :--- | :---: | :---: |
+| **Product Backlog & Sprint 1 Board** | Trello | [Ver Tablero Trello - BlackStartup FríoTrack](https://trello.com/b/6qrvOukt/blackstartup-friotrack) |
