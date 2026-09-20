@@ -21,7 +21,7 @@ El logotipo de FríoTrack combina un isotipo y un nombre dividido cromáticament
 *Logotipo de FríoTrack y sus variantes*
 
 <p align="center">
-  <img src="assets/images/chapter-4/logo-friotrack.png" alt="Logotipo de FríoTrack y sus variantes" width="900"><br>
+  <img src="assets/images/chapter-04/logo-friotrack.png" alt="Logotipo de FríoTrack y sus variantes" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -34,7 +34,7 @@ Se adopta la familia **Inter** (Andersson, s. f.) como tipografía única de la 
 *Sistema tipográfico de FríoTrack*
 
 <p align="center">
-  <img src="assets/images/chapter-4/typography-friotrack.png" alt="Sistema tipográfico de FríoTrack" width="900"><br>
+  <img src="assets/images/chapter-04/typography-friotrack.png" alt="Sistema tipográfico de FríoTrack" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -93,7 +93,7 @@ Los valores de contraste se calcularon con la fórmula de luminancia relativa de
 *Paleta de colores y estados térmicos de FríoTrack*
 
 <p align="center">
-  <img src="assets/images/chapter-4/colors-friotrack.png" alt="Paleta de colores y estados térmicos de FríoTrack" width="900"><br>
+  <img src="assets/images/chapter-04/colors-friotrack.png" alt="Paleta de colores y estados térmicos de FríoTrack" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -106,7 +106,7 @@ El espaciado se basa en una cuadrícula de 8 px con un medio paso de 4 px, escal
 *Sistema de espaciado, radios, elevación y puntos de quiebre*
 
 <p align="center">
-  <img src="assets/images/chapter-4/spacing-friotrack.png" alt="Sistema de espaciado, radios, elevación y puntos de quiebre" width="900"><br>
+  <img src="assets/images/chapter-04/spacing-friotrack.png" alt="Sistema de espaciado, radios, elevación y puntos de quiebre" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -119,7 +119,7 @@ La interfaz utiliza PrimeIcons, la biblioteca de íconos de PrimeVue (PrimeTek, 
 *Sistema de iconografía de FríoTrack*
 
 <p align="center">
-  <img src="assets/images/chapter-4/iconography-friotrack.png" alt="Sistema de iconografía de FríoTrack" width="900"><br>
+  <img src="assets/images/chapter-04/iconography-friotrack.png" alt="Sistema de iconografía de FríoTrack" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -148,7 +148,7 @@ El tono de FríoTrack es serio pero cercano. La interfaz informa con precisión 
 *Tono de comunicación y mensajes del sistema*
 
 <p align="center">
-  <img src="assets/images/chapter-4/tone-friotrack.png" alt="Tono de comunicación y mensajes del sistema" width="900"><br>
+  <img src="assets/images/chapter-04/tone-friotrack.png" alt="Tono de comunicación y mensajes del sistema" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -181,7 +181,7 @@ Las guías de estilo web definen cómo se aplican los elementos anteriores en lo
 *Componentes de la interfaz web de FríoTrack*
 
 <p align="center">
-  <img src="assets/images/chapter-4/components-friotrack.png" alt="Componentes de la interfaz web de FríoTrack" width="900"><br>
+  <img src="assets/images/chapter-04/components-friotrack.png" alt="Componentes de la interfaz web de FríoTrack" width="900"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -226,7 +226,7 @@ Los dos mapas del sitio que se muestran a continuación resumen la estructura re
 *Mapa del sitio de la Landing Page*
 
 <p align="center">
-  <img src="assets/images/chapter-4/ia-landing-sitemap.png" alt="Mapa del sitio de la Landing Page" width="1000"><br>
+  <img src="assets/images/chapter-04/ia-landing-sitemap.png" alt="Mapa del sitio de la Landing Page" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -235,7 +235,7 @@ Los dos mapas del sitio que se muestran a continuación resumen la estructura re
 *Mapa del sitio de la Web Application por perfil de usuario*
 
 <p align="center">
-  <img src="assets/images/chapter-4/ia-webapp-sitemap.png" alt="Mapa del sitio de la Web Application por perfil de usuario" width="1000"><br>
+  <img src="assets/images/chapter-04/ia-webapp-sitemap.png" alt="Mapa del sitio de la Web Application por perfil de usuario" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -524,7 +524,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 1: encabezado y héroe*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-1.png" alt="Wireframe de escritorio · Sección 1: encabezado y héroe" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-1.png" alt="Wireframe de escritorio · Sección 1: encabezado y héroe" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -533,7 +533,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 2: el problema*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-2.png" alt="Wireframe de escritorio · Sección 2: el problema" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-2.png" alt="Wireframe de escritorio · Sección 2: el problema" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -542,7 +542,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 3: quiénes somos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-3.png" alt="Wireframe de escritorio · Sección 3: quiénes somos" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-3.png" alt="Wireframe de escritorio · Sección 3: quiénes somos" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -551,7 +551,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 4: lo que hacemos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-4.png" alt="Wireframe de escritorio · Sección 4: lo que hacemos" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-4.png" alt="Wireframe de escritorio · Sección 4: lo que hacemos" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -560,7 +560,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 5: cómo funciona*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-5.png" alt="Wireframe de escritorio · Sección 5: cómo funciona" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-5.png" alt="Wireframe de escritorio · Sección 5: cómo funciona" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -569,7 +569,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 6: corredores*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-6.png" alt="Wireframe de escritorio · Sección 6: corredores" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-6.png" alt="Wireframe de escritorio · Sección 6: corredores" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -578,7 +578,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 7: para quién*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-7.png" alt="Wireframe de escritorio · Sección 7: para quién" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-7.png" alt="Wireframe de escritorio · Sección 7: para quién" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -587,7 +587,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 8: planes*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-8.png" alt="Wireframe de escritorio · Sección 8: planes" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-8.png" alt="Wireframe de escritorio · Sección 8: planes" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -596,7 +596,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 9: metas*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-9.png" alt="Wireframe de escritorio · Sección 9: metas" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-9.png" alt="Wireframe de escritorio · Sección 9: metas" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -605,7 +605,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 10: equipo*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-10.png" alt="Wireframe de escritorio · Sección 10: equipo" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-10.png" alt="Wireframe de escritorio · Sección 10: equipo" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -614,7 +614,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 11: contacto*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-11.png" alt="Wireframe de escritorio · Sección 11: contacto" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-11.png" alt="Wireframe de escritorio · Sección 11: contacto" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -623,7 +623,7 @@ Los wireframes de la Landing Page se elaboraron en escala de grises para concent
 *Wireframe de escritorio · Sección 12: pie de página*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-desktop-12.png" alt="Wireframe de escritorio · Sección 12: pie de página" width="850"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-desktop-12.png" alt="Wireframe de escritorio · Sección 12: pie de página" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -636,10 +636,10 @@ Las doce secciones se presentan a continuación en tres filas, en el mismo orden
 *Wireframes móviles · Secciones 1 a 4*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-1.png" alt="Wireframes móviles · Secciones 1 a 4" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-2.png" alt="Wireframes móviles · Secciones 1 a 4" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-3.png" alt="Wireframes móviles · Secciones 1 a 4" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-4.png" alt="Wireframes móviles · Secciones 1 a 4" width="200"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-1.png" alt="Wireframes móviles · Secciones 1 a 4" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-2.png" alt="Wireframes móviles · Secciones 1 a 4" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-3.png" alt="Wireframes móviles · Secciones 1 a 4" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-4.png" alt="Wireframes móviles · Secciones 1 a 4" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -648,10 +648,10 @@ Las doce secciones se presentan a continuación en tres filas, en el mismo orden
 *Wireframes móviles · Secciones 5 a 8*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-5.png" alt="Wireframes móviles · Secciones 5 a 8" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-6.png" alt="Wireframes móviles · Secciones 5 a 8" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-7.png" alt="Wireframes móviles · Secciones 5 a 8" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-8.png" alt="Wireframes móviles · Secciones 5 a 8" width="200"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-5.png" alt="Wireframes móviles · Secciones 5 a 8" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-6.png" alt="Wireframes móviles · Secciones 5 a 8" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-7.png" alt="Wireframes móviles · Secciones 5 a 8" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-8.png" alt="Wireframes móviles · Secciones 5 a 8" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -660,10 +660,10 @@ Las doce secciones se presentan a continuación en tres filas, en el mismo orden
 *Wireframes móviles · Secciones 9 a 12*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-9.png" alt="Wireframes móviles · Secciones 9 a 12" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-10.png" alt="Wireframes móviles · Secciones 9 a 12" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-11.png" alt="Wireframes móviles · Secciones 9 a 12" width="200">
-  <img src="assets/images/chapter-4/landing-wireframe-mobile-12.png" alt="Wireframes móviles · Secciones 9 a 12" width="200"><br>
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-9.png" alt="Wireframes móviles · Secciones 9 a 12" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-10.png" alt="Wireframes móviles · Secciones 9 a 12" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-11.png" alt="Wireframes móviles · Secciones 9 a 12" width="200">
+  <img src="assets/images/chapter-04/landing-wireframe-mobile-12.png" alt="Wireframes móviles · Secciones 9 a 12" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -680,7 +680,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 1: encabezado y héroe*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-1.png" alt="Mock-up de escritorio · Sección 1: encabezado y héroe" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-1.png" alt="Mock-up de escritorio · Sección 1: encabezado y héroe" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -689,7 +689,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 2: el problema*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-2.png" alt="Mock-up de escritorio · Sección 2: el problema" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-2.png" alt="Mock-up de escritorio · Sección 2: el problema" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -698,7 +698,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 3: quiénes somos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-3.png" alt="Mock-up de escritorio · Sección 3: quiénes somos" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-3.png" alt="Mock-up de escritorio · Sección 3: quiénes somos" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -707,7 +707,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 4: lo que hacemos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-4.png" alt="Mock-up de escritorio · Sección 4: lo que hacemos" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-4.png" alt="Mock-up de escritorio · Sección 4: lo que hacemos" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -716,7 +716,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 5: cómo funciona*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-5.png" alt="Mock-up de escritorio · Sección 5: cómo funciona" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-5.png" alt="Mock-up de escritorio · Sección 5: cómo funciona" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -725,7 +725,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 6: corredores*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-6.png" alt="Mock-up de escritorio · Sección 6: corredores" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-6.png" alt="Mock-up de escritorio · Sección 6: corredores" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -734,7 +734,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 7: para quién*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-7.png" alt="Mock-up de escritorio · Sección 7: para quién" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-7.png" alt="Mock-up de escritorio · Sección 7: para quién" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -743,7 +743,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 8: planes*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-8.png" alt="Mock-up de escritorio · Sección 8: planes" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-8.png" alt="Mock-up de escritorio · Sección 8: planes" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -752,7 +752,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 9: metas*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-9.png" alt="Mock-up de escritorio · Sección 9: metas" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-9.png" alt="Mock-up de escritorio · Sección 9: metas" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -761,7 +761,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 10: equipo*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-10.png" alt="Mock-up de escritorio · Sección 10: equipo" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-10.png" alt="Mock-up de escritorio · Sección 10: equipo" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -770,7 +770,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 11: contacto*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-11.png" alt="Mock-up de escritorio · Sección 11: contacto" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-11.png" alt="Mock-up de escritorio · Sección 11: contacto" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -779,7 +779,7 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-up de escritorio · Sección 12: pie de página*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-desktop-12.png" alt="Mock-up de escritorio · Sección 12: pie de página" width="850"><br>
+  <img src="assets/images/chapter-04/landing-mockup-desktop-12.png" alt="Mock-up de escritorio · Sección 12: pie de página" width="850"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -790,10 +790,10 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-ups móviles · Secciones 1 a 4*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-1.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-2.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-3.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-4.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200"><br>
+  <img src="assets/images/chapter-04/landing-mockup-mobile-1.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-2.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-3.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-4.png" alt="Mock-ups móviles · Secciones 1 a 4" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -802,10 +802,10 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-ups móviles · Secciones 5 a 8*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-5.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-6.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-7.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-8.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200"><br>
+  <img src="assets/images/chapter-04/landing-mockup-mobile-5.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-6.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-7.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-8.png" alt="Mock-ups móviles · Secciones 5 a 8" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -814,10 +814,10 @@ La Landing Page amplía la paleta de la sección 4.1.1 con cinco tonos derivados
 *Mock-ups móviles · Secciones 9 a 12*
 
 <p align="center">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-9.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-10.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-11.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200">
-  <img src="assets/images/chapter-4/landing-mockup-mobile-12.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200"><br>
+  <img src="assets/images/chapter-04/landing-mockup-mobile-9.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-10.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-11.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200">
+  <img src="assets/images/chapter-04/landing-mockup-mobile-12.png" alt="Mock-ups móviles · Secciones 9 a 12" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -894,7 +894,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Iniciar sesión*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-login.png" alt="Wireframe · Iniciar sesión" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-login.png" alt="Wireframe · Iniciar sesión" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -903,7 +903,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Crear cuenta*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-register.png" alt="Wireframe · Crear cuenta" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-register.png" alt="Wireframe · Crear cuenta" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -912,7 +912,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Recuperar contraseña*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-recover.png" alt="Wireframe · Recuperar contraseña" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-recover.png" alt="Wireframe · Recuperar contraseña" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -923,7 +923,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Dashboard del Coordinador Logístico*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-dashboard.png" alt="Wireframe · Dashboard del Coordinador Logístico" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-dashboard.png" alt="Wireframe · Dashboard del Coordinador Logístico" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -932,7 +932,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Lista de envíos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-shipments.png" alt="Wireframe · Lista de envíos" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-shipments.png" alt="Wireframe · Lista de envíos" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -941,7 +941,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Nuevo envío, paso 1: carga y rango térmico*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-new1.png" alt="Wireframe · Nuevo envío, paso 1: carga y rango térmico" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-new1.png" alt="Wireframe · Nuevo envío, paso 1: carga y rango térmico" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -950,7 +950,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Nuevo envío, paso 4: revisión*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-new4.png" alt="Wireframe · Nuevo envío, paso 4: revisión" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-new4.png" alt="Wireframe · Nuevo envío, paso 4: revisión" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -959,7 +959,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Detalle de un envío en tránsito*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-detail.png" alt="Wireframe · Detalle de un envío en tránsito" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-detail.png" alt="Wireframe · Detalle de un envío en tránsito" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -968,7 +968,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Detalle de un envío, pestaña Alertas*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-alerts.png" alt="Wireframe · Detalle de un envío, pestaña Alertas" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-alerts.png" alt="Wireframe · Detalle de un envío, pestaña Alertas" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -977,7 +977,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Ventana modal «Registrar acción correctiva»*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-alert.png" alt="Wireframe · Ventana modal «Registrar acción correctiva»" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-alert.png" alt="Wireframe · Ventana modal «Registrar acción correctiva»" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -986,7 +986,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Vehículos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-vehicles.png" alt="Wireframe · Vehículos" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-vehicles.png" alt="Wireframe · Vehículos" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -995,7 +995,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Conductores*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-drivers.png" alt="Wireframe · Conductores" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-drivers.png" alt="Wireframe · Conductores" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1004,7 +1004,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Historial de envíos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-history.png" alt="Wireframe · Historial de envíos" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-history.png" alt="Wireframe · Historial de envíos" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1013,7 +1013,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Notificaciones*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-notifications.png" alt="Wireframe · Notificaciones" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-notifications.png" alt="Wireframe · Notificaciones" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1022,7 +1022,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Configuración*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-settings.png" alt="Wireframe · Configuración" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-settings.png" alt="Wireframe · Configuración" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1033,7 +1033,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Envíos por recibir*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-c-incoming.png" alt="Wireframe · Envíos por recibir" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-c-incoming.png" alt="Wireframe · Envíos por recibir" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1042,7 +1042,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Detalle de un envío (vista de solo lectura)*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-c-detail.png" alt="Wireframe · Detalle de un envío (vista de solo lectura)" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-c-detail.png" alt="Wireframe · Detalle de un envío (vista de solo lectura)" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1051,7 +1051,7 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframe · Historial del Cliente de Carga*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-c-history.png" alt="Wireframe · Historial del Cliente de Carga" width="800"><br>
+  <img src="assets/images/chapter-04/wireframe-c-history.png" alt="Wireframe · Historial del Cliente de Carga" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1062,10 +1062,10 @@ Los wireframes de la aplicación se elaboraron en escala de grises, a un lienzo 
 *Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireframe-m-login.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
-  <img src="assets/images/chapter-4/wireframe-m-dashboard.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
-  <img src="assets/images/chapter-4/wireframe-m-detail.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
-  <img src="assets/images/chapter-4/wireframe-m-alert.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200"><br>
+  <img src="assets/images/chapter-04/wireframe-m-login.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
+  <img src="assets/images/chapter-04/wireframe-m-dashboard.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
+  <img src="assets/images/chapter-04/wireframe-m-detail.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
+  <img src="assets/images/chapter-04/wireframe-m-alert.png" alt="Wireframes móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1082,7 +1082,7 @@ El Coordinador parte del Dashboard, entra a Envíos, inicia un nuevo envío y av
 *Wireflow · Preparar y programar un envío*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireflow-preparar-envio.png" alt="Wireflow · Preparar y programar un envío" width="1000"><br>
+  <img src="assets/images/chapter-04/wireflow-preparar-envio.png" alt="Wireflow · Preparar y programar un envío" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1095,7 +1095,7 @@ Una alerta crítica se descubre desde el contador del Dashboard o desde la campa
 *Wireflow · Atender una alerta*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireflow-atender-alerta.png" alt="Wireflow · Atender una alerta" width="1000"><br>
+  <img src="assets/images/chapter-04/wireflow-atender-alerta.png" alt="Wireflow · Atender una alerta" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1108,7 +1108,7 @@ Tras iniciar sesión, el Cliente de Carga llega a Envíos por recibir, abre el d
 *Wireflow · Verificar un envío y descargar el reporte*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireflow-cliente-verifica.png" alt="Wireflow · Verificar un envío y descargar el reporte" width="1000"><br>
+  <img src="assets/images/chapter-04/wireflow-cliente-verifica.png" alt="Wireflow · Verificar un envío y descargar el reporte" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1121,7 +1121,7 @@ Desde la pantalla de inicio de sesión, un visitante puede registrarse eligiendo
 *Wireflow · Crear una cuenta y recuperar la contraseña*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireflow-cuenta.png" alt="Wireflow · Crear una cuenta y recuperar la contraseña" width="1000"><br>
+  <img src="assets/images/chapter-04/wireflow-cuenta.png" alt="Wireflow · Crear una cuenta y recuperar la contraseña" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1134,7 +1134,7 @@ El Coordinador que se encuentra en ruta recorre un flujo abreviado: inicia sesi�
 *Wireflow · Atender una alerta desde el celular*
 
 <p align="center">
-  <img src="assets/images/chapter-4/wireflow-movil.png" alt="Wireflow · Atender una alerta desde el celular" width="1000"><br>
+  <img src="assets/images/chapter-04/wireflow-movil.png" alt="Wireflow · Atender una alerta desde el celular" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1166,7 +1166,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Iniciar sesión*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-login.png" alt="Mock-up · Iniciar sesión" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-login.png" alt="Mock-up · Iniciar sesión" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1175,7 +1175,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Crear cuenta*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-register.png" alt="Mock-up · Crear cuenta" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-register.png" alt="Mock-up · Crear cuenta" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1184,7 +1184,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Recuperar contraseña*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-recover.png" alt="Mock-up · Recuperar contraseña" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-recover.png" alt="Mock-up · Recuperar contraseña" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1195,7 +1195,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Dashboard del Coordinador Logístico*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-dashboard.png" alt="Mock-up · Dashboard del Coordinador Logístico" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-dashboard.png" alt="Mock-up · Dashboard del Coordinador Logístico" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1204,7 +1204,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Lista de envíos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-shipments.png" alt="Mock-up · Lista de envíos" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-shipments.png" alt="Mock-up · Lista de envíos" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1213,7 +1213,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Nuevo envío, paso 1: carga y rango térmico*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-new1.png" alt="Mock-up · Nuevo envío, paso 1: carga y rango térmico" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-new1.png" alt="Mock-up · Nuevo envío, paso 1: carga y rango térmico" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1222,7 +1222,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Nuevo envío, paso 4: revisión*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-new4.png" alt="Mock-up · Nuevo envío, paso 4: revisión" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-new4.png" alt="Mock-up · Nuevo envío, paso 4: revisión" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1231,7 +1231,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Detalle de un envío en tránsito*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-detail.png" alt="Mock-up · Detalle de un envío en tránsito" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-detail.png" alt="Mock-up · Detalle de un envío en tránsito" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1240,7 +1240,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Detalle de un envío, pestaña Alertas*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-alerts.png" alt="Mock-up · Detalle de un envío, pestaña Alertas" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-alerts.png" alt="Mock-up · Detalle de un envío, pestaña Alertas" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1249,7 +1249,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Ventana modal «Registrar acción correctiva»*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-alert.png" alt="Mock-up · Ventana modal «Registrar acción correctiva»" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-alert.png" alt="Mock-up · Ventana modal «Registrar acción correctiva»" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1258,7 +1258,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Vehículos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-vehicles.png" alt="Mock-up · Vehículos" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-vehicles.png" alt="Mock-up · Vehículos" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1267,7 +1267,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Conductores*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-drivers.png" alt="Mock-up · Conductores" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-drivers.png" alt="Mock-up · Conductores" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1276,7 +1276,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Historial de envíos*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-history.png" alt="Mock-up · Historial de envíos" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-history.png" alt="Mock-up · Historial de envíos" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1285,7 +1285,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Notificaciones*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-notifications.png" alt="Mock-up · Notificaciones" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-notifications.png" alt="Mock-up · Notificaciones" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1294,7 +1294,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Configuración*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-settings.png" alt="Mock-up · Configuración" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-settings.png" alt="Mock-up · Configuración" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1305,7 +1305,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Envíos por recibir*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-c-incoming.png" alt="Mock-up · Envíos por recibir" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-c-incoming.png" alt="Mock-up · Envíos por recibir" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1314,7 +1314,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Detalle de un envío (vista de solo lectura)*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-c-detail.png" alt="Mock-up · Detalle de un envío (vista de solo lectura)" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-c-detail.png" alt="Mock-up · Detalle de un envío (vista de solo lectura)" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1323,7 +1323,7 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-up · Historial del Cliente de Carga*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-c-history.png" alt="Mock-up · Historial del Cliente de Carga" width="800"><br>
+  <img src="assets/images/chapter-04/mockup-c-history.png" alt="Mock-up · Historial del Cliente de Carga" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1334,10 +1334,10 @@ Los mock-ups se diseñan para implementarse con Vue 3 y PrimeVue (PrimeTek, s. f
 *Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva*
 
 <p align="center">
-  <img src="assets/images/chapter-4/mockup-m-login.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
-  <img src="assets/images/chapter-4/mockup-m-dashboard.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
-  <img src="assets/images/chapter-4/mockup-m-detail.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
-  <img src="assets/images/chapter-4/mockup-m-alert.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200"><br>
+  <img src="assets/images/chapter-04/mockup-m-login.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
+  <img src="assets/images/chapter-04/mockup-m-dashboard.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
+  <img src="assets/images/chapter-04/mockup-m-detail.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200">
+  <img src="assets/images/chapter-04/mockup-m-alert.png" alt="Mock-ups móviles · Inicio de sesión, panel, detalle del envío y registro de acción correctiva" width="200"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1354,7 +1354,7 @@ El flujo valida los datos en cada paso antes de avanzar: que el mínimo de tempe
 *Diagrama de flujo de usuario · Programar un envío*
 
 <p align="center">
-  <img src="assets/images/chapter-4/userflow-programar-envio.png" alt="Diagrama de flujo de usuario · Programar un envío" width="800"><br>
+  <img src="assets/images/chapter-04/userflow-programar-envio.png" alt="Diagrama de flujo de usuario · Programar un envío" width="800"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1367,7 +1367,7 @@ El flujo comienza con la llegada de una lectura del sensor. El sistema la compar
 *Diagrama de flujo de usuario · Atender una alerta*
 
 <p align="center">
-  <img src="assets/images/chapter-4/userflow-atender-alerta.png" alt="Diagrama de flujo de usuario · Atender una alerta" width="750"><br>
+  <img src="assets/images/chapter-04/userflow-atender-alerta.png" alt="Diagrama de flujo de usuario · Atender una alerta" width="750"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1380,7 +1380,7 @@ Este flujo verifica primero que la cuenta corresponda al perfil de Cliente de Ca
 *Diagrama de flujo de usuario · Verificar un envío y descargar el reporte*
 
 <p align="center">
-  <img src="assets/images/chapter-4/userflow-cliente-reporte.png" alt="Diagrama de flujo de usuario · Verificar un envío y descargar el reporte" width="650"><br>
+  <img src="assets/images/chapter-04/userflow-cliente-reporte.png" alt="Diagrama de flujo de usuario · Verificar un envío y descargar el reporte" width="650"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1440,7 +1440,7 @@ El recorrido que se muestra en la Figura 4.86 sigue el camino principal del Coor
 *Recorrido del prototipo interactivo de FríoTrack (animación)*
 
 <p align="center">
-  <img src="assets/images/chapter-4/prototype-recorrido.gif" alt="Recorrido del prototipo interactivo de FríoTrack (animación)" width="900"><br>
+  <img src="assets/images/chapter-04/prototype-recorrido.gif" alt="Recorrido del prototipo interactivo de FríoTrack (animación)" width="900"><br>
   <i>Nota.</i> La animación recorre doce pantallas en el orden: inicio de sesión, Dashboard, detalle del envío FT-2421, pestaña Alertas, registro de la acción correctiva, retorno a Alertas, lista de envíos, nuevo envío (pasos 1 y 4), lista de envíos, Envíos por recibir del Cliente de Carga y detalle del envío. Elaboración propia.
 </p>
 
@@ -1580,7 +1580,7 @@ El diagrama general presenta los eventos de dominio de los cinco contextos organ
 *Diagrama general de EventStorming de nivel de diseño*
 
 <p align="center">
-  <img src="assets/images/chapter-4/eventstorming-general.png" alt="Diagrama general de EventStorming de nivel de diseño" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-general.png" alt="Diagrama general de EventStorming de nivel de diseño" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1595,7 +1595,7 @@ El contexto IAM cubre el ciclo de vida de la cuenta. El registro exige un correo
 *EventStorming del contexto IAM*
 
 <p align="center">
-  <img src="assets/images/chapter-4/eventstorming-bc1-iam.png" alt="EventStorming del contexto IAM" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc1-iam.png" alt="EventStorming del contexto IAM" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1608,7 +1608,7 @@ Este contexto gestiona los recursos físicos de la empresa de transporte. Sus re
 *EventStorming del contexto Fleet & Resource Management*
 
 <p align="center">
-  <img src="assets/images/chapter-4/eventstorming-bc2-fleet.png" alt="EventStorming del contexto Fleet & Resource Management" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc2-fleet.png" alt="EventStorming del contexto Fleet & Resource Management" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1621,7 +1621,7 @@ Este es el contexto central del negocio. El Coordinador Logístico define un bor
 *EventStorming del contexto Shipment Management*
 
 <p align="center">
-  <img src="assets/images/chapter-4/eventstorming-bc3-shipment.png" alt="EventStorming del contexto Shipment Management" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc3-shipment.png" alt="EventStorming del contexto Shipment Management" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1634,7 +1634,7 @@ El contexto recibe las lecturas y las posiciones de los sensores y las evalúa. 
 *EventStorming del contexto Monitoring & Telemetry*
 
 <p align="center">
-  <img src="assets/images/chapter-4/eventstorming-bc4-monitoring.png" alt="EventStorming del contexto Monitoring & Telemetry" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc4-monitoring.png" alt="EventStorming del contexto Monitoring & Telemetry" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1647,7 +1647,7 @@ Este contexto reacciona a los eventos de monitoreo. Al recibir la solicitud de u
 *EventStorming del contexto Alert & Reporting*
 
 <p align="center">
-  <img src="assets/images/chapter-4/eventstorming-bc5-alerts.png" alt="EventStorming del contexto Alert & Reporting" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc5-alerts.png" alt="EventStorming del contexto Alert & Reporting" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1842,7 +1842,7 @@ La base de datos de FríoTrack es relacional y se implementa en PostgreSQL. El d
 *Diagrama entidad-relación de la base de datos de FríoTrack*
 
 <p align="center">
-  <img src="assets/images/chapter-4/erd-friotrack.png" alt="Diagrama entidad-relación de la base de datos de FríoTrack" width="1000"><br>
+  <img src="assets/images/chapter-04/erd-friotrack.png" alt="Diagrama entidad-relación de la base de datos de FríoTrack" width="1000"><br>
   <i>Nota.</i> Elaboración propia. En la versión digital se puede ampliar la imagen para leer las columnas de cada tabla.
 </p>
 
