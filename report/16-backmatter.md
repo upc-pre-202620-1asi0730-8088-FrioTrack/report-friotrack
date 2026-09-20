@@ -93,3 +93,13 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
 | **Product Backlog & Sprint 1 Board** | Trello | [Ver Tablero Trello - BlackStartup FríoTrack](https://trello.com/b/6qrvOukt/blackstartup-friotrack) |
+
+---
+
+## Anexo E. Videos de Exposiciones del Proyecto
+
+Relación de grabaciones de exposiciones pregrabadas por el equipo **BlackStartup** para la sustentación y revisión de entregables del curso:
+
+| Entrega | Nombre Oficial del Archivo Video | Plataforma / Hospedaje | Enlace de Acceso Privado |
+| :---: | :--- | :---: | :---: |
+| **AV1** | `upc-pre-202620-1asi0730-8088-friotrack-expo-av1.mp4` | Microsoft Stream | [Ver Video de Exposición AV1 - FríoTrack](https://upcedupe-my.sharepoint.com/personal/u20241f246_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f246%5Fupc%5Fedu%5Fpe%2FDocuments%2Ffriotrack%2Dpresentacion%2Epptx%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E526a3af1%2Dac80%2D4a14%2D9543%2D220a33daa6f6&mode=View) |
