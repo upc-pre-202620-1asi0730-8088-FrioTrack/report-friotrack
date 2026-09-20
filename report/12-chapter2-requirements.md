@@ -233,20 +233,31 @@ El diseño de las guías de entrevista siguió buenas prácticas de *needfinding
 
 A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
 
-**Entrevista [N.°]**
+#### Entrevistas segmento 1:
 
-| **Campo** | **Detalle** |
-|---|---|
-| **Nombres y Apellidos** | [Nombre completo del entrevistado] |
-| **Edad** | [Edad] |
-| **Distrito** | [Distrito] |
-| **Enlace al video (Microsoft Stream)** | [Enlace al video de la entrevista] |
-| **Timing de inicio y duración** | Inicio: [00:00] - Duración: [00:00 minutos] |
-| **Evidencia fotográfica** | [Insertar evidencia fotográfica de la entrevista] |
 
-#### Resumen de la entrevista
+#### Entrevistas segmento 2:
 
-[Colocar aquí un resumen breve de los principales aspectos identificados durante la entrevista.]
+#### Entrevista 1: Irma Barreto
+
+| Campo | Información |
+|-------|-------------|
+| **Título** | **Entrevista 1: Irma Barreto** |
+| Segmento | Tiendas y bodegas con productos perecibles |
+| Nombres y apellidos | Irma Barreto |
+| Edad | 40 años |
+| Distrito | San Juan de Lurigancho |
+| Ocupación | Dueña y administradora de un pequeño restaurante familiar |
+| Tipo de negocio | Restaurante familiar |
+| Número de trabajadores | 4 personas |
+| Años gestionando el negocio | 6 años |
+| Productos perecibles principales | Frutas, verduras, carnes y otros ingredientes para la preparación de alimentos |
+| Volumen de compra aproximado | 30-40 kg de productos perecibles por semana |
+| Inicio de la entrevista | 00:00 |
+| Duración | 08:15 |
+| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/personal/u20241f246_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f246%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista%2Dsegmento%2D2%2Dalexander%2Dweb%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E42b0dbe0%2D21c5%2D4a90%2D89ee%2Da7c7e8118144&mode=View) |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-segmento-2-irma-barreto.png" width="300"></div> |
+| **Resumen de la entrevista** | Irma Barreto, de 40 años, es dueña y administradora de un pequeño restaurante familiar ubicado en San Juan de Lurigancho. Cuenta con aproximadamente 6 años de experiencia gestionando su negocio y trabaja junto a otras 3 personas. Actualmente, controla el inventario de sus productos perecibles de manera manual, revisando las cantidades disponibles y anotando algunas compras en un cuaderno. Sus principales dificultades son la falta de actualización del stock en tiempo real, los errores en el registro de productos y la posibilidad de quedarse sin ingredientes durante las horas de mayor atención. También señaló que las frutas y verduras pueden llegar demasiado maduras, maltratadas o en cantidades menores a las solicitadas, generando pérdidas y dificultades para preparar algunos platos del menú. Para reducir estos problemas, mostró interés en utilizar una aplicación sencilla desde su celular Android que le permita controlar automáticamente el inventario, recibir alertas sobre productos próximos a vencer, revisar las existencias y consultar el estado de sus pedidos. Asimismo, consideró importante contar con una solución que facilite la organización de sus compras y disminuya las pérdidas por deterioro de productos. Estaría dispuesta a pagar aproximadamente entre 30 y 50 soles mensuales por una herramienta accesible que le ayude a mejorar la gestión de su inventario y abastecimiento. En general, la entrevista evidencia que el comerciante necesita una solución digital que facilite el control de productos perecibles, reduzca las pérdidas y mejore la disponibilidad de ingredientes para las operaciones diarias del restaurante. |
 
 ### 2.2.3. Análisis de entrevistas
 
