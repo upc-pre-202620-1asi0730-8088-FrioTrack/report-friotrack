@@ -80,7 +80,7 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 | Bardales Rodriguez, Benjamin Elias | [Pendiente de asignar] |
 | Daga Chávez, Joaquín Leonardo | [Pendiente de asignar] |
 | Saavedra Flores, Rodrigo Andree | [Pendiente de asignar] |
-| Vera Solsol, Nayely Macarena | [Pendiente de asignar] |
+| Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3)|
 
 </div>
 
