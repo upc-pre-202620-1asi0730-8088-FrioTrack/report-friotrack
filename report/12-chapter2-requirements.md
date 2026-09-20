@@ -235,6 +235,33 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 
 #### Entrevistas segmento 1:
 
+#### Entrevista 1: Jari Hassan 
+| Campo                                  | Detalle                                                                                                                                                                                                                                                                                                                                                          |
+|:---------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titulo**                             | Entrevista 1: Jari Hassan                                                                                                                                                                                                                                                                                                                                        |
+| **Segmento**                           | Empresas distribuidoras de productos perecibles                                                                                                                                                                                                                                                                                                                  |
+| **Nombres y Apellidos**                | Jari Hassan                                                                                                                                                                                                                                                                                                                                                      |
+| **Edad**                               | 25 años                                                                                                                                                                                                                                                                                                                                                          |
+| **Distrito**                           | San Borja                                                                                                                                                                                                                                                                                                                                                        |
+| **Enlace al video (Microsoft Stream)** | [Entrevista grabada – Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d811_upc_edu_pe/IQCBD_5MzFsIQ7WwTMg6JH1CAVHjGSGzKYEmoNuR2M1T4X0?e=meBl8F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Timing de inicio y duración**        | Inicio: 00:40 - Duración: 10:42 minutos                                                                                                                                                                                                                                                                                                                          |
+| **Evidencia fotográfica**              | *<p><img src="assets/images/chapter-02/evidencia.png" width="400" alt="Logo AgroFlet"> </p>*                                                                                                                                                                                                                                                                     |
+
+**Resumen de la entrevista:**
+
+Jari Hassan es un profesional de 25 años que se desempeña como Jefe de Operaciones y Logística en una empresa del sector alimenticio con base en San Luis. Trabaja directamente con la distribución de productos perecibles, como lácteos, embutidos y carnes envasadas, por lo que conoce de cerca las exigencias que implica mantener la cadena de frío y el control del inventario en este tipo de operación.
+
+A partir de su experiencia, señala que uno de los principales problemas en su empresa es la **falta de visibilidad en tiempo real**, tanto del stock como de las condiciones de temperatura durante el transporte. Actualmente combinan un ERP tradicional con registros manuales en Excel, lo que genera desfases en la información, errores de inventario y pérdidas por productos vencidos o en mal estado. También menciona que, cuando ocurre una falla en ruta, muchas veces se enteran demasiado tarde y la mercadería termina en cuarentena o merma.
+
+Jari considera que una solución digital sí podría aportar valor real a su operación, siempre que sea práctica, intuitiva y rápida de implementar. Para él, las funciones más importantes serían:
+
+- Control de lotes con alertas de vencimiento
+- Trazabilidad de vehículos por GPS
+- Monitoreo térmico en vivo con notificaciones inmediatas
+
+Estas funcionalidades ayudarían a prevenir pérdidas, mejorar la distribución y tomar decisiones con mayor rapidez.
+
+
 
 #### Entrevistas segmento 2:
 
