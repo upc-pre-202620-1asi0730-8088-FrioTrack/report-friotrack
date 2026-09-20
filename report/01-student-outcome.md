@@ -37,7 +37,7 @@
             <li><b>[TB1] - Bardales Rodriguez, Benjamin Elias:</b> [Acción realizada]</li>
             <li><b>[TB1] - Daga Chávez, Joaquín Leonardo:</b> [Acción realizada]</li>
             <li><b>[TB1] - Saavedra Flores, Rodrigo Andree:</b> [Acción realizada]</li>
-            <li><b>[TB1] - Vera Solsol, Nayely Macarena:</b> [Acción realizada]</li>
+            <li><b>[TB1] - Vera Solsol, Nayely Macarena:</b> Coordinó la integración y estructuración visual del Impact Mapping dentro de la documentación del proyecto, planificó la redacción de User Stories y la asignación de puntos de historia (Fibonacci) para el Product Backlog, asegurando la coherencia metodológica y normativa de los entregables funcionales.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
