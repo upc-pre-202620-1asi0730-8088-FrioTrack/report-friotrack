@@ -4,6 +4,8 @@ Este directorio contiene el material con el que se armó el archivo de Figma del
 
 **Archivo de Figma:** https://www.figma.com/design/eJ6Ceq0H0FP0xWseNnKFFv
 
+**Landing Page publicada:** https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/
+
 ## Páginas del archivo
 
 | Página | Contenido |
@@ -14,6 +16,19 @@ Este directorio contiene el material con el que se armó el archivo de Figma del
 | 4.3 Landing Page | Wireframes y mock-ups de la landing en escritorio (1440 px) y móvil (390 px). |
 | 4.5 Web App – Wireframes | 22 pantallas de baja fidelidad (web y móvil). |
 | 4.5 Web App – Mock-ups | Las mismas 22 pantallas en alta fidelidad. |
+
+## Carpeta `capturas/`
+
+Imágenes PNG de cada página del archivo de Figma, con los mismos frames que contiene el archivo.
+
+| Captura | Página de Figma |
+| :--- | :--- |
+| `00-portada.png` | Portada |
+| `4-1-style-guidelines-a.png`, `4-1-style-guidelines-b.png` | 4.1 Style Guidelines |
+| `4-2-ia-y-user-flows.png` | 4.2 IA y User Flows |
+| `4-3-landing-wireframes.png`, `4-3-landing-mockups.png` | 4.3 Landing Page |
+| `4-5-web-app-wireframes-a.png`, `-b.png`, `-c.png` | 4.5 Web App – Wireframes |
+| `4-5-web-app-mockups-a.png`, `-b.png`, `-c.png` | 4.5 Web App – Mock-ups |
 
 ## Carpeta `svg/`
 
