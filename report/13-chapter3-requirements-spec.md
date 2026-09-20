@@ -53,5 +53,5 @@
 | **TS06** | Endpoint de exportación de reportes | Como **developer**, quiero implementar un endpoint en la API que compile y exporte datos históricos en archivos estructurados. | - Dado que cliente solicita exportación de envío concluido, cuando genera archivo, entonces retorna flujo para descarga. | EP07 |
 | **TS07** | Documentación Swagger OpenAPI | Como **developer**, quiero configurar la especificación OpenAPI (OAS) mediante Swagger para documentar los endpoints. | - Dado que la aplicación arranca en desarrollo, cuando inicializa middleware Swagger, entonces la interfaz se muestra accesible. | EP07 |
 ## 3.2. Impact Mapping
-
+<img src="assets/images/chapter-03/impact_mapping01.png" alt="Impact Mapping de FríoTrack" width="100%">
 ## 3.3. Product Backlog
