@@ -95,3 +95,8 @@
 ## Referencia y Enlace Público
 - **Herramienta de gestión:** Trello
 - **URL Pública del Product Backlog:** https://trello.com/b/6qrvOukt/blackstartup-fr%C3%ADotrack
+
+## Captura de pantalla 
+<div align="center">
+  <img src="assets/images/chapter-03/trello_cap.png" alt="Captura de pantalla de Trello" width="60%">
+</div>
