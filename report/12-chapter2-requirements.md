@@ -303,6 +303,28 @@ Estas funcionalidades ayudarían a prevenir pérdidas, mejorar la distribución 
 
 ### 2.2.3. Análisis de entrevistas
 
+El presente análisis sintetiza la información recopilada a partir de las entrevistas en profundidad realizadas a los representantes de los dos segmentos objetivo.
+
+**Análisis Primer Segmento: Empresas Distribuidoras de Productos Perecibles (Jari Hassan)**
+
+En primer lugar, se evidencia una limitación operativa significativa derivada de la falta de visibilidad en tiempo real sobre el stock y las condiciones térmicas durante el transporte. El 100% (1 de 1) de los entrevistados de este segmento gestiona la distribución de productos altamente sensibles a la temperatura —lácteos, embutidos y carnes envasadas— desde una empresa del sector alimenticio con base en San Luis, combinando un ERP tradicional con registros manuales en hojas de cálculo, lo que genera desfases entre la información registrada y el estado real del inventario.
+
+En segundo lugar, se identifica un impacto financiero directo generado por la detección tardía de fallas en la cadena de frío. El entrevistado señaló que, cuando ocurre una interrupción térmica durante el traslado, la empresa suele enterarse cuando ya es demasiado tarde, lo que deriva en mercadería puesta en cuarentena o convertida directamente en merma, además de errores de inventario que afectan la rentabilidad de la operación.
+
+En tercer lugar, se identifica una demanda concreta por funcionalidades de monitoreo automatizado y trazabilidad. El entrevistado, de 25 años y con el cargo de Jefe de Operaciones y Logística, prioriza contar con control de lotes mediante alertas de vencimiento, trazabilidad de vehículos por GPS y monitoreo térmico en vivo con notificaciones inmediatas ante cualquier desviación fuera de rango.
+
+En cuarto lugar, respecto a la viabilidad y adopción de la plataforma, la disposición a migrar hacia una solución digital está condicionada a que esta sea práctica, intuitiva y rápida de implementar dentro de la operación diaria. En síntesis, este segmento requiere una solución que centralice la telemetría térmica y la ubicación de la flota en un único panel, reduciendo la brecha entre el momento en que ocurre una falla y el momento en que el equipo logístico puede reaccionar.
+
+**Análisis Segundo Segmento: Tiendas y Bodegas con Productos Perecibles (Irma Barreto y Santiago Silva Jara)**
+
+En primer lugar, se evidencia una dependencia generalizada de métodos manuales para el control de inventario y de fechas de vencimiento. De acuerdo con los testimonios recopilados, el 100% (2 de 2) de los comerciantes registra sus productos a mano —ya sea en un cuaderno o directamente sobre el empaque—, sin apoyo de ningún sistema digital, lo que abarca desde un restaurante familiar en San Juan de Lurigancho con un volumen de 30 a 40 kg de productos perecibles por semana, hasta una bodega en Trujillo que comercializa productos perecibles junto con otros rubros.
+
+En segundo lugar, existe un impacto directo en las pérdidas y en la operación diaria derivado de la falta de actualización del stock en tiempo real. El 100% de los entrevistados reportó dificultades vinculadas a productos que llegan en mal estado, maltratados o en cantidades menores a las solicitadas, así como el riesgo constante de quedarse sin ingredientes o productos de alta rotación durante las horas de mayor atención al público.
+
+En tercer lugar, se identifica una alta disposición hacia la adopción de alertas automáticas de vencimiento y aplicaciones móviles sencillas. Ambos comerciantes, con edades de 22 y 40 años, coincidieron en el interés por una aplicación accesible desde su celular Android que les permita recibir avisos sobre productos próximos a vencer y revisar sus existencias sin depender del registro manual.
+
+En cuarto lugar, respecto a la viabilidad comercial, la disposición a pagar está condicionada a que la solución sea económicamente accesible para negocios de pequeña escala: la entrevistada de San Juan de Lurigancho indicó estar dispuesta a pagar entre 30 y 50 soles mensuales por una herramienta que facilite la gestión de su inventario. En síntesis, este segmento requiere una aplicación simple y de bajo costo que automatice el control de vencimientos y reduzca las pérdidas por deterioro, sin exigir conocimientos técnicos avanzados para su uso diario.
+
 ## 2.3. Needfinding
 
 Para realizar el proceso de *needfinding* en **FrioTrack**, se llevaron a cabo entrevistas en profundidad con actores clave de los segmentos objetivo. Estas incluyeron representantes de empresas distribuidoras de productos perecibles, así como propietarios y administradores de tiendas y bodegas. Las entrevistas permitieron conocer sus actividades diarias, métodos de control de inventario y principales dificultades relacionadas con la conservación de productos, el control de temperatura, el vencimiento y las pérdidas de productos perecibles.
