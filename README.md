@@ -50,7 +50,7 @@ u20231H17 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena
 
 <br>
 
-### **Septiembre 2026**
+### **Octubre 2026**
 
 </div>
 
