@@ -182,8 +182,13 @@ Repositorio de GitHub: [Proyecto](https://github.com/upc-pre-202620-1asi0730-808
     - [4.5. Web Applications Prototyping](report/14-chapter4-product-design.md#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](report/14-chapter4-product-design.md#46-domain-driven-software-architecture)
     - [4.7. Software Object-Oriented Design](report/14-chapter4-product-design.md#47-software-object-oriented-design)
- 
-      # Student Outcome (SO5)
+    - [4.8. Database Design](report/14-chapter4-product-design.md#48-database-design)
+- [Capítulo V: Product Implementation, Validation & Deployment](report/15-chapter5-product-impl.md#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](report/15-chapter5-product-impl.md#51-software-configuration-management)
+    - [5.2. Landing Page, Services & Applications Implementation](report/15-chapter5-product-impl.md#52-landing-page-services--applications-implementation)
+- [Backmatter: Conclusiones, Bibliografía y Anexos](report/16-backmatter.md)
+
+        # Student Outcome (SO5)
 
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
@@ -234,8 +239,3 @@ Repositorio de GitHub: [Proyecto](https://github.com/upc-pre-202620-1asi0730-808
 </div>
 
 ---
-    - [4.8. Database Design](report/14-chapter4-product-design.md#48-database-design)
-- [Capítulo V: Product Implementation, Validation & Deployment](report/15-chapter5-product-impl.md#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](report/15-chapter5-product-impl.md#51-software-configuration-management)
-    - [5.2. Landing Page, Services & Applications Implementation](report/15-chapter5-product-impl.md#52-landing-page-services--applications-implementation)
-- [Backmatter: Conclusiones, Bibliografía y Anexos](report/16-backmatter.md)
