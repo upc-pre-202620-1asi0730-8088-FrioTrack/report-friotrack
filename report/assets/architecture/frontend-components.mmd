@@ -1,0 +1,10 @@
+flowchart TB
+  IAM[IAM: Access and Profile views] --> Store
+  Fleet[Fleet: Resource views] --> Store
+  Shipment[Shipment: Wizard List Detail] --> Store
+  Monitoring[Monitoring: Readings and Map] --> Store
+  Alerts[Alert and Reporting: Actions History] --> Store
+  Store[AppStore and domain validation] --> Repo[LocalDemoRepository]
+  Repo --> Local[(localStorage: sample data)]
+  Monitoring -->|HTTPS tiles| OSM[OpenStreetMap]
+  Repo -.-> Future[Future REST repository adapter]

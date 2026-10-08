@@ -2,27 +2,26 @@
 
 ## Conclusiones
 
-* **Atención a una brecha estructural del sector logístico peruano:** El posicionamiento del Perú en el puesto 61 de 139 países del Índice de Desempeño Logístico del Banco Mundial (2023), sumado a la pérdida de más de 12 millones de toneladas de alimentos reportada por la FAO (2022), evidencia que la ausencia de monitoreo remoto en el transporte refrigerado es una falla estructural y no un problema aislado de unas pocas empresas. FríoTrack responde a esta brecha centralizando en un panel interactivo la telemetría térmica, la geolocalización y la emisión automática de alertas, dirigido específicamente a los corredores logísticos de mayor movimiento agroexportador (La Libertad, Ica, Piura y Lambayeque hacia Lima Metropolitana).
+La revisión delimitó FríoTrack como transporte refrigerado de alimentos: programación, recursos, monitoreo, alertas y trazabilidad. Inventario y FEFO se excluyeron del alcance vigente para evitar contradicciones con los segmentos y la arquitectura. Los antecedentes nacionales ofrecen contexto, pero no prueban por sí solos demanda, adopción de IoT o pérdidas atribuibles a transporte.
 
-* **Complementariedad entre los dos segmentos objetivo:** El diseño de FríoTrack reconoce que las empresas de transporte refrigerado y los productores/exportadores/compradores no son audiencias aisladas, sino dos extremos de una misma cadena de valor con necesidades distintas pero interdependientes: mientras el transportista necesita demostrar objetivamente el cumplimiento térmico, el comprador necesita anticipar el estado de la carga antes de recibirla. Esta doble validación, confirmada durante el proceso de *needfinding* y las entrevistas con ambos segmentos, sustenta la decisión de construir perfiles de usuario diferenciados (*Coordinador Logístico* y *Cliente de Carga*) dentro de una misma plataforma.
+Se integró el capítulo III con un catálogo único de Epics, historias, criterios Gherkin y backlog. Las personas PP01/PP02 del dominio de transporte son hipótesis: las tres entrevistas históricas se conservan sin convertir participantes del inventario en usuarios validados de transporte. El mínimo de investigación pertinente sigue pendiente.
 
-* **Coherencia entre el modelo de dominio, el diseño de interfaz y la implementación inicial:** La arquitectura *Domain-Driven Design* (DDD) con sus cinco *Bounded Contexts* (IAM, Fleet & Resource Management, Shipment Management, Monitoring & Telemetry y Alert & Reporting) se tradujo consistentemente en las pantallas, los flujos de usuario y el modelo de base de datos documentados en el Capítulo IV. Esa misma consistencia se refleja en la primera entrega funcional del Sprint 1: la Landing Page desplegada en producción con la propuesta de valor, los planes de suscripción y el formulario de contacto B2B, validando que el diseño conceptual es efectivamente implementable con el *stack* tecnológico elegido (Vue 3, ASP.NET Core y PostgreSQL).
+La primera aplicación Vue/PrimeVue ofrece una base demostrativa local para programación, monitoreo de muestras, acción correctiva y consulta cliente. Se verificaron esos recorridos en navegador, 15 pruebas del dominio y un build sin advertencias; el alcance y las capturas están en Sprint 2. El diseño separa landing estática, cliente SPA, API y base de datos. El cliente no demuestra autenticación real, sensores ni REST API; la primera API desplegada corresponde a AV2.
 
----
+La revisión corrige errores y genera materiales revisables. TB1 no está completo mientras falten publicación y URL del primer frontend, actualización de herramientas prescritas, videos y evidencias reales de colaboración. No se atribuyen resultados comerciales, satisfacción o reducción de pérdidas a la demo.
 
 ## Recomendaciones
 
-* **Priorizar la simplicidad de adopción para el segmento transportista:** Dado que las entrevistas evidenciaron una familiaridad limitada con plataformas telemáticas avanzadas entre los coordinadores de flota, se recomienda mantener el enfoque de incorporación sencilla —con soporte en español, tutoriales breves y compatibilidad con sensores IoT ya disponibles en el mercado para no generar una barrera de entrada adicional en un sector con baja penetración tecnológica previa.
+Priorizar entrevistas pertinentes y actualizar personas/Impact Mapping según hallazgos reales antes de ampliar el roadmap. Registrar todas las estimaciones y decisiones en una sesión del equipo; completar Trello, Figma y UXPressia con IDs consistentes. Revisar el código entre integrantes y publicar contribuciones reales sin fabricar commits.
 
-* **Formalizar alianzas con gremios y cooperativas del sector agroexportador:** Para acelerar la adopción en los corredores logísticos priorizados, se sugiere establecer acuerdos con asociaciones de transportistas refrigerados y con agroexportadoras de La Libertad, Ica, Piura y Lambayeque, aprovechando que estos actores concentran gran parte del volumen de carga perecible identificado por el MTC (2023) y que una recomendación entre pares (*early adopters*) puede impulsar un crecimiento orgánico más rápido que la adquisición individual de clientes.
-
-* **Consolidar el roadmap hacia los módulos de auditoría y reportería:** En las siguientes iteraciones, conviene priorizar el desarrollo completo de los *endpoints* de generación de reportes térmicos en PDF y de exportación de trazabilidad (US24, US27), ya que estas funcionalidades son las que sustentan el valor diferencial de FríoTrack frente a competidores genéricos como Óptima ERP o Sinapsys WMS: la capacidad de convertir la telemetría recolectada en evidencia auditable para certificaciones de calidad y resolución de reclamaciones comerciales.
+Desplegar el frontend después de la revisión y conectar los CTA de la landing con URLs HTTPS verificadas. En AV2 sustituir LocalDemoRepository con la API interna, validar permisos en servidor, integrar persistencia y documentar los contratos OpenAPI. Los datos térmicos y el reporte de prueba no se usan como evidencia de una operación comercial.
 
 # Bibliografía
 
+
 * Agafonkin, V. (s. f.). *Leaflet: An open-source JavaScript library for interactive maps*. [https://leafletjs.com](https://leafletjs.com)
 * Andersson, R. (s. f.). *Inter* [Tipografía]. [https://rsms.me/inter/](https://rsms.me/inter/)
-* Banco Mundial. (2023). *Logistics Performance Index 2023: Mind the gap*. [https://lpi.worldbank.org](https://lpi.worldbank.org)
+* Banco Mundial. (2023). *Logistics Performance Index 2023: Mind the gap*. [LPI report 2023](https://lpi.worldbank.org/sites/default/files/2023-04/LPI_2023_report_with_layout.pdf)
 * Brandolini, A. (2021). *Introducing EventStorming*. Leanpub. [https://leanpub.com/introducing_eventstorming](https://leanpub.com/introducing_eventstorming)
 * Brown, S. (s. f.). *The C4 model for visualising software architecture*. Leanpub. [https://leanpub.com/visualising-software-architecture](https://leanpub.com/visualising-software-architecture)
 * Buxton, B. (2007). *Sketching user experiences: Getting the design right and the right design*. Morgan Kaufmann.
@@ -34,17 +33,17 @@
 * Garrett, J. J. (2011). *The elements of user experience: User-centered design for the web and beyond* (2.ª ed.). New Riders.
 * Google. (s. f.). *Material Design 3*. [https://m3.material.io/](https://m3.material.io/)
 * Google Search Central. (s. f.). *Robots meta tags specifications*. [https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag)
-* Instituto Nacional de Estadística e Informática. (2023). *Perú: Informe económico trimestral* (diciembre 2023). [https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1933/libro.pdf](https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1933/libro.pdf)
+* Instituto Nacional de Estadística e Informática. (2024, 15 de febrero). *Producción nacional disminuyó 0,55 % en el año 2023*. [Comunicado INEI](https://www.gob.pe/institucion/inei/noticias/906643-produccion-nacional-disminuyo-0-55-en-el-ano-2023).
 * International Organization for Standardization. (2019). *Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems* (ISO 9241-210:2019). [https://www.iso.org/standard/77520.html](https://www.iso.org/standard/77520.html)
 * Jones, M., Bradley, J., y Sakimura, N. (2015). *JSON Web Token (JWT)* (RFC 7519). Internet Engineering Task Force. [https://www.rfc-editor.org/info/rfc7519](https://www.rfc-editor.org/info/rfc7519)
 * Krug, S. (2014). *Don't make me think, revisited: A common sense approach to web usability* (3.ª ed.). New Riders.
 * Marcotte, E. (2010, 25 de mayo). Responsive web design. *A List Apart*. [https://alistapart.com/article/responsive-web-design/](https://alistapart.com/article/responsive-web-design/)
 * Mercier, S., Villeneuve, S., Mondor, M., y Uysal, I. (2017). Time–temperature management along the food cold chain: A review of recent developments. *Comprehensive Reviews in Food Science and Food Safety, 16*(4), 647–667. [https://doi.org/10.1111/1541-4337.12269](https://doi.org/10.1111/1541-4337.12269)
-* Ministerio de Transportes y Comunicaciones. (2023). *Plan Nacional de Servicios e Infraestructura Logística de Transporte al 2032* (Resolución Ministerial N.° 362-2023-MTC/01). [https://www.gob.pe/mtc](https://www.gob.pe/mtc)
+* Ministerio de Transportes y Comunicaciones. (2023). *Plan Nacional de Servicios e Infraestructura Logística de Transporte al 2032* (Resolución Ministerial N.° 362-2023-MTC/01). [Plan aprobado por MTC](https://www.gob.pe/institucion/mtc/normas-legales/4081616-362-2023-mtc-01)
 * Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
 * Norman, D. A. (2013). *The design of everyday things* (ed. rev. y ampliada). Basic Books.
 * OpenStreetMap Foundation. (s. f.). *OpenStreetMap*. [https://www.openstreetmap.org](https://www.openstreetmap.org)
-* Organización de las Naciones Unidas para la Alimentación y la Agricultura. (2022). *Más de 12 millones de toneladas de alimentos se pierden a lo largo de la cadena productiva en el Perú*. [https://www.fao.org/peru/noticias/detail-events/en/c/1712376/](https://www.fao.org/peru/noticias/detail-events/en/c/1712376/)
+* Organización de las Naciones Unidas para la Alimentación y la Agricultura. (2026). *FAO y MIDAGRI fortalecen acciones para reducir la pérdida y desperdicio de alimentos en el Perú*. [Noticia FAO Perú](https://www.fao.org/peru/noticias/detail/fao-y-midagri-fortalecen-acciones-para-reducir-la-p%C3%A9rdida-y-desperdicio-de-alimentos-en-el-per%C3%BA/es).
 * The PostgreSQL Global Development Group. (s. f.). *PostgreSQL documentation*. [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/)
 * PrimeTek. (s. f.). *PrimeVue*. [https://primevue.org](https://primevue.org)
 * Rosenfeld, L., Morville, P., y Arango, J. (2015). *Information architecture: For the web and beyond* (4.ª ed.). O'Reilly Media.
@@ -53,53 +52,56 @@
 * World Wide Web Consortium. (2024). *Web Content Accessibility Guidelines (WCAG) 2.2*. [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/)
 * Wroblewski, L. (2011). *Mobile first*. A Book Apart.
 
+
+* Tive. (s. f.). *Real-time trackers*. [Producto oficial](https://www.tive.com/products/real-time-trackers). Consultado el 06/10/2026.
+* Tive. (s. f.). *Cold chain monitoring*. [Solución oficial](https://www.tive.com/solutions/cold-chain-monitoring). Consultado el 06/10/2026.
+* Sensitech. (s. f.). *SensiWatch Platform*. [Plataforma oficial](https://www.sensitech.com/en/products/sensiwatch-platform/). Consultado el 06/10/2026.
+* Sensitech. (s. f.). *Food Supply Chain Visibility Solutions*. [Sector alimentos](https://www.sensitech.com/en/industries/food/). Consultado el 06/10/2026.
+* Controlant. (s. f.). *The Controlant Platform*. [Plataforma oficial](https://www.controlant.com/platform). Consultado el 06/10/2026.
+* Controlant. (s. f.). *System overview*. [Documentación oficial](https://support.controlant.com/en/20956-39992-system-overview.html). Consultado el 06/10/2026.
+* Portigal, S. (2013). *Interviewing users: How to uncover compelling insights*. Rosenfeld Media.
+* Goodman, E., Kuniavsky, M., y Moed, A. (2012). *Observing the user experience: A practitioner's guide to user research* (2.ª ed.). Morgan Kaufmann.
+* Microsoft. (s. f.). *C# coding conventions*. [Documentación oficial](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions).
+* Vue.js. (s. f.). *Style Guide*. [Documentación oficial](https://vuejs.org/style-guide/).
+* Semantic Versioning. (s. f.). *Semantic Versioning 2.0.0*. [Especificación](https://semver.org/).
+* Conventional Commits. (s. f.). *Conventional Commits 1.0.0*. [Especificación](https://www.conventionalcommits.org/en/v1.0.0/).
+
 # Anexos
 
-## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
+## Anexo A. Participant Performance Report
 
-Evidencia del desempeño individual del equipo **BlackStartup** evaluado para el hito **AV1**:
+El Anexo B del statement requiere Word y PDF, preparados por Team Leader, con calificaciones 20/16/13/07/00. Se entrega un borrador editable TB1 con nombres del equipo y campos sin calificar. No acredita evaluación ni firma del líder. Los archivos AV1 aparecen declarados en el informe histórico, pero no se encontraron adjuntos en este repositorio.
 
-| Entrega | Documento de Rendimiento | Archivos Adjuntos |
-| :---: | :--- | :---: |
-| **AV1** | `upc-pre-202620-1asi0730-8088-blackstartup-performance-av1` | `upc-pre-202620-1asi0730-8088-blackstartup-performance-av1.docx`<br>`upc-pre-202620-1asi0730-8088-blackstartup-performance-av1.pdf` |
+## Anexo B. Repositorios y ejecución
 
----
+| Producto | Fuente | Estado |
+|---|---|---|
+| Informe | [Repositorio existente](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack) | Correcciones locales sin push |
+| Landing | [Repositorio existente](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) | Fuente local modificada |
+| Frontend | `apps/friotrack-web` | Fuente local; repositorio público propio pendiente |
+| API | Sin repositorio proporcionado | Pendiente AV2 |
 
-## Anexo B. Repositorios de Código Fuente y Control de Versiones
+## Anexo C. Despliegues
 
-Repositorios oficiales en la organización pública de **GitHub** para el hito **AV1**:
+La [landing publicada AV1](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/) se conserva. Los puertos locales 4175 (landing), 5173 (Vite dev) y 4173 (preview) son revisión local, no URLs públicas. La publicación de las correcciones y primera aplicación está pendiente.
 
-| Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
-| :--- | :--- | :---: | :---: | :---: |
-| **Project Report** | `report-friotrack` | `main` | Active | [Ver Repositorio del Informe](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack) |
-| **Landing Page** | `friotrack-landing` | `main` | Deployed | [Ver Repositorio Landing Page](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) |
+## Anexo D. Tableros y artefactos compartidos
 
----
+[Trello histórico](https://trello.com/b/6qrvOukt/blackstartup-friotrack) requiere actualizar catálogo/Sprint2 y capturas. Las imágenes históricas de UXPressia/Figma no acreditan una actualización; se proporcionan matrices y fuentes locales. El equipo debe completar los artefactos en las herramientas solicitadas y comprobar el acceso del docente.
 
-## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
+## Anexo E. Videos de exposiciones
 
-Acceso al sitio web estático (Landing Page) desplegado públicamente para la entrega **AV1**:
+| Entrega | Nombre / ubicación | Evidencia |
+|---|---|---|
+| AV1 | URL Stream registrada en `archive/16-backmatter-av1.md` | Histórica, acceso privado no verificado en esta revisión |
+| TB1 | `upc-pre-202620-1asi0730-8088-blackstartup-expo-tb1.mp4` | Pendiente de grabación real, todos ante cámara; falta archivo y URL Stream privada |
 
-| Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
-| :--- | :---: | :---: | :---: |
-| **Landing Page (FríoTrack)** | GitHub Pages | Live | [https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/) |
+Faltan el consolidado de entrevistas y el video del prototipo con sus capturas, tiempos y enlaces. El paquete sí contiene un video silencioso de ejecución local del frontend de 4:46, descrito en 5.2.2.5; usa capturas muestreadas de un recorrido real y todavía no tiene narración ni URL de Stream. No sustituye la exposición con los cinco ante cámara. La guía de grabación está en `TB1_DELIVERY_GUIDE.md`.
 
----
+## Anexo F. Matriz de entrega y pendientes
 
-## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
+La checklist operativa se mantiene en [TB1_CHECKLIST.md](TB1_CHECKLIST.md). Distingue el statement, las observaciones del profesor, la solicitud del usuario y recomendaciones. El equipo confirmó la segunda sesión semanal los sábados de 09:00 a 11:00 (Lima); la regla de 24 horas antes fija el viernes a las 09:00. Falta confirmar la semana asignada a TB1.
 
-Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 1:
+## Anexo G. Verificación de la versión local
 
-| Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
-| :--- | :---: | :---: |
-| **Product Backlog & Sprint 1 Board** | Trello | [Ver Tablero Trello - BlackStartup FríoTrack](https://trello.com/b/6qrvOukt/blackstartup-friotrack) |
-
----
-
-## Anexo E. Videos de Exposiciones del Proyecto
-
-Relación de grabaciones de exposiciones pregrabadas por el equipo **BlackStartup** para la sustentación y revisión de entregables del curso:
-
-| Entrega | Nombre Oficial del Archivo Video | Plataforma / Hospedaje | Enlace de Acceso Privado |
-| :---: | :--- | :---: | :---: |
-| **AV1** | `upc-pre-202620-1asi0730-8088-friotrack-expo-av1.mp4` | Microsoft Stream | [Ver Video de Exposición AV1 - FríoTrack](https://upcedupe-my.sharepoint.com/personal/u20241f246_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f246%5Fupc%5Fedu%5Fpe%2FDocuments%2Ffriotrack%2Dpresentacion%2Epptx%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E526a3af1%2Dac80%2D4a14%2D9543%2D220a33daa6f6&mode=View) |
+Los resultados automáticos y de navegador están en `work/verification-results.json`; las fuentes y capturas de ejecución se describen en Sprint2. La revisión no prueba integración API, seguridad servidor, exactitud de sensores, entrevistas o colaboración humana. Los archivos del paquete y sus hashes quedan en `outputs/DELIVERY_MANIFEST.json`.
