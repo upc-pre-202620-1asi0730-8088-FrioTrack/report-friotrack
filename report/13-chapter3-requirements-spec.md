@@ -110,5 +110,5 @@
 
 ## Captura de pantalla 
 <div align="center">
-  <img src="assets/images/chapter-03/trello_cap.png" alt="Captura de pantalla de Trello" width="60%">
+  <img src="assets/images/chapter-03/cap_trello.png" alt="Captura de pantalla de Trello" width="60%">
 </div>
