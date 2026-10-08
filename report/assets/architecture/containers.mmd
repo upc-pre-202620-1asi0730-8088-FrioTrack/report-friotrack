@@ -1,0 +1,8 @@
+flowchart TB
+  visitor[Visitor / Logistics Coordinator / Cargo Client] --> landing[Landing: HTML CSS JavaScript]
+  landing -->|Role-specific entry URL| spa[Web application SPA: Vue JavaScript PrimeVue]
+  spa -->|HTTPS tiles| osm[OpenStreetMap external]
+  spa -.->|REST JSON HTTPS - planned| api[REST API: ASP.NET Core C#]
+  sensors[External sensors - planned] -.->|HTTPS JSON| api
+  api -.->|EF Core SQL| db[(PostgreSQL - planned)]
+  api -.->|HTTPS| mail[External mail - planned]

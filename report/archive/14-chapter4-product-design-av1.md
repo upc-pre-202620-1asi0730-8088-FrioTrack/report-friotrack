@@ -185,7 +185,7 @@ Las guías de estilo web definen cómo se aplican los elementos anteriores en lo
   <i>Nota.</i> Elaboración propia.
 </p>
 
-**Accesibilidad.** Las siguientes son decisiones y objetivos de diseño; no acreditan una auditoría completa de la implementación ni una certificación. La verificación local realizada se presenta en Sprint 2. La interfaz se diseña para cumplir el nivel AA de las Pautas de Accesibilidad para el Contenido Web 2.2 (W3C, 2024). Las decisiones concretas son las siguientes: los contrastes de la Tabla 4.2 satisfacen el criterio 1.4.3; el borde y el anillo de foco de los campos superan la razón de 3 : 1 exigida por el criterio 1.4.11 (Contraste de elementos no textuales), con 5,84 : 1 en el estado de foco y 5,76 : 1 en el estado de error; el foco del teclado es siempre visible (criterio 2.4.7); los controles táctiles miden al menos 32 px por lado, más que el mínimo de 24 px del criterio 2.5.8 (Tamaño del objetivo); y los mensajes de error identifican el campo y sugieren la corrección (criterios 3.3.1 y 3.3.3). Los componentes interactivos personalizados, como las pestañas y las ventanas modales, incorporan roles y atributos de las especificaciones WAI-ARIA 1.2 (W3C, 2023) para que los lectores de pantalla anuncien correctamente su estado.
+**Accesibilidad.** La interfaz se diseña para cumplir el nivel AA de las Pautas de Accesibilidad para el Contenido Web 2.2 (W3C, 2024). Las decisiones concretas son las siguientes: los contrastes de la Tabla 4.2 satisfacen el criterio 1.4.3; el borde y el anillo de foco de los campos superan la razón de 3 : 1 exigida por el criterio 1.4.11 (Contraste de elementos no textuales), con 5,84 : 1 en el estado de foco y 5,76 : 1 en el estado de error; el foco del teclado es siempre visible (criterio 2.4.7); los controles táctiles miden al menos 32 px por lado, más que el mínimo de 24 px del criterio 2.5.8 (Tamaño del objetivo); y los mensajes de error identifican el campo y sugieren la corrección (criterios 3.3.1 y 3.3.3). Los componentes interactivos personalizados, como las pestañas y las ventanas modales, incorporan roles y atributos de las especificaciones WAI-ARIA 1.2 (W3C, 2023) para que los lectores de pantalla anuncien correctamente su estado.
 
 **Punto de mejora identificado.** El borde de reposo de los campos y de los botones neutros (`#CBD5E1`) tiene una razón de contraste de solo 1,48 : 1 frente al blanco, por lo que no alcanza el 3 : 1 del criterio 1.4.11. La Landing Page implementada ya resuelve este punto: sus campos y botones de conmutación usan Slate (`#64748B`, 4,76 : 1) como borde. Los mock-ups de la Web Application conservan el tono tenue por coherencia visual con el diseño original, pero cada campo mantiene una etiqueta visible; para la implementación de la Web Application se recomienda aplicar el mismo cambio antes de la validación con usuarios.
 
@@ -440,7 +440,7 @@ El Coordinador Logístico navega mediante una barra lateral fija en escritorio (
 
 *Nota.* Elaboración propia.
 
-Las acciones que dependen del estado del envío no forman parte de la navegación principal, sino que aparecen dentro del detalle solo cuando corresponden: *Iniciar traslado* (envío programado), *Registrar acción correctiva* (alerta activa), *Registrar incidencia*, *Marcar como entregado* (envío en tránsito), *Cancelar envío* (envío programado) y *Descargar reporte térmico* (envío entregado).
+Las acciones que dependen del estado del envío no forman parte de la navegación principal, sino que aparecen dentro del detalle solo cuando corresponden: *Iniciar traslado* (envío programado), *Registrar acción correctiva* (alerta activa), *Registrar incidencia*, *Marcar como entregado* (envío en tránsito), *Cancelar envío* (envío programado o en tránsito) y *Descargar reporte térmico* (envío entregado).
 
 #### Navigation System para el Cliente de Carga
 
@@ -497,7 +497,7 @@ La Landing Page se implementó con HTML, CSS y JavaScript sin bibliotecas extern
 | N.º | Sección | Propósito | Contenido principal |
 | :---: | :--- | :--- | :--- |
 | 1 | **Encabezado y héroe** | Explicar la propuesta de valor y dirigir a la acción. | Barra de navegación con logotipo, seis enlaces (Inicio, Quiénes somos, Lo que hacemos, Planes, Equipo, Contacto), «Iniciar sesión», «Registrarse» y selector ES | EN; titular «Tu carga perecible, vigilada en cada kilómetro», con la segunda línea en degradado turquesa y azul; botones «Probar FríoTrack» y «Ver cómo funciona»; tres beneficios con ícono; panel simulado de una unidad con lecturas de temperatura y humedad y un botón para simular una falla del equipo de frío. La barra de navegación es transparente sobre el fondo azul noche del héroe y pasa a fondo blanco al desplazarse. Al pie del bloque, una franja con las cargas que se cuidan en ruta (arándanos, espárragos, palta, uva, mango, banano orgánico, cítricos y productos hidrobiológicos). |
-| 2 | **El problema** | Justificar la necesidad con datos verificables. | Tres indicadores: puesto 61 de 139 en el Índice de Desempeño Logístico (Banco Mundial, 2023), más de 12 millones de toneladas de alimentos perdidos o desperdiciados en Perú (estimación nacional, no atribuible solo al transporte) (Organización de las Naciones Unidas para la Alimentación y la Agricultura [FAO], 2026) y 41 corredores logísticos identificados (Ministerio de Transportes y Comunicaciones [MTC], 2023); comparación entre «Hoy, en ruta» (tarjeta de borde punteado) y «Con FríoTrack» (tarjeta azul noche). |
+| 2 | **El problema** | Justificar la necesidad con datos verificables. | Tres indicadores: puesto 61 de 139 en el Índice de Desempeño Logístico (Banco Mundial, 2023), más de 12 millones de toneladas de alimentos perdidas en la cadena productiva peruana (Organización de las Naciones Unidas para la Alimentación y la Agricultura [FAO], 2022) y 41 corredores logísticos identificados (Ministerio de Transportes y Comunicaciones [MTC], 2023); comparación entre «Hoy, en ruta» (tarjeta de borde punteado) y «Con FríoTrack» (tarjeta azul noche). |
 | 3 | **Quiénes somos** | Presentar al equipo y su propósito. | Descripción de BlackStartup como empresa de base tecnológica peruana, misión y visión definidas en el Capítulo I, cada una en una tarjeta con ícono. |
 | 4 | **Lo que hacemos** | Detallar las capacidades. | Siete tarjetas en una cuadrícula tipo *bento* sobre fondo azul noche: panel en tiempo casi real, alertas automáticas, historial térmico, mapa de rutas, flota y conductores, búsqueda y filtros, y avisos dentro de la aplicación. Cada tarjeta incluye una mini-interfaz ilustrativa del producto. |
 | 5 | **Cómo funciona** | Mostrar que el uso es simple. | Cuatro tarjetas numeradas: registrar la flota, definir los rangos seguros, seguir cada viaje, y actuar y demostrar. |
@@ -846,13 +846,13 @@ La Landing Page incluye interacciones que los mock-ups estáticos no muestran. L
 
 *Nota.* Elaboración propia.
 
-**Verificación.** No se dispone de scripts ni resultados que respalden la afirmación histórica de “72 comprobaciones”; se retira. Las verificaciones realizadas para TB1 se registran con resultados y límites en el capítulo V y en `work/verification-results.json` dentro del ZIP compartido del avance. No equivalen a evaluación con usuarios ni a certificación WCAG.
+**Verificación.** La Landing Page se revisó con pruebas automatizadas de navegador que recorren estas interacciones en español e inglés y comprueban que no aparezca desplazamiento horizontal entre 320 y 1440 px de ancho ni errores de JavaScript. Los contrastes de color se calcularon con la fórmula del criterio 1.4.3 de las WCAG 2.2 (W3C, 2024) y los bordes de los campos de formulario usan Slate (`#64748B`, 4,76 : 1), con lo que cumplen el criterio 1.4.11. Al rediseñar la página se repitió el conjunto completo (72 comprobaciones) y todas se cumplieron. Estas pruebas no sustituyen la evaluación con usuarios prevista en la sección 4.5.
 
 ## 4.4. Web Applications UX/UI Design
 
 El diseño de la Web Application de FríoTrack organiza las experiencias de los dos perfiles de usuario: el Coordinador Logístico, que programa los envíos, administra la flota y atiende las alertas, y el Cliente de Carga, que verifica el estado térmico de los envíos que espera recibir y descarga los reportes. El diseño se desarrolla en cuatro artefactos encadenados: los wireframes definen la estructura de cada pantalla, los wireflows conectan las pantallas según las acciones del usuario, los mock-ups aplican la identidad visual y los diagramas de flujo de usuario (*user flows*) añaden las decisiones y las rutas alternas.
 
-La aplicación se compone de 22 pantallas: 3 de acceso y cuenta, 12 del Coordinador Logístico, 3 del Cliente de Carga y 4 versiones móviles de las pantallas más críticas para quien opera en ruta. La Tabla 4.17 las lista con la tarea del usuario que cada una apoya. Los mock-ups históricos omiten los pasos 2 y 3. La aplicación TB1 incorpora los cuatro pasos; aún deben actualizarse los artefactos Figma para que su diseño y prototipo reflejen el recorrido completo.
+La aplicación se compone de 22 pantallas: 3 de acceso y cuenta, 12 del Coordinador Logístico, 3 del Cliente de Carga y 4 versiones móviles de las pantallas más críticas para quien opera en ruta. La Tabla 4.17 las lista con la tarea del usuario que cada una apoya. Los pasos 2 y 3 del registro de un envío siguen el mismo patrón de formulario que el paso 1 y por ello no se muestran de manera individual.
 
 **Tabla 4.17**
 
@@ -881,7 +881,7 @@ La aplicación se compone de 22 pantallas: 3 de acceso y cuenta, 12 del Coordina
 | 18 | **Historial (Cliente)** | Cliente | Consultar envíos anteriores. | Filtros y descarga de reportes. |
 | 19 a 22 | **Versión móvil** | Coordinador | Operar en ruta desde el celular. | Inicio de sesión, panel con mapa y hoja deslizable, detalle del envío y registro de acción correctiva. |
 
-*Nota.* Elaboración propia. La trazabilidad vigente usa el catálogo del capítulo III: acceso US06/07/08/32; perfil US39; dashboard y detalle US10–18; flota US19–22/29/38; programación US33; estados US34; acciones US35; cliente US36; incidencias US40; historial US23/24; idioma US30. Las pantallas históricas representan diseño; su presencia no demuestra implementación completa.
+*Nota.* Elaboración propia. La trazabilidad con las historias de usuario se completará cuando se cierren los Capítulos II y III; por ahora cada pantalla se vincula con la tarea del usuario que apoya, derivada de los problemas y las hipótesis del Capítulo I.
 
 ### 4.4.1. Web Applications Wireframes
 
@@ -1401,8 +1401,6 @@ Este flujo verifica primero que la cuenta corresponda al perfil de Cliente de Ca
 
 ## 4.5. Web Applications Prototyping
 
-> **Alcance de los artefactos:** el HTML histórico no sustituye el prototipo Figma solicitado. Los mock-ups móviles siguen siendo estáticos y no hay evidencia de enlaces de prototipo Figma. La aplicación Vue TB1 incorpora navegación responsive y cuatro pasos de programación; es una implementación demostrativa distinta del prototipo. El video de navegación y su captura/URL Microsoft Stream están pendientes.
-
 El prototipo de FríoTrack reúne los mock-ups de la Web Application en una experiencia navegable con la que es posible recorrer los flujos principales antes de escribir código de producción. Su propósito es doble: validar con el equipo y con usuarios que las tareas se pueden completar con la estructura propuesta, y ofrecer una referencia concreta para la implementación. Siguiendo el ciclo iterativo de diseño y evaluación que plantea la norma ISO 9241-210 (International Organization for Standardization [ISO], 2019), el prototipo es el insumo para la evaluación que se realizará en la siguiente etapa.
 
 El prototipo se entrega como un único archivo HTML autocontenido (sin dependencias externas), que incluye las tipografías, los íconos y las 20 pantallas de escritorio conectadas entre sí: las 18 del inventario de la sección 4.4 y las versiones de Notificaciones y Configuración del Cliente de Carga. Se abre en cualquier navegador moderno. Una barra superior permite volver a la pantalla anterior, regresar al inicio de sesión y saltar directamente al Dashboard del Coordinador Logístico o a la pantalla Envíos por recibir del Cliente de Carga. Los elementos interactivos se resaltan al pasar el cursor.
@@ -1424,7 +1422,7 @@ La Tabla 4.20 resume las interacciones que el prototipo permite. Los menús late
 | Dashboard | Botón «Nuevo envío» | Abre el paso 1 del registro de un envío. |
 | Dashboard | Tarjeta de un envío de la lista | Abre el detalle del envío. |
 | Envíos | Botón «Nuevo envío» y cada fila de la tabla | Abren el paso 1 del registro y el detalle del envío, respectivamente. |
-| Nuevo envío · paso 1 | Botones «Siguiente» y «Cancelar» | El HTML histórico omite pasos 2 y 3; esta limitación se conserva como antecedente. En la aplicación Vue TB1 se recorren los cuatro pasos. |
+| Nuevo envío · paso 1 | Botones «Siguiente» y «Cancelar» | Pasan a la revisión (paso 4) o regresan a Envíos. |
 | Nuevo envío · paso 4 | Botones «Atrás», «Confirmar y programar» y «Cancelar» | Regresan al paso 1 o vuelven a la lista de envíos. |
 | Detalle del envío | Pestaña «Alertas» y botón «Registrar incidencia» | Abren la pestaña Alertas o la ventana modal de acción correctiva. |
 | Detalle · Alertas | Botón «Registrar acción» y pestaña «Resumen» | Abren la ventana modal o regresan al resumen. |
@@ -1491,7 +1489,7 @@ El punto de partida del modelado fueron los problemas del Capítulo I (la falta 
 | **Tolerancia** | Minutos que una lectura puede permanecer fuera del rango antes de que la desviación se considere crítica. |
 | **Lectura (*Reading*)** | Medición de temperatura y humedad enviada por el sensor de la unidad, con su fecha y hora. |
 | **Posición reportada** | Ubicación GPS enviada por el sensor; se distingue de la ruta planificada. |
-| **Monitoreo** | Seguimiento de un envío mientras está en tránsito, desde el inicio del traslado hasta su entrega. |
+| **Monitoreo** | Seguimiento de un envío mientras está en tránsito, desde el inicio del traslado hasta su entrega o cancelación. |
 | **Alerta** | Aviso generado cuando una lectura sale del rango (advertencia o crítica) o cuando el sensor pierde señal. |
 | **Acción correctiva** | Respuesta que el Coordinador Logístico registra ante una alerta. |
 | **Incidencia** | Evento del traslado que el Coordinador Logístico registra y que puede afectar la carga. |
@@ -1548,7 +1546,7 @@ Shipment Management y Monitoring & Telemetry son los contextos *core* porque en 
 
 #### Relaciones entre contextos y matriz de interdependencias
 
-En el diseño propuesto de la API, los contextos se relacionan mediante eventos de dominio internos de un monolito modular: un contexto publica un evento y otro reacciona con un comando propio, sin acceder a los datos internos del primero. En el mapa de contextos, Shipment Management es el proveedor (*upstream*) de Fleet & Resource Management y de Monitoring & Telemetry en una relación de cliente y proveedor (*Customer/Supplier*), y Monitoring & Telemetry lo es de Alert & Reporting. No se propone un broker ni microservicios independientes para TB1. IAM opera como servicio abierto (*Open Host Service*) que entrega la identidad y el perfil del usuario a los demás contextos mediante un token. Los sensores, por ser un sistema externo, se aíslan con una capa anticorrupción que traduce sus mensajes al comando `RecordReading` (Evans, 2003).
+Los contextos se relacionan mediante eventos de dominio: un contexto publica un evento y otro reacciona con un comando propio, sin acceder a los datos internos del primero. En el mapa de contextos, Shipment Management es el proveedor (*upstream*) de Fleet & Resource Management y de Monitoring & Telemetry en una relación de cliente y proveedor (*Customer/Supplier*), y Monitoring & Telemetry lo es de Alert & Reporting. IAM opera como servicio abierto (*Open Host Service*) que entrega la identidad y el perfil del usuario a los demás contextos mediante un token. Los sensores, por ser un sistema externo, se aíslan con una capa anticorrupción que traduce sus mensajes al comando `RecordReading` (Evans, 2003).
 
 La Tabla 4.25 lista las interacciones y se corresponde con los números que aparecen en el diagrama general. Las interacciones 3 y 6 ocurren dentro de un mismo contexto y se incluyen para mantener continua la cadena desde la lectura hasta la notificación.
 
@@ -1567,7 +1565,7 @@ La Tabla 4.25 lista las interacciones y se corresponde con los números que apar
 | 6 | `AlertRaised` (Alert & Reporting) | `SendNotification` (Alert & Reporting) | Toda alerta genera una notificación para el Coordinador Logístico y para el Cliente de Carga. |
 | 7 | `ReadingWithinRange` (Monitoring & Telemetry) | `ResolveAlert` (Alert & Reporting) | Si existe una alerta activa y la lectura se normaliza, la alerta se cierra. |
 | 8 | `ShipmentDelivered` (Shipment Management) | `ReleaseResources` (Fleet & Resource Management) | Al entregar el envío se liberan la unidad y el conductor. |
-| 9 | `ShipmentDelivered` (Shipment Management) | `StopMonitoring` (Monitoring & Telemetry) | Al entregar el envío se detiene el monitoreo. La cancelación se admite antes de iniciar el tránsito. |
+| 9 | `ShipmentDelivered` (Shipment Management) | `StopMonitoring` (Monitoring & Telemetry) | Al entregar el envío se detiene el monitoreo. Si un envío en tránsito se cancela, se emite el mismo comando. |
 | 10 | `ShipmentDelivered` (Shipment Management) | `GenerateThermalReport` (Alert & Reporting) | La entrega habilita la generación del reporte térmico, que el usuario solicita desde «Descargar reporte». |
 | 11 | `ShipmentCancelled` (Shipment Management) | `ReleaseResources` (Fleet & Resource Management) | Al cancelar el envío se liberan los recursos que tenía reservados. |
 
@@ -1616,7 +1614,7 @@ Este contexto gestiona los recursos físicos de la empresa de transporte. Sus re
 
 #### BC3 · Shipment Management
 
-Este es el contexto central del negocio. El diseño previsto permite al Coordinador Logístico definir un borrador con su rango térmico y luego programarlo; el borrador persistido sigue fuera de la demo local. Al programar, la política del contexto solicita la reserva de recursos: si se reservan, se avisa al Cliente de Carga; si no están disponibles, no se confirma la programación. Esta secuencia corresponde al flujo 1 de la sección 4.4.4. Antes del tránsito puede cancelarse el envío programado y liberar la reserva. Al iniciar el traslado se abre el monitoreo; la entrega lo detiene y libera los recursos. No se permite cancelar un envío en tránsito ni entregado.
+Este es el contexto central del negocio. El Coordinador Logístico define un borrador con su rango térmico (el mínimo debe ser menor que el máximo, la salida debe ser futura y la tolerancia mayor que cero) y luego lo programa. Al programar, la política del contexto solicita la reserva de recursos: si se reservan, se avisa al Cliente de Carga; si no están disponibles, el envío vuelve a borrador y se avisa al Coordinador. Esta secuencia corresponde al flujo 1 de la sección 4.4.4. Después, el Coordinador inicia el traslado, lo que abre el monitoreo, y finalmente marca la entrega o cancela el envío, lo que libera los recursos y detiene el monitoreo.
 
 **Figura 4.90**
 
@@ -1636,7 +1634,7 @@ El contexto recibe las lecturas y las posiciones de los sensores y las evalúa. 
 *EventStorming del contexto Monitoring & Telemetry*
 
 <p align="center">
-  <img src="assets/images/chapter-04/eventstorming-bc4-monitoring-tb1.svg" alt="EventStorming del contexto Monitoring & Telemetry" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc4-monitoring.png" alt="EventStorming del contexto Monitoring & Telemetry" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 
@@ -1691,7 +1689,7 @@ El diagrama de contenedores (nivel 2 del modelo C4) descompone FríoTrack en sus
 *Diagrama de contenedores de FríoTrack (modelo C4, nivel 2)*
 
 <p align="center">
-  <img src="assets/images/chapter-04/c4-containers-tb1.svg" alt="Diagrama de contenedores de FríoTrack (modelo C4, nivel 2)" width="1000"><br>
+  <img src="assets/images/chapter-04/c4-contenedores.png" alt="Diagrama de contenedores de FríoTrack (modelo C4, nivel 2)" width="1000"><br>
   <i>Nota.</i> Elaboración propia, con base en el modelo C4.
 </p>
 
@@ -1712,265 +1710,205 @@ El diagrama de contenedores (nivel 2 del modelo C4) descompone FríoTrack en sus
 
 *Nota.* Elaboración propia.
 
-En la arquitectura objetivo, la aplicación web usa REST/JSON sobre HTTPS y credenciales emitidas por IAM. Una aplicación web describe el producto que utiliza el navegador; SPA describe su estrategia de navegación y renderizado del cliente. El contenedor cliente será una aplicación Vue de tipo SPA, separado del contenedor de API y de la landing. En TB1 la aplicación usa un repositorio local de demostración; aún no emite JWT ni consume una API interna desplegada. Los sensores envían sus lecturas a un punto de acceso específico de la API. La API es el único contenedor que accede a la base de datos y a los sistemas externos de correo, de modo que las credenciales y las reglas de negocio no se exponen al navegador.
+La Aplicación web se comunica con la API mediante una interfaz REST con JSON sobre HTTPS y un token JWT en cada solicitud. Los sensores envían sus lecturas a un punto de acceso específico de la API. La API es el único contenedor que accede a la base de datos y a los sistemas externos de correo, de modo que las credenciales y las reglas de negocio no se exponen al navegador.
 
 ### 4.6.4. Software Architecture Component Diagrams
 
-Se separan los componentes del contenedor cliente y del contenedor API según los cinco Bounded Contexts. Los diagramas describen responsabilidades y contratos; el backend es un diseño pendiente de implementación y la primera aplicación cliente usa almacenamiento local de prueba. Las fuentes editables están en `assets/architecture/`: Mermaid, PlantUML y Structurizr DSL. Su traslado a la herramienta solicitada por el curso y las capturas compartidas siguen pendientes.
+El diagrama de componentes (nivel 3 del modelo C4) descompone el contenedor API web. La arquitectura sigue la división en contextos delimitados de la sección 4.6.1: cada contexto tiene su controlador REST, que recibe las solicitudes, y su módulo de dominio, que contiene los agregados, las reglas de negocio y los eventos. Dos componentes de infraestructura compartidos completan el diagrama: la capa de persistencia, que implementa los repositorios de cada agregado mediante Entity Framework Core siguiendo el patrón *Repository* (Fowler, 2002), y el adaptador de correo, que aísla al dominio del servicio externo.
 
-#### 4.6.4.1. Componentes del frontend
+**Figura 4.95**
 
-![Componentes del frontend Vue](assets/images/chapter-04/c4-frontend-tb1.svg)
+*Diagrama de componentes de la API web (modelo C4, nivel 3)*
 
-| Contexto/componente | Tecnología | Responsabilidad | Relación |
-|---|---|---|---|
-| IAM: Access/Profile views | Vue y PrimeVue | Selección de perfil demo y preferencias; registro y login de diseño | AppStore obtiene el perfil demo; autenticación servidor pendiente |
-| Fleet: Resource views | Vue, formularios PrimeVue | Crear/editar vehículos y conductores, asociar sensores de prueba | Valida unicidad y disponibilidad en operations.js |
-| Shipment: List/Detail/Wizard views | Vue y PrimeVue | Programar en cuatro pasos, cambiar estados permitidos y buscar | AppStore coordina validación y persistencia local |
-| Monitoring: Reading/Map components | Vue y Leaflet | Lecturas y ubicaciones de ejemplo, rango térmico y señal | Lecturas demo; teselas OpenStreetMap vía HTTPS |
-| Alert & Reporting: Alert/History views | Vue | Acciones correctivas, avisos internos e historial de prueba | Aplica permisos del perfil; exportación identificada como demo |
-| AppStore / LocalDemoRepository | JavaScript y localStorage | Estado reactivo y persistencia local con versión | Adaptador sustituible por HTTP en AV2; no frontera de seguridad |
-| Shared UI / i18n / navigation | Vue, PrimeVue y JavaScript | Layout, foco, rutas hash e inglés/español | Utilizado por todas las vistas |
+<p align="center">
+  <img src="assets/images/chapter-04/c4-componentes.png" alt="Diagrama de componentes de la API web (modelo C4, nivel 3)" width="1000"><br>
+  <i>Nota.</i> Elaboración propia, con base en el modelo C4 y en Domain-Driven Design.
+</p>
 
-La autorización local evita acciones incompatibles durante la demostración; un usuario puede manipular el navegador. La API futura validará identidad, tenant y permisos en cada solicitud. No se representan reglas del dominio como componentes de UI ni se declara que localStorage sea una base de datos compartida.
+**Tabla 4.28**
 
-#### 4.6.4.2. Componentes del backend
+*Componentes de la API web*
 
-![Componentes de la API por contexto y capa](assets/images/chapter-04/c4-backend-tb1.svg)
 
-Cada columna corresponde a un contexto: IAM, Fleet, Shipment, Monitoring y Alert & Reporting. En cada uno, **Interfaces** expone controladores REST y DTO; **Application** coordina command/query handlers, validación de solicitud y transacciones; **Domain** contiene agregados, objetos de valor, reglas y puertos; **Infrastructure** implementa esos puertos con EF Core y adaptadores. Interfaces depende de Application, Application de Domain, e Infrastructure implementa interfaces definidas hacia el interior. El dominio no depende de EF Core, controladores ni correo externo.
+| Componente | Tipo | Responsabilidad |
+| :--- | :--- | :--- |
+| **IAM Controller** | Controlador REST | Registro, inicio de sesión, recuperación de contraseña y perfil. |
+| **Fleet Controller** | Controlador REST | Vehículos, conductores y sensores. |
+| **Shipment Controller** | Controlador REST | Envíos y su ciclo de vida. |
+| **Telemetry Controller** | Controlador REST | Recepción de lecturas y posiciones de los sensores y consulta de series para los gráficos. |
+| **Alerts & Reports Controller** | Controlador REST | Alertas, notificaciones, incidencias y reportes. |
+| **IAM Module** | Módulo de dominio | Cuentas, sesiones con JWT y perfiles. |
+| **Fleet & Resource Module** | Módulo de dominio | Unidades, conductores, sensores y reservas. |
+| **Shipment Module** | Módulo de dominio | Programación, tránsito, entrega y cancelación. Solicita la reserva y la liberación de recursos, y el inicio y la detención del monitoreo. |
+| **Monitoring & Telemetry Module** | Módulo de dominio | Lecturas, evaluación de rango y de señal, y posiciones. Solicita y resuelve alertas. |
+| **Alert & Reporting Module** | Módulo de dominio | Alertas, acciones correctivas, notificaciones y reportes PDF. |
+| **Persistencia** | Infraestructura | `DbContext` y repositorios de cada agregado con Entity Framework Core. |
+| **Adaptador de correo** | Infraestructura | Envía los correos transaccionales al servicio externo. |
 
-| Componente | Tecnología propuesta | Responsabilidad |
-|---|---|---|
-| REST controllers / DTO | ASP.NET Core y C# | Validar forma de solicitud, identidad y mapear respuestas HTTP |
-| Command/query handlers | C# | Coordinar casos de uso por contexto y una unidad de trabajo |
-| Aggregates / domain services / ports | C# | Proteger rangos, reservas y transiciones; emitir eventos internos |
-| Repository / UnitOfWork adapters | EF Core y PostgreSQL | Guardar agregados; unicidad, FK y transacciones |
-| In-process event dispatcher | C# | Publicar eventos después de aceptar el caso de uso; reacciones de aplicación |
-| Sensor adapter | C# | Traducir datos de sensores al comando RecordReading |
-| Mail / Report adapters | C# | Aislar correo externo y generación de documento térmico |
+*Nota.* Elaboración propia.
 
-`ShipmentScheduled` solicita reserva; `TransitStarted` activa monitoreo; `ReadingOutOfRange` y `SignalLost` solicitan alertas; entrega/cancelación liberan recursos. Estas son integraciones **propuestas**, no un bus implementado. La reserva que condiciona la programación debe ser validada y confirmada dentro del caso de uso; un evento aceptado no justifica sobreasignar recursos.
-
-#### 4.6.4.3. Otros contenedores
-
-La landing tiene contenido/estilo (`index.html`, CSS), internacionalización (`i18n.js` y diccionarios), navegación/planes/contacto (`app.js`) y simulador identificado (`hero-sim.js`). El almacén PostgreSQL es un contenedor de datos, cuyo detalle se presenta en 4.8; no se lo representa como una aplicación con controladores. Las teselas, sensores y correo son sistemas externos, no contenedores que el equipo implementa.
+Las relaciones entre módulos reproducen el mapa de contextos: Shipment Module invoca a Fleet & Resource Module (reservar y liberar) y a Monitoring & Telemetry Module (iniciar y detener el monitoreo), y este a su vez invoca a Alert & Reporting Module (solicitar y resolver alertas). Estas invocaciones se realizan mediante los eventos de dominio de la Tabla 4.25, lo que evita dependencias directas entre los agregados de distintos contextos.
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-**Estado:** los diagramas backend y de base de datos representan diseño. Las clases no acreditan API ni PostgreSQL ejecutándose. Para el cliente se añade una especificación UML editable en `assets/architecture/frontend-classes.puml`, con modelos, enumeraciones, contrato de repositorio, visibilidad y multiplicidades. La fuente editable utiliza la alternativa Diagram-as-Code permitida en el statement; su importación por el equipo no acredita compilación ni ejecución del producto.
+El diseño orientado a objetos de FríoTrack traduce a clases el modelo de dominio de la sección 4.6. Se emplean los bloques tácticos de DDD descritos por Evans (2003) y Vernon (2013): agregados con una raíz que protege las reglas de negocio, entidades con identidad propia, objetos de valor sin identidad y enumeraciones para los estados. Los diagramas usan la notación de clases de UML (Fowler, 2004): cada clase muestra sus atributos y métodos con su visibilidad; la línea con rombo relleno indica composición, es decir, que el ciclo de vida de la parte depende del agregado; la flecha continua indica una asociación; la flecha discontinua indica el uso de una enumeración; y los estereotipos `«enumeration»` y `«value object»` señalan esos tipos. Las clases con fondo amarillo son referencias a clases definidas en otro diagrama.
 
-#### Modelo del cliente TB1
+Se toman cuatro decisiones de diseño:
 
-El UML representa un **modelo lógico de objetos y módulos JavaScript**, no clases, interfaces de JavaScript con comprobación de tipos ni inyección de dependencias implementadas. `AppStore` abstrae el estado y comandos de `demo-repository.js`; `Operations` representa funciones exportadas de `operations.js`; `IDemoRepository` expresa un contrato de diseño. Los objetos reales de la demo se organizan en arreglos y se guardan en localStorage.
-
-**Modelo del cliente TB1 · aplicación y acceso**
-
-![Modelo lógico del cliente: aplicación, repositorio y perfiles](assets/images/chapter-04/frontend-classes-app-tb1.svg)
-
-**Modelo del cliente TB1 · envíos, recursos y monitoreo**
-
-![Modelo lógico del cliente: envíos, recursos, lecturas y alertas](assets/images/chapter-04/frontend-classes-domain-tb1.svg)
-
-El envío referencia una unidad, conductor y cliente por sus IDs; conserva ruta, peso, fechas, versión y los límites mínimo/máximo de temperatura y humedad. Incluye lecturas con coordenadas, historial y alertas asociadas. La capacidad de la unidad, los recursos disponibles y el solapamiento temporal condicionan la programación. Las asociaciones con multiplicidades documentan ese contrato; `ThermalRange` agrupa lógicamente campos numéricos que hoy están en el objeto de envío.
-
-La acción correctiva reconoce una alerta; su estado sigue abierto hasta que una nueva lectura de ejemplo cumple ambos rangos. Los avisos opcionales se dirigen al cliente asignado. Las enumeraciones reflejan valores de diseño y estados derivados, sin inventar autenticación. Los SVG se generaron localmente y se revisaron visualmente; **no son capturas de PlantUML ni de una herramienta compartida**. La fuente PlantUML queda disponible para importación y revisión del equipo.
-
-El diseño del backend propone clases y agregados para los cinco contextos de la sección 4.6. La fuente editable es [backend-classes-tb1.puml](assets/architecture/backend-classes-tb1.puml); el catálogo común de entidades, atributos, relaciones y restricciones se conserva en [backend-model-tb1.json](assets/architecture/backend-model-tb1.json). Las figuras son **dibujos vectoriales programáticos de esa especificación**, revisados localmente. No se ejecutó el compilador PlantUML ni se implementaron estas clases, la API o PostgreSQL. Se utiliza la alternativa Diagram-as-Code admitida por el statement, página 29.
-
-En UML, `−` indica un atributo privado y `+` una operación pública. El rombo de `Shipment` a `ThermalRange` indica composición; las asociaciones por ID y sus multiplicidades representan vínculos del diseño. Los colores agrupan contextos. Para mantener legibilidad, se dividen los modelos en cuatro paneles: recursos, envío, monitoreo y alertas. Las figuras muestran asociaciones principales; la fuente editable y la Tabla 4.32 contienen las 27 relaciones persistentes, incluidas las que atraviesan paneles.
-
-Se proponen las siguientes decisiones:
-
-- `Organization` identifica la empresa de transporte. Las cuentas, unidades, conductores y envíos referencian esa empresa; el servidor futuro deberá verificar empresa, rol y permiso para cada operación. La cadena `organization` de los perfiles de la demo local no equivale a esta normalización ni acredita aislamiento entre empresas.
-- Las asociaciones entre agregados se expresan mediante IDs. `FleetAllocation` reserva unidad y conductor para el intervalo del envío, y `ShipmentHistoryEvent` conserva acciones, responsable y fecha. Programar envío y reserva deberá ser una operación atómica que rechace solapamientos y exceso de capacidad.
-- `ThermalRange` contiene **mínimo y máximo de temperatura en °C, mínimo y máximo de humedad relativa en %, y tolerancia en minutos**. `ShipmentMonitoring` recibe una copia al iniciar el monitoreo. Las lecturas históricas se evalúan con esa copia; el diseño no permite reescribir retroactivamente sus límites (US17).
-- El contrato previsto conserva `DRAFT → SCHEDULED → IN_TRANSIT → DELIVERED` y la cancelación de borrador o programado de US34. La demo local admite cancelación únicamente de un envío programado y rechaza cancelación durante tránsito o después de entrega; no persiste borradores. En el diseño, un borrador no reserva recursos; cancelar antes del tránsito libera las reservas existentes y entregar detiene el monitoreo y libera los recursos.
-- JWT corresponde al contrato técnico propuesto TS01; no se presenta como autenticación implementada en TB1. La recuperación con token de uso único, la tolerancia temporal, la severidad y la detección automática de silencio son diseño previsto; las capturas del frontend no acreditan esos servicios.
+- Las asociaciones entre agregados de distintos contextos, como la que une `Alert` con `Shipment`, se implementan mediante el identificador del agregado y no mediante una referencia directa a objeto, de manera que cada agregado se puede cargar y guardar por separado, y se corresponden con las claves foráneas de la sección 4.8.
+- `ThermalRange` es un objeto de valor inmutable. Lo posee `Shipment` y `ShipmentMonitoring` recibe una copia al iniciar el monitoreo, con lo que la evaluación de las lecturas no cambia si el envío se edita después.
+- La sesión de autenticación (`AuthSession`) es un token JWT sin estado y por ello no aparece como clase persistente, y el perfil (`UserProfile`) se modela con los atributos de perfil de `UserAccount`.
+- Los cambios de estado se realizan solo mediante métodos de la raíz del agregado (`schedule()`, `startTransit()`, `markDelivered()`, `cancel()`), que validan que la transición sea permitida y emiten el evento de dominio correspondiente.
 
 #### Diagrama de clases 1 · IAM, Fleet & Resource Management y Shipment Management
 
-IAM contiene `Organization`, `UserAccount` y `PasswordResetToken`; los roles previstos son `LOGISTICS_COORDINATOR` y `CARGO_CLIENT`. Fleet & Resource Management contiene unidades, conductores, sensores y reservas. Shipment Management organiza el envío, sus cuatro límites ambientales y el historial. Un Cliente de Carga se vincula mediante `clientId`; esa relación condiciona la consulta y las notificaciones del envío.
+El primer diagrama contiene los contextos IAM, Fleet & Resource Management y Shipment Management. `UserAccount` es la raíz de IAM y encapsula la autenticación, el bloqueo tras intentos fallidos y la actualización del perfil; `PasswordResetToken` guarda solo el resumen (*hash*) del token de recuperación, con su vencimiento. En Fleet & Resource Management, `Vehicle` y `Driver` son raíces que responden si están disponibles en un intervalo; `Sensor` se asigna a un vehículo; y `FleetAllocation` representa la reserva de una unidad y un conductor para un envío. En Shipment Management, `Shipment` es la raíz central, contiene el objeto de valor `ThermalRange` y el historial `ShipmentStatusChange`, y se asocia con el Coordinador Logístico y con el Cliente de Carga, que son instancias de `UserAccount`.
 
 **Figura 4.96**
 
-*Modelo de clases previsto: recursos y operación de envío, en dos paneles*
+*Diagrama de clases 1: IAM, Fleet & Resource Management y Shipment Management*
 
-**Panel de recursos e identidad**
-
-![UML backend previsto: organización, cuentas, recuperación, unidades, conductores y sensores](assets/images/chapter-04/backend-classes-resources-tb1.svg)
-
-**Panel del envío, reserva y trazabilidad**
-
-![UML backend previsto: envío, cuatro límites, reserva e historial](assets/images/chapter-04/backend-classes-shipment-tb1.svg)
-
-*Nota.* SVG programáticos del modelo previsto; no son capturas del compilador. El [PNG de AV1](assets/images/chapter-04/class-diagram-1.png) se preserva como antecedente y contiene el modelo anterior, sin mínimo de humedad.
+<p align="center">
+  <img src="assets/images/chapter-04/class-diagram-1.png" alt="Diagrama de clases 1: IAM, Fleet & Resource Management y Shipment Management" width="1000"><br>
+  <i>Nota.</i> Elaboración propia.
+</p>
 
 **Tabla 4.29**
 
-*Clases previstas de IAM, Fleet & Resource Management y Shipment Management*
+*Clases principales de los contextos IAM, Fleet & Resource Management y Shipment Management*
 
-| Clase | Contexto | Tipo | Responsabilidad prevista |
+
+| Clase | Contexto | Tipo | Responsabilidad |
 | :--- | :--- | :--- | :--- |
-| `Organization` | IAM | Entidad | Identificar la empresa de transporte asociada con usuarios, recursos y envíos. |
-| `UserAccount` | IAM | Agregado raíz | Mantener identidad, rol, idioma, resumen de contraseña, estado de cuenta e intentos fallidos; participar en autenticación y actualización del perfil. |
-| `PasswordResetToken` | IAM | Entidad | Conservar el resumen del token, vencimiento y fecha de uso; impedir reutilización. |
-| `UserRole` | IAM | Enumeración | `LOGISTICS_COORDINATOR` y `CARGO_CLIENT`; los permisos se verifican en cada caso de uso. |
-| `Vehicle` | Fleet & Resource | Agregado raíz | Conservar placa, capacidad y estado; comprobar disponibilidad para una reserva. |
-| `Sensor` | Fleet & Resource | Entidad | Conservar identidad del dispositivo y asignación opcional a una unidad. |
-| `Driver` | Fleet & Resource | Agregado raíz | Conservar identidad, licencia y estado; comprobar disponibilidad. |
-| `FleetAllocation` | Fleet & Resource | Agregado raíz | Reservar unidad y conductor por intervalo; conservar y liberar la reserva. |
-| `Shipment` | Shipment | Agregado raíz | Conservar empresa, coordinador, cliente, carga, peso, ruta, fechas, versión y rangos; validar programación y transiciones. |
-| `ThermalRange` | Shipment | Objeto de valor | Agrupar mínimos y máximos de temperatura y humedad y tolerancia; comprobar ambos rangos de manera inclusiva. |
-| `ShipmentHistoryEvent` | Shipment | Entidad | Conservar acción, responsable, fecha, nota y estados anterior/posterior cuando corresponda. |
-| `ShipmentStatus` | Shipment | Enumeración | `DRAFT`, `SCHEDULED`, `IN_TRANSIT`, `DELIVERED`, `CANCELLED`. |
+| `UserAccount` | IAM | Agregado raíz | Autentica al usuario, cambia la contraseña, actualiza el perfil, registra intentos fallidos y determina si la cuenta está bloqueada. |
+| `PasswordResetToken` | IAM | Entidad | Representa un enlace de recuperación de contraseña, con vencimiento y uso único. |
+| `UserRole` | IAM | Enumeración | `LOGISTICS_COORDINATOR` y `CARGO_CLIENT`. |
+| `Vehicle` | Fleet & Resource | Agregado raíz | Determina su disponibilidad en un intervalo, pasa a mantenimiento o vuelve a servicio y se le asigna un sensor. |
+| `Sensor` | Fleet & Resource | Entidad | Dispositivo de temperatura, humedad y GPS asociado a una unidad. |
+| `Driver` | Fleet & Resource | Agregado raíz | Determina su disponibilidad y puede desactivarse. |
+| `FleetAllocation` | Fleet & Resource | Agregado raíz | Reserva y libera la unidad y el conductor de un envío en un intervalo. |
+| `Shipment` | Shipment | Agregado raíz | Programa, inicia, entrega y cancela el envío; actualiza la llegada estimada y puede volver a borrador. |
+| `ThermalRange` | Shipment | Objeto de valor | Temperatura mínima y máxima, humedad máxima y tolerancia; indica si una temperatura está dentro del rango y cuánto se desvía. |
+| `ShipmentStatusChange` | Shipment | Entidad | Registra cada cambio de estado con su fecha, lo que alimenta el historial de estados. |
+| `ShipmentStatus` | Shipment | Enumeración | `DRAFT`, `SCHEDULED`, `IN_TRANSIT`, `DELIVERED` y `CANCELLED`. |
 
-*Nota.* Responsabilidades de diseño; no acreditan implementación ni resultados de ejecución del backend.
+*Nota.* Elaboración propia.
 
 #### Diagrama de clases 2 · Monitoring & Telemetry y Alert & Reporting
 
-`ShipmentMonitoring` mantiene la copia del rango, lecturas, posiciones y condición de señal del envío. `SensorReading` evalúa temperatura y humedad contra ambos intervalos. `Alert` distingue temperatura, humedad y pérdida de señal; una lectura que origina una alerta puede no existir en una pérdida de comunicación. `CorrectiveAction` conserva la respuesta del coordinador; `Notification`, `Incident` y `ThermalReport` preservan avisos, eventos operativos y evidencia del envío. Estos objetos se separan en dos paneles para facilitar su lectura.
+El segundo diagrama contiene los dos contextos que reaccionan a las lecturas de los sensores. `ShipmentMonitoring` es la raíz del monitoreo: registra lecturas y posiciones, marca la pérdida de señal y se detiene al concluir el envío. Cada `SensorReading` sabe evaluarse frente a un `ThermalRange` y guarda el resultado. En Alert & Reporting, `Alert` es la raíz que se escala a crítica, recibe la acción correctiva y se resuelve; `Notification` registra los avisos y su lectura; `Incident` y `ThermalReport` son agregados propios asociados a un envío. Los tipos de alerta (`AlertType`) incluyen temperatura fuera de rango, temperatura cerca del límite, humedad fuera de rango, puerta abierta y pérdida de señal.
 
 **Figura 4.97**
 
-*Modelo de clases previsto: monitoreo y atención, en dos paneles*
+*Diagrama de clases 2: Monitoring & Telemetry y Alert & Reporting*
 
-**Panel de monitoreo y telemetría**
-
-![UML backend previsto: monitoreo, lectura ambiental y posición](assets/images/chapter-04/backend-classes-monitoring-tb1.svg)
-
-**Panel de alertas, acciones y evidencia**
-
-![UML backend previsto: alerta, acción correctiva, aviso, incidencia e informe](assets/images/chapter-04/backend-classes-alerts-tb1.svg)
-
-*Nota.* SVG programáticos del modelo previsto; no se ejecutó PlantUML. El [PNG de AV1](assets/images/chapter-04/class-diagram-2.png) permanece como antecedente; sus tipos adicionales de alerta no se incorporan al alcance vigente sin una historia que los sustente.
+<p align="center">
+  <img src="assets/images/chapter-04/class-diagram-2.png" alt="Diagrama de clases 2: Monitoring & Telemetry y Alert & Reporting" width="1000"><br>
+  <i>Nota.</i> Elaboración propia.
+</p>
 
 **Tabla 4.30**
 
-*Clases previstas de Monitoring & Telemetry y Alert & Reporting*
+*Clases principales de los contextos Monitoring & Telemetry y Alert & Reporting*
 
-| Clase | Contexto | Tipo | Responsabilidad prevista |
+
+| Clase | Contexto | Tipo | Responsabilidad |
 | :--- | :--- | :--- | :--- |
-| `ShipmentMonitoring` | Monitoring & Telemetry | Agregado raíz | Conservar cuatro límites y tolerancia de inicio; registrar lecturas y posiciones; detectar silencio configurable y detenerse al concluir el envío. |
-| `SensorReading` | Monitoring & Telemetry | Entidad | Conservar temperatura, humedad y fecha; indicar si ambos valores satisfacen los rangos del monitoreo. |
-| `PositionReport` | Monitoring & Telemetry | Entidad | Conservar latitud, longitud y fecha de reporte válidas. |
-| `SignalStatus` | Monitoring & Telemetry | Enumeración | `ONLINE`, `NO_SIGNAL`; el umbral temporal debe configurarse y validarse. |
-| `Alert` | Alert & Reporting | Agregado raíz | Conservar tipo, severidad, estado y fechas; reconocer una acción y resolver solo con evidencia posterior de recuperación. |
-| `CorrectiveAction` | Alert & Reporting | Entidad | Conservar alerta, comentario, responsable, fecha y elección de notificar al cliente asignado. |
-| `Notification` | Alert & Reporting | Agregado raíz | Conservar destinatario, envío, origen opcional y fecha de lectura. |
-| `Incident` | Alert & Reporting | Agregado raíz | Conservar una incidencia operativa, responsable y fecha del traslado. |
-| `ThermalReport` | Alert & Reporting | Agregado raíz | Conservar referencia de un archivo y resumen generado del envío; no certificar condiciones que carecen de mediciones. |
-| `AlertType` | Alert & Reporting | Enumeración | `TEMPERATURE`, `HUMIDITY`, `NO_SIGNAL`. |
-| `AlertStatus` | Alert & Reporting | Enumeración | `ACTIVE`, `ACKNOWLEDGED`, `RESOLVED`. |
-| `AlertSeverity` | Alert & Reporting | Enumeración | `WARNING`, `CRITICAL`; clasificación temporal prevista en US13, pendiente de integración. |
+| `ShipmentMonitoring` | Monitoring & Telemetry | Agregado raíz | Registra lecturas y posiciones, mantiene el estado de la señal y se detiene al concluir el envío. |
+| `SensorReading` | Monitoring & Telemetry | Entidad | Lectura de temperatura y humedad con su fecha; se evalúa frente al rango térmico. |
+| `PositionReport` | Monitoring & Telemetry | Entidad | Posición GPS reportada con su fecha. |
+| `SignalStatus` | Monitoring & Telemetry | Enumeración | `ONLINE` y `NO_SIGNAL`. |
+| `Alert` | Alert & Reporting | Agregado raíz | Se escala de advertencia a crítica, recibe acciones correctivas y se resuelve. |
+| `CorrectiveAction` | Alert & Reporting | Entidad | Acción registrada por el Coordinador Logístico, con comentario e indicación de si se notifica al cliente. |
+| `Notification` | Alert & Reporting | Agregado raíz | Aviso dirigido a un usuario; se marca como leído. |
+| `Incident` | Alert & Reporting | Agregado raíz | Evento del traslado registrado por el Coordinador Logístico. |
+| `ThermalReport` | Alert & Reporting | Agregado raíz | Genera y entrega el documento PDF del envío con su resumen. |
+| `AlertType`, `AlertStatus`, `AlertSeverity` | Alert & Reporting | Enumeraciones | Tipo de alerta; estado (`ACTIVE`, `ACKNOWLEDGED`, `RESOLVED`); severidad (`WARNING`, `CRITICAL`). |
 
-*Nota.* La fuente PlantUML incluye las enumeraciones y sus dependencias; los paneles muestran las entidades y agregados persistentes.
+*Nota.* Elaboración propia.
 
-Una acción válida cambia la alerta de `ACTIVE` a `ACKNOWLEDGED` y puede generar un aviso únicamente para el cliente asignado (US35). **Registrar la acción no demuestra recuperación.** La resolución requiere una lectura posterior dentro de ambos rangos; el historial conserva la alerta y su atención.
+El estado de una alerta evoluciona de manera coherente con el flujo de usuario de la sección 4.4.4: nace como `ACTIVE`, pasa a `ACKNOWLEDGED` cuando el Coordinador Logístico registra la acción correctiva y a `RESOLVED` cuando una lectura vuelve al rango.
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-Se propone un esquema relacional de **17 tablas** para PostgreSQL. La fuente editable [database-tb1.mmd](assets/architecture/database-tb1.mmd) y el catálogo [backend-model-tb1.json](assets/architecture/backend-model-tb1.json) documentan columnas, claves, opcionalidad y 27 relaciones. No se ejecutaron Mermaid, SQL, migraciones ni una instancia de PostgreSQL. Las figuras son vistas vectoriales programáticas por contexto; el esquema responde al modelo de transporte actual y a los dos roles de usuario. `Organization` es una normalización prevista de la empresa, no una seguridad multitenant ya implementada.
+La base de datos de FríoTrack es relacional y se implementa en PostgreSQL. El diseño parte del modelo entidad-relación propuesto por Chen (1976) y de las reglas de normalización expuestas por Elmasri y Navathe (2016): cada agregado del modelo de clases se representa con una tabla raíz y con tablas dependientes, y las tablas se llevaron a tercera forma normal, salvo dos decisiones deliberadas de desnormalización que se explican más adelante. El esquema tiene 16 tablas que se agrupan por contexto delimitado. En el diagrama, cada grupo tiene un color de encabezado: azul para IAM, verde para Fleet & Resource Management, amarillo para Shipment Management, turquesa para Monitoring & Telemetry y rosado para Alert & Reporting. Las líneas terminadas en «pata de gallo» indican el lado «muchos» de una relación, y la marca `PK`, `FK` o `UK` indica clave primaria, foránea o única, respectivamente.
 
 **Figura 4.98**
 
-*Diseño relacional previsto de FríoTrack, en cuatro paneles*
+*Diagrama entidad-relación de la base de datos de FríoTrack*
 
-**Panel de organización, cuentas y recursos**
-
-![ERD previsto: organización, cuentas, recuperación, unidades, conductores y sensores](assets/images/chapter-04/database-resources-tb1.svg)
-
-**Panel de envío, reserva e historial**
-
-![ERD previsto: envío con cuatro límites, reserva e historial](assets/images/chapter-04/database-shipment-tb1.svg)
-
-**Panel de monitoreo y telemetría**
-
-![ERD previsto: copia de límites, lecturas y posiciones](assets/images/chapter-04/database-monitoring-tb1.svg)
-
-**Panel de alertas, atención y evidencia**
-
-![ERD previsto: alertas, acciones, avisos, incidencias e informes](assets/images/chapter-04/database-alerts-tb1.svg)
-
-*Nota.* `PK` identifica una clave primaria; `FK`, una referencia; `UK`, una restricción de unicidad; `nullable`, un campo opcional. Las flechas identifican asociaciones principales y sus multiplicidades; la fuente Mermaid y la Tabla 4.32 contienen todas las relaciones. El [ERD PNG de AV1](assets/images/chapter-04/erd-friotrack.png) se conserva sin alteración como antecedente del modelo anterior.
+<p align="center">
+  <img src="assets/images/chapter-04/erd-friotrack.png" alt="Diagrama entidad-relación de la base de datos de FríoTrack" width="1000"><br>
+  <i>Nota.</i> Elaboración propia. En la versión digital se puede ampliar la imagen para leer las columnas de cada tabla.
+</p>
 
 **Tabla 4.31**
 
-*Tablas propuestas por contexto delimitado*
+*Tablas de la base de datos por contexto delimitado*
 
-| Contexto | Tabla | Descripción prevista |
+
+| Contexto | Tabla | Descripción |
 | :--- | :--- | :--- |
-| IAM | `organizations` | Empresa de transporte que agrupa cuentas, recursos y envíos. |
-| IAM | `users` | Cuentas con empresa, rol, idioma, contraseña resumida, estado e intentos fallidos. |
-| IAM | `password_reset_tokens` | Tokens resumidos de recuperación, vencimiento y uso único. |
-| Fleet & Resource | `vehicles` | Unidades de la empresa, placa, capacidad y estado. |
-| Fleet & Resource | `drivers` | Conductores de la empresa, licencia y estado. |
-| Fleet & Resource | `sensors` | Dispositivos identificados con asignación opcional y única a una unidad. |
-| Fleet & Resource | `fleet_allocations` | Reserva de unidad y conductor por envío, intervalo, estado y liberación. |
-| Shipment | `shipments` | Empresa, coordinador, cliente, carga, peso, ruta, fechas, versión, estado y cuatro límites ambientales con tolerancia. |
-| Shipment | `shipment_history` | Acciones del envío, responsable, nota, fecha y cambios de estado cuando corresponda. |
-| Monitoring & Telemetry | `shipment_monitorings` | Copia de los cuatro límites y tolerancia, máximo silencio configurable, estado de señal y fechas de monitoreo. |
-| Monitoring & Telemetry | `sensor_readings` | Temperatura, humedad, fecha y resultado de ambos rangos. |
-| Monitoring & Telemetry | `position_reports` | Latitud, longitud y fecha de reporte. |
-| Alert & Reporting | `alerts` | Envío, tipo, severidad, estado, lectura de origen opcional y fechas de evolución. |
-| Alert & Reporting | `corrective_actions` | Alerta atendida, responsable, comentario, fecha y elección de notificar al cliente. |
-| Alert & Reporting | `notifications` | Destinatario, envío, alerta opcional, tipo y fechas de creación/lectura. |
-| Alert & Reporting | `incidents` | Evento operativo del envío, responsable, descripción y fecha. |
-| Alert & Reporting | `thermal_reports` | Referencia al informe, responsable, fecha y resumen de evidencia en JSON. |
+| IAM | `users` | Cuentas de usuario con rol, idioma, intentos fallidos y bloqueo. |
+| IAM | `password_reset_tokens` | Tokens de recuperación de contraseña, guardados como resumen, con vencimiento y fecha de uso. |
+| Fleet & Resource | `vehicles` | Unidades refrigeradas de una empresa de transporte, con placa única y estado. |
+| Fleet & Resource | `sensors` | Sensores; cada uno se asocia como máximo a un vehículo. |
+| Fleet & Resource | `drivers` | Conductores, con licencia única y estado. |
+| Fleet & Resource | `fleet_allocations` | Reserva de un vehículo y un conductor para un envío, con su intervalo y estado. |
+| Shipment | `shipments` | Envíos con su carga, rango térmico, ruta, horarios y estado. |
+| Shipment | `shipment_status_history` | Historial de cambios de estado de cada envío y quién los realizó. |
+| Monitoring & Telemetry | `shipment_monitorings` | Monitoreo de un envío: copia del rango térmico, estado de la señal y fechas de inicio y fin. |
+| Monitoring & Telemetry | `sensor_readings` | Lecturas de temperatura y humedad, con el resultado de la evaluación. |
+| Monitoring & Telemetry | `position_reports` | Posiciones GPS reportadas. |
+| Alert & Reporting | `alerts` | Alertas con tipo, severidad, estado y la lectura que las originó. |
+| Alert & Reporting | `corrective_actions` | Acciones correctivas registradas ante una alerta. |
+| Alert & Reporting | `notifications` | Notificaciones dirigidas a un usuario, con su estado de lectura. |
+| Alert & Reporting | `incidents` | Incidencias registradas para un envío. |
+| Alert & Reporting | `thermal_reports` | Reportes térmicos generados, con la ruta del archivo y un resumen en formato JSON. |
 
-*Nota.* No existen registros reales ni migraciones ejecutadas que se acrediten mediante este diseño.
+*Nota.* Elaboración propia.
 
-**Decisiones de diseño.** Se proponen las siguientes restricciones y patrones:
+**Decisiones de diseño.** Se adoptaron las siguientes decisiones:
 
-- Usar UUID en las tablas de negocio y `bigint` en lecturas y posiciones; usar `timestamptz` para comparar instantes y `numeric` para los valores y límites ambientales.
-- Incluir `min_temp_c`, `max_temp_c`, `min_humidity_pct` y `max_humidity_pct` tanto en `shipments` como en `shipment_monitorings`. Los límites de inicio y la tolerancia forman una copia que conserva la interpretación de las mediciones históricas (US17).
-- Validar `min_temp_c < max_temp_c`, `0 ≤ min_humidity_pct < max_humidity_pct ≤ 100` y tolerancia no negativa. El frontend actual acepta temperatura entre −50 y 50 °C; estos son límites operativos del prototipo, no una recomendación universal de conservación. La futura validación deberá conservar los rangos admitidos por el contrato aprobado.
-- Validar peso positivo que no supere capacidad; salida anterior a llegada; origen diferente del destino; recursos habilitados y cliente autorizado. La reserva y programación deberán confirmar ambas asignaciones de forma atómica y rechazar intervalos solapados de unidad o conductor.
-- Aplicar unicidad a placa, licencia, serial, correo y código de envío; prever una asignación de sensor por unidad, una reserva por envío y un monitoreo por envío. La asociación opcional de sensor y los estados de borrador/inicio explican las cardinalidades `0..1`; una reserva liberada permanece para trazabilidad.
-- Limitar mediante `CHECK` los estados y roles previstos; comprobar coordenadas `−90..90` para latitud y `−180..180` para longitud. La severidad temporal y el máximo silencio configurable necesitan validación al integrar telemetría real.
-- Prever índices por empresa y estado del envío, por monitoreo/fecha de lectura, por envío/estado de alerta y por destinatario/fecha de lectura del aviso. Guardar el resumen del informe como `jsonb` conserva su contexto de generación; la copia de límites es una decisión deliberada de trazabilidad.
-- Verificar permisos y pertenencia en el servidor futuro; una FK por sí sola no garantiza que coordinador, cliente y recursos estén autorizados para una empresa. La selección de perfil y localStorage del frontend no sustituyen esa verificación.
+- Se utilizan identificadores UUID en las tablas de negocio, para poder generarlos en la aplicación sin consultar la base de datos, y un entero de 64 bits (`bigint`) en `sensor_readings` y `position_reports`, que son las tablas de mayor crecimiento.
+- Todas las fechas usan `timestamptz` (fecha y hora con zona horaria), para que las lecturas y las alertas sean comparables sin importar la zona horaria de la unidad.
+- La temperatura y la humedad se almacenan en tipos `numeric` con precisión fija, para evitar los errores de redondeo de los tipos de punto flotante al compararlas con el rango.
+- Las relaciones uno a uno (un sensor por vehículo, una reserva por envío y un monitoreo por envío) se garantizan con restricciones de unicidad sobre la clave foránea.
+- Los estados se almacenan como texto con una restricción `CHECK` que limita los valores permitidos, alineados con las enumeraciones del modelo de clases.
+- Se prevén índices sobre los patrones de consulta más frecuentes: `sensor_readings (monitoring_id, recorded_at)` para los gráficos de lecturas, `shipments (status)` para las listas filtradas, `alerts (shipment_id, status)` para la pestaña Alertas y `notifications (user_id, read_at)` para el contador de avisos sin leer.
+- **Desnormalización deliberada:** el rango térmico se guarda en `shipments`, como atributos del envío, y se copia a `shipment_monitorings` al iniciar el monitoreo, porque debe conservarse tal como estaba cuando se evaluaron las lecturas; y el resumen del reporte se guarda como `jsonb` en `thermal_reports`, porque es una fotografía del envío al momento de generar el documento y no se consulta por campos.
 
-Las siguientes relaciones documentan el esquema completo. Las cardinalidades se leen **padre → hija**; una hija con FK no nullable referencia exactamente un padre, y la tabla indica cuántas hijas puede tener ese padre. Las relaciones opcionales especifican ambos extremos.
+La Tabla 4.32 lista las relaciones del esquema. Las claves foráneas hacia `users` se mantienen entre contextos porque solo identifican a la persona (quién programó, quién registró); no exponen los datos internos de IAM a los demás contextos.
 
 **Tabla 4.32**
 
-*Relaciones propuestas entre tablas*
+*Relaciones entre tablas*
 
-| Tabla hija | Columna FK | Tabla padre | Cardinalidad padre → hija | Significado |
-| :--- | :--- | :--- | :--- | :--- |
-| `users` | `organization_id` | `organizations` | `1 → 0..*` | Empresa de la cuenta. |
-| `vehicles` | `organization_id` | `organizations` | `1 → 0..*` | Empresa propietaria de la unidad. |
-| `drivers` | `organization_id` | `organizations` | `1 → 0..*` | Empresa que administra al conductor. |
-| `shipments` | `organization_id` | `organizations` | `1 → 0..*` | Empresa que gestiona el envío. |
-| `password_reset_tokens` | `user_id` | `users` | `1 → 0..*` | Cuenta a la que pertenece el token. |
-| `sensors` | `vehicle_id` | `vehicles` | `0..1 → 0..1` | Sensor opcional y único por unidad; sensor aún sin asignar permitido. |
-| `fleet_allocations` | `shipment_id` | `shipments` | `1 → 0..1` | Reserva opcional en borrador, requerida al programar. |
-| `fleet_allocations` | `vehicle_id` | `vehicles` | `1 → 0..*` | Unidad reservada; se rechazan solapamientos activos. |
-| `fleet_allocations` | `driver_id` | `drivers` | `1 → 0..*` | Conductor reservado; se rechazan solapamientos activos. |
-| `shipments` | `coordinator_id` | `users` | `1 → 0..*` | Coordinador responsable de la programación. |
-| `shipments` | `client_id` | `users` | `1 → 0..*` | Cliente asignado con acceso de consulta. |
-| `shipment_history` | `shipment_id` | `shipments` | `1 → 0..*` | Envío al que pertenece la acción histórica. |
-| `shipment_history` | `actor_id` | `users` | `1 → 0..*` | Responsable de la acción. |
-| `shipment_monitorings` | `shipment_id` | `shipments` | `1 → 0..1` | Monitoreo opcional antes del inicio, único por envío. |
-| `sensor_readings` | `monitoring_id` | `shipment_monitorings` | `1 → 0..*` | Monitoreo que conserva y evalúa la lectura. |
-| `position_reports` | `monitoring_id` | `shipment_monitorings` | `1 → 0..*` | Monitoreo al que pertenece la posición. |
-| `alerts` | `shipment_id` | `shipments` | `1 → 0..*` | Envío afectado. |
-| `alerts` | `trigger_reading_id` | `sensor_readings` | `0..1 → 0..*` | Lectura opcional de origen; una pérdida de señal puede no tenerla. |
-| `corrective_actions` | `alert_id` | `alerts` | `1 → 0..*` | Alerta cuya atención se documenta. |
-| `corrective_actions` | `registered_by` | `users` | `1 → 0..*` | Coordinador que registra la acción. |
-| `notifications` | `user_id` | `users` | `1 → 0..*` | Destinatario autorizado del aviso. |
-| `notifications` | `shipment_id` | `shipments` | `1 → 0..*` | Envío al que se refiere el aviso. |
-| `notifications` | `alert_id` | `alerts` | `0..1 → 0..*` | Alerta de origen opcional. |
-| `incidents` | `shipment_id` | `shipments` | `1 → 0..*` | Envío afectado por la incidencia. |
-| `incidents` | `registered_by` | `users` | `1 → 0..*` | Responsable del registro. |
-| `thermal_reports` | `shipment_id` | `shipments` | `1 → 0..*` | Envío cuya evidencia se resume. |
-| `thermal_reports` | `generated_by` | `users` | `1 → 0..*` | Usuario que solicita/genera el informe autorizado. |
 
-*Nota.* Multiplicidades del diseño, no restricciones verificadas en una base de datos ejecutada.
+| Tabla hija | Columna | Tabla padre | Cardinalidad | Significado |
+| :--- | :--- | :--- | :---: | :--- |
+| `password_reset_tokens` | `user_id` | `users` | N : 1 | Usuario que solicitó la recuperación. |
+| `vehicles` | `owner_id` | `users` | N : 1 | Empresa de transporte propietaria de la unidad. |
+| `sensors` | `vehicle_id` | `vehicles` | 1 : 1 | Unidad en la que está instalado el sensor. |
+| `drivers` | `owner_id` | `users` | N : 1 | Empresa de transporte que emplea al conductor. |
+| `shipments` | `coordinator_id` | `users` | N : 1 | Coordinador Logístico que programó el envío. |
+| `shipments` | `client_id` | `users` | N : 1 | Cliente de Carga destinatario del envío. |
+| `shipment_status_history` | `shipment_id`, `changed_by` | `shipments`, `users` | N : 1 | Envío cuyo estado cambió y usuario que lo cambió. |
+| `fleet_allocations` | `shipment_id` | `shipments` | 1 : 1 | Envío al que corresponde la reserva. |
+| `fleet_allocations` | `vehicle_id`, `driver_id` | `vehicles`, `drivers` | N : 1 | Unidad y conductor reservados. |
+| `shipment_monitorings` | `shipment_id` | `shipments` | 1 : 1 | Envío que se monitorea. |
+| `sensor_readings` | `monitoring_id` | `shipment_monitorings` | N : 1 | Monitoreo al que pertenece la lectura. |
+| `position_reports` | `monitoring_id` | `shipment_monitorings` | N : 1 | Monitoreo al que pertenece la posición. |
+| `alerts` | `shipment_id`, `trigger_reading_id` | `shipments`, `sensor_readings` | N : 1 | Envío afectado y lectura que originó la alerta. |
+| `corrective_actions` | `alert_id`, `registered_by` | `alerts`, `users` | N : 1 | Alerta atendida y usuario que registró la acción. |
+| `notifications` | `user_id`, `alert_id`, `shipment_id` | `users`, `alerts`, `shipments` | N : 1 | Destinatario y origen del aviso. |
+| `incidents` | `shipment_id`, `registered_by` | `shipments`, `users` | N : 1 | Envío afectado y usuario que registró la incidencia. |
+| `thermal_reports` | `shipment_id`, `generated_by` | `shipments`, `users` | N : 1 | Envío reportado y usuario que generó el documento. |
 
-El diseño prevé consultas de envíos autorizados por empresa y cliente, última lectura con su fecha, periodos de mediciones sin interpolar vacíos, alertas abiertas y reconocidas, avisos no leídos e historial con evidencia. Su ejecución y seguridad deben demostrarse en la implementación posterior; este capítulo acredita la especificación local del modelo.
+*Nota.* Elaboración propia.
+
+Con este esquema se pueden responder las consultas que las pantallas de la sección 4.4 requieren, por ejemplo: la lista de envíos activos de una empresa con su última lectura (Dashboard y Envíos), las lecturas de un envío en las últimas 12 horas (gráfico del detalle), las alertas activas de un envío (pestaña Alertas), los avisos sin leer de un usuario (campana de notificaciones) y el historial de envíos entregados de un cliente con su reporte (Historial).

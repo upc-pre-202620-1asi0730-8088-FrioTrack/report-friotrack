@@ -1,0 +1,195 @@
+@startuml
+title FríoTrack TB1 — modelo lógico del frontend local
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Inter
+skinparam linetype ortho
+hide empty members
+note as Scope
+Modelo lógico: módulos, funciones, referencias Vue y objetos JavaScript.
+AppStore, entidades e interfaz NO son clases implementadas.
+Fuente: apps/friotrack-web/src/domains/operations.js y seed.js;
+src/infrastructure/demo-repository.js. Persistencia de ejemplo sin API.
+end note
+package "Aplicación e infraestructura" {
+interface IDemoRepository <<contrato lógico>> {
+  + readData(): DemoData
+  + execute(type: String, payload: Object): Object
+  + registerSample(draft: Object): DemoProfile
+  + enterSample(id: String): void
+  + leaveSample(): void
+  + resetSamples(): void
+}
+class DemoRepository <<módulo>> {
+  - storageKey: String
+  - profileId: String?
+  - readData(): DemoData
+  - persist(next: DemoData): void
+  + execute(type: String, payload: Object): Object
+  + registerSample(draft: Object): DemoProfile
+  + enterSample(id: String): void
+  + leaveSample(): void
+  + resetSamples(): void
+}
+class AppStore <<estado reactivo lógico>> {
+  + data: Ref<DemoData>
+  + profile: ComputedRef<DemoProfile?>
+  + persistenceWarning: ComputedRef<Boolean>
+}
+class Operations <<módulo de dominio · funciones estáticas>> {
+  + {static} validateShipment(state, draft, excludeId?): Object
+  + {static} applyCommand(state, profile, command): Object
+  + {static} visibleShipments(state, profile): Shipment[]
+  + {static} canView(profile, shipment): Boolean
+  + {static} thermalStatus(shipment): ThermalStatus
+  + {static} sampleReport(state, profile, id): String
+}
+}
+package "Modelos de datos" {
+class DemoProfile <<objeto de datos>> {
+  + id: String
+  + role: UserRole
+  + name: String
+  + email: String
+  + organization: String
+}
+class Shipment <<objeto de datos>> {
+  + id: String
+  + version: Integer
+  + cargo: String
+  + origin: String
+  + destination: String
+  + weight: Number
+  + customerId: String
+  + vehicleId: String
+  + driverId: String
+  + status: ShipmentStatus
+  + departure: DateTime
+  + arrival: DateTime
+  + offline: Boolean
+  + readings: Reading[]
+  + history: HistoryEvent[]
+}
+class ThermalRange <<valor lógico · campos planos>> {
+  + minimum: Number
+  + maximum: Number
+  + humidityMinimum: Number
+  + humidityMaximum: Number
+}
+class Vehicle <<objeto de datos>> {
+  + id: String
+  + plate: String
+  + capacity: Number
+  + sensor: String
+  + enabled: Boolean
+}
+class Reading <<objeto de datos>> {
+  + at: DateTime
+  + temperature: Number
+  + humidity: Number
+  + lat: Number
+  + lng: Number
+}
+class Driver <<objeto de datos>> {
+  + id: String
+  + name: String
+  + license: String
+  + enabled: Boolean
+}
+class HistoryEvent <<objeto de datos>> {
+  + at: DateTime
+  + action: String
+  + note: String
+  + actor: String
+}
+class Alert <<objeto de datos>> {
+  + id: String
+  + shipmentId: String
+  + type: AlertType
+  + reading: Number?
+  + at: DateTime
+  + acknowledged: Boolean
+  + resolved: Boolean
+  + resolvedAt: DateTime?
+  + /status: AlertState {derivado}
+  + actions: CorrectiveAction[]
+}
+class CorrectiveAction <<objeto de datos>> {
+  + note: String
+  + at: DateTime
+  + actor: String
+}
+class Notification <<objeto de datos>> {
+  + id: String
+  + shipmentId: String
+  + type: String
+  + at: DateTime
+  + readBy: String[]
+  + recipientProfileIds: String[]?
+}
+}
+enum UserRole {
+COORDINATOR
+CARGO_CLIENT
+}
+enum ShipmentStatus {
+SCHEDULED
+IN_TRANSIT
+DELIVERED
+CANCELLED
+}
+enum ThermalStatus {
+NORMAL
+CRITICAL
+OFFLINE
+PENDING
+}
+enum AlertType {
+TEMPERATURE
+HUMIDITY
+OFFLINE
+}
+enum AlertState {
+OPEN
+ACKNOWLEDGED
+RESOLVED
+}
+DemoRepository ..|> IDemoRepository : realiza contrato lógico
+AppStore "1" --> "1" IDemoRepository : usa operaciones
+DemoRepository ..> Operations : valida comandos
+AppStore "1" o-- "0..*" Shipment : data.shipments
+AppStore "1" --> "0..1" DemoProfile : perfil activo
+Shipment "1" *-- "1" ThermalRange : configuración lógica
+Shipment "0..*" --> "1" Vehicle : vehicleId
+Shipment "0..*" --> "1" Driver : driverId
+Shipment "0..*" --> "1" DemoProfile : customerId {CARGO_CLIENT}
+Shipment "1" *-- "0..*" Reading : readings
+Shipment "1" *-- "0..*" HistoryEvent : history
+Shipment "1" -- "0..*" Alert : shipmentId
+Shipment "1" -- "0..*" Notification : shipmentId
+Alert "1" *-- "0..*" CorrectiveAction : actions
+Notification "0..*" --> "0..*" DemoProfile : destinatarios explícitos opcionales
+Shipment ..> ShipmentStatus
+DemoProfile ..> UserRole
+Operations ..> ThermalStatus
+Alert ..> AlertType
+Alert ..> AlertState
+note right of ThermalRange
+Valor lógico de campos planos de Shipment: minimum=minTemp;
+maximum=maxTemp; humidityMinimum=minHumidity;
+humidityMaximum=maxHumidity. No hay clase ThermalRange en JS.
+end note
+note right of Alert
+/status derivado: resolved → RESOLVED;
+acknowledged y no resolved → ACKNOWLEDGED; resto → OPEN.
+Una acción no resuelve. Lectura normal en ambos rangos cierra alertas.
+end note
+note bottom of DemoRepository
+readData/persist son funciones internas. El contrato es lógico;
+no hay inyección de interfaz ni métodos de instancia implementados.
+end note
+note bottom of Operations
+Funciones exportadas reales. Los enums representan conjuntos de cadenas.
+Asignaciones validan capacidad y solapamiento de unidad/conductor.
+Clientes consultan únicamente sus envíos asignados.
+end note
+@enduml

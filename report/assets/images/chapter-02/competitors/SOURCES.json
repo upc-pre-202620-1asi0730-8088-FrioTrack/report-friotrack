@@ -1,0 +1,35 @@
+[
+  {
+    "name": "tive",
+    "page": "https://www.tive.com/",
+    "assetURL": "https://cdn.prod.website-files.com/612c8ba675843d7428e67ee9/6215f88335b37238ca249625_Logotype.svg",
+    "resolvedURL": "https://cdn.prod.website-files.com/612c8ba675843d7428e67ee9/6215f88335b37238ca249625_Logotype.svg",
+    "retrievedDate": "2026-10-07",
+    "file": "report/assets/images/chapter-02/competitors/tive.svg",
+    "sha256": "543f7d5affc3a1851376c5be7f74dea6e1c5041980ea0e95c337434aa5563721",
+    "bytes": 3189,
+    "method": "Original header logo asset URL observed in official homepage HTML; bytes preserved."
+  },
+  {
+    "name": "sensitech",
+    "page": "https://www.sensitech.com/en/",
+    "assetURL": "https://images.carriercms.com/image/upload/v1626807400/common/logos-svg/sensitech-logo.svg",
+    "resolvedURL": "https://images.carriercms.com/image/upload/v1626807400/common/logos-svg/sensitech-logo.svg",
+    "retrievedDate": "2026-10-07",
+    "file": "report/assets/images/chapter-02/competitors/sensitech.svg",
+    "sha256": "cb9cd667b3a8eb76c1ecd8d97ff2af802c168c12e0401daddc08a172f5029fbe",
+    "bytes": 3275,
+    "method": "Original header logo asset URL observed in official homepage HTML; bytes preserved."
+  },
+  {
+    "name": "controlant",
+    "page": "https://www.controlant.com/",
+    "assetURL": "https://www.controlant.com/images/controlant-logo-darkmode.svg",
+    "resolvedURL": "https://www.controlant.com/images/controlant-logo-darkmode.svg",
+    "retrievedDate": "2026-10-07",
+    "file": "report/assets/images/chapter-02/competitors/controlant.svg",
+    "sha256": "5c8bead96b6ecc0d8c62e77919a7a9abe8a9703ebc46aab31bf7886cf388c7d4",
+    "bytes": 7238,
+    "method": "Original header logo asset URL observed in official homepage HTML; bytes preserved."
+  }
+]
