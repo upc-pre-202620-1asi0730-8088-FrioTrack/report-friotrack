@@ -846,7 +846,7 @@ La Landing Page incluye interacciones que los mock-ups estáticos no muestran. L
 
 *Nota.* Elaboración propia.
 
-**Verificación.** No se dispone de scripts ni resultados que respalden la afirmación histórica de “72 comprobaciones”; se retira. Las verificaciones realizadas para TB1 se registran con resultados y límites en el capítulo V y en `work/verification-results.json`. No equivalen a evaluación con usuarios ni a certificación WCAG.
+**Verificación.** No se dispone de scripts ni resultados que respalden la afirmación histórica de “72 comprobaciones”; se retira. Las verificaciones realizadas para TB1 se registran con resultados y límites en el capítulo V y en `work/verification-results.json` dentro del ZIP compartido del avance. No equivalen a evaluación con usuarios ni a certificación WCAG.
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1636,7 +1636,7 @@ El contexto recibe las lecturas y las posiciones de los sensores y las evalúa. 
 *EventStorming del contexto Monitoring & Telemetry*
 
 <p align="center">
-  <img src="assets/images/chapter-04/eventstorming-bc4-monitoring.png" alt="EventStorming del contexto Monitoring & Telemetry" width="1000"><br>
+  <img src="assets/images/chapter-04/eventstorming-bc4-monitoring-tb1.svg" alt="EventStorming del contexto Monitoring & Telemetry" width="1000"><br>
   <i>Nota.</i> Elaboración propia.
 </p>
 

@@ -1,6 +1,6 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
-Se presenta el estado comprobable de cada producto. La landing AV1 tiene una URL pública histórica; las correcciones TB1 y la aplicación Vue se preparan localmente. La API, la autenticación real, los sensores y PostgreSQL no están implementados en esta entrega. La primera API desplegada corresponde a AV2 según el statement, salvo indicación adicional del docente.
+Se presenta el estado comprobable de cada producto. La landing AV1 conserva su URL pública histórica. Las fuentes del informe, landing corregida, primera aplicación Vue y diseño de la API se publicaron en cuatro ramas de GitHub con PRs draft hacia develop. No se realizaron merges, releases ni nuevos despliegues. La API, la autenticación real, los sensores y PostgreSQL no están implementados en esta entrega. La primera API desplegada corresponde a AV2 según el statement, salvo indicación adicional del docente.
 
 ## 5.1. Software Configuration Management
 
@@ -12,7 +12,7 @@ Se presenta el estado comprobable de cada producto. La landing AV1 tiene una URL
 | Requirements Management | Markdown, catálogo JSON, Gherkin | Catálogo canónico y criterios verificables en capítulo III |
 | Product UX/UI Design | Figma, UXPressia, Miro, Structurizr/PlantUML | Material histórico y fuentes editables locales; falta actualizar herramientas compartidas y prototipos Figma |
 | Landing development | HTML5, CSS, JavaScript | Fuente estática sin compilación; i18n, planes y CTA |
-| Frontend development | Vue, JavaScript, PrimeVue, Vite, Leaflet | Primera aplicación en `apps/friotrack-web`; responsive con datos de prueba |
+| Frontend development | Vue, JavaScript, PrimeVue, Vite, Leaflet | Primera aplicación en [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application); responsive con datos de prueba |
 | Backend development | ASP.NET Core, C#, EF Core, PostgreSQL | Arquitectura propuesta para AV2; sin servidor ni base de datos funcionando |
 | Software Testing | Node test runner, navegador y build Vite | Validación del dominio de la demo y revisión de flujos; resultados en anexos de verificación |
 | Software Documentation | Markdown, PDF, OpenAPI futuro | README enlaza informe; PDF generado desde las secciones Markdown |
@@ -22,19 +22,22 @@ El repositorio demo guarda estado en localStorage, sin claves ni contraseñas. L
 
 ### 5.1.2. Source Code Management
 
-| Producto | Ubicación verificable | Estado |
-|---|---|---|
-| Organización | [BlackStartup/FríoTrack](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack) | Organización existente |
-| Informe | [report-friotrack](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack) | Fuente integrada localmente; cambios TB1 sin commit/push |
-| Landing | [friotrack-landing](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) | Correcciones en checkout local separado |
-| Frontend | `apps/friotrack-web` dentro de report-friotrack | No existía otro repositorio. Pendiente crear repositorio de producto y publicar cambios reales |
-| Web Services | No existe repositorio proporcionado | Pendiente AV2; no se inventa URL |
+Los cuatro repositorios son públicos dentro de [BlackStartup/FríoTrack](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack). Las ramas de esta integración contienen el avance revisable; `main` conserva el estado anterior. Los repositorios nuevos de frontend y API tienen un `develop` inicial basado en su commit de creación.
 
-**GitFlow propuesto para el trabajo nuevo.** `main` conserva entregas estables; `develop` integra trabajo revisado; `feature/<scope>-<action>` nace de develop; `release/<major.minor.patch>` prepara una entrega y vuelve a main y develop; `hotfix/<major.minor.patch>-<issue>` nace de main y vuelve a ambas. El historial actual incluye ramas/merges reales, pero no se afirma que todas las revisiones hayan tenido aprobación cruzada. No se reescribe el historial para mejorar una calificación.
+| Repositorio / fuente publicada | Rama | Pull request | Estado al registrar |
+|---|---|---|---|
+| [report-friotrack](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/tree/feature/tb1-report-corrections) | `feature/tb1-report-corrections` | [PR #12](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/pull/12) | Draft hacia `develop`; sin merge |
+| [friotrack-landing](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/tree/feature/tb1-landing-corrections) | `feature/tb1-landing-corrections` | [PR #7](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/pull/7) | Draft hacia `develop`; sin merge |
+| [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application) | `feature/tb1-frontend-application` | [PR #1](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/pull/1) | Draft hacia `develop`; sin merge |
+| [friotrack-api](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/tree/feature/av2-api-design) | `feature/av2-api-design` | [PR #1](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/pull/1) | Draft hacia `develop`; sin merge |
 
-**Conventional Commits:** `type(scope): imperative English description`; tipos feat/fix/docs/test/refactor/build/chore. El cuerpo explica cambio y motivo; BREAKING CHANGE describe incompatibilidades. Ejemplos para commits futuros, no evidencias: `feat(shipments): add scheduling demo`, `fix(landing): preserve contact failures`, `docs(tb1): reconcile requirement IDs`. El equipo realizará commits y PRs según contribuciones reales.
+**GitFlow aplicado a la integración.** Las cuatro ramas `feature/` parten de `develop` y sus PRs apuntan a `develop`. Se conservaron los historiales de AV1 y las ramas principales. Los cuatro PRs permanecen draft, sin merge ni aprobación cruzada registrada. `main` conserva versiones estables; `release/<major.minor.patch>` y `hotfix/<major.minor.patch>-<issue>` son convenciones para futuras entregas, no ramas ni releases creados por esta publicación.
+
+**Conventional Commits aplicados:** `type(scope): imperative English description`, con cuerpo en inglés que explica cambio y motivo. Los diez mensajes/cuerpos exactos están en 5.2.2.4. Los tipos usados son docs, fix, chore y feat; test/refactor/build están disponibles cuando el cambio corresponda. No se alteraron autores históricos ni se generaron commits para igualar cifras.
 
 **SemVer:** MAJOR para cambios incompatibles, MINOR para funcionalidad compatible, PATCH para correcciones. La primera aplicación se identifica como versión de desarrollo `0.1.0`; no se declara una etiqueta release publicada. Landing e informe pueden tener versiones distintas; una etiqueta no demuestra despliegue.
+
+La fuente publicada no sustituye un despliegue. AWS/Azure, la API ejecutable, la base de datos y las revisiones del resto del equipo siguen pendientes. El [registro de integración](GITHUB_TB1_INTEGRATION.md) explica el corte de evidencia.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -111,7 +114,7 @@ Se verificó el repositorio real `friotrack-landing`, sustituyendo nombres ajeno
 | friotrack-landing | Historial alcanzable | c64f54f | Merge pull request #2 from .../feature/landing-page | No cuerpo adicional citado | 2026-09-19 |
 | friotrack-landing | Historial alcanzable | 4b602ba | docs: actualizar el README con el nuevo diseño y la estructura de archivos | No cuerpo adicional citado | 2026-09-19 |
 
-Las correcciones TB1 son cambios locales sin commit; no se insertan hashes ficticios. El historial de merges no prueba por sí solo quién implementó cada archivo ni cuántas aprobaciones hubo.
+Las correcciones TB1 ya tienen commits publicados y cuatro PRs draft, detallados en 5.2.2.4; el corte de Sprint 1 anterior conserva su carácter histórico. El historial de merges no prueba por sí solo quién implementó cada archivo ni cuántas aprobaciones hubo.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -210,12 +213,29 @@ Suma propuesta: **55 SP**, calculada una sola vez por historia, sin duplicar pun
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-| Repository / location | Branch | Commit ID | Commit Message / Body | Date | Historias |
-|---|---|---|---|---|---|
-| apps/friotrack-web, en checkout report-friotrack | Rama local existente | Sin commit nuevo | Cambios locales sin commit nuevo, mensaje ni cuerpo registrados | Revisión 06–07/10/2026 | Selección propuesta arriba |
-| friotrack-landing, checkout local | Rama local existente | Sin commit nuevo | CTA por rol, i18n y errores de contacto | Revisión 06–07/10/2026 | US01/03/30/31 |
+Corte de evidencia: diez commits de integración publicados el 07/10/2026; las fechas siguientes son las fechas ISO 8601 reales de Git, no fechas de revisión. Autor de los diez commits: **Alexander Sebastián Atauje Barreto**, correo vinculado `300703256+Alexander1Alexander2@users.noreply.github.com`. La publicación se realizó con la cuenta autorizada `Alexander1Alexander2`.
 
-No se usa la fecha de revisión como fecha de commit. La creación del repositorio de frontend, commits con autores reales, PRs y revisión cruzada está pendiente; se proporciona código revisable antes de publicar.
+| Repository | Branch | Commit ID | Commit Message / Body (English, exact) | Date (ISO 8601) |
+|---|---|---|---|---|
+| report-friotrack | `feature/tb1-report-corrections` | [f464354a8be8](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/commit/f464354a8be8a8599aff78046737dbf35d4debc0) | **docs(history): preserve AV1 sources and exclude local artifacts**<br>Archive the inherited AV1 chapter III and retain earlier source snapshots while excluding private configuration and generated workspace files. | 2026-10-07T19:32:14-05:00 |
+| report-friotrack | `feature/tb1-report-corrections` | [77339d1d1ddf](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/commit/77339d1d1ddff1cc9fa9163469339afee815b893) | **docs(requirements): reconcile TB1 research scope and backlog**<br>Align target segments, interview instruments, canonical stories and sprint criteria with the statement and teacher feedback. Keep unperformed research and team decisions pending. | 2026-10-07T19:32:14-05:00 |
+| report-friotrack | `feature/tb1-report-corrections` | [8a1762e73bfe](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/commit/8a1762e73bfe8041a875d54e7faa8512ca8150db) | **docs(architecture): align frontend and planned backend designs**<br>Document the Vue frontend and planned ASP.NET Core domain model with editable diagrams. Preserve historical assets and distinguish design from executable backend functionality. | 2026-10-07T19:32:15-05:00 |
+| report-friotrack | `feature/tb1-report-corrections` | [a581e2b2eace](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/commit/a581e2b2eaceed9a36b95582239fc453f8415191) | **docs(tb1): add implementation evidence and delivery guidance**<br>Document the local frontend, landing corrections, observed checks and delivery artifacts. Keep cloud hosting, interviews and group evidence explicitly pending. | 2026-10-07T19:32:49-05:00 |
+| friotrack-landing | `feature/tb1-landing-corrections` | [e1c0d416fe18](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/commit/e1c0d416fe18283e5b4938b5d621be0b81025624) | **fix(landing): align bilingual entry and contact workflows**<br>Default new visitors to English, route role CTAs to the local Vue sample and preserve failed contact requests. Add the supplied team photos without claiming message delivery or a new deployment. | 2026-10-07T19:32:49-05:00 |
+| friotrack-landing | `feature/tb1-landing-corrections` | [7c7a4ea2badd](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/commit/7c7a4ea2badd215e4749dc85e7938d9bd8ab07b2) | **docs(landing): document TB1 source integration and limits**<br>Explain standalone frontend setup, centralized configuration and actual contact behavior. Preserve the historical Pages reference and document the pending AWS or Azure deployment. | 2026-10-07T19:32:50-05:00 |
+| friotrack-frontend | `feature/tb1-frontend-application` | [47de7fabc006](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/commit/47de7fabc006d426ce94e4a1df788c6deb4aa773) | **chore(project): configure standalone Vue frontend tooling**<br>Configure Vue, PrimeVue and Vite with the dependency lockfile, portable environment example and exclusions for dependencies, builds and private settings. | 2026-10-07T19:32:50-05:00 |
+| friotrack-frontend | `feature/tb1-frontend-application` | [473d5c1b04c4](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/commit/473d5c1b04c405d96f0ed4dcd06bb56475a9f252) | **feat(operations): add TB1 sample shipment workspace**<br>Implement local shipment planning, lifecycle, monitoring, fleet, client views and bilingual navigation. Include domain tests for ownership, resource allocation and lifecycle invariants; the adapter remains a local sample. | 2026-10-07T19:33:08-05:00 |
+| friotrack-frontend | `feature/tb1-frontend-application` | [eeac3703f79d](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/commit/eeac3703f79d1a5c087fcb6e51c7da8ebe117b3b) | **docs(frontend): document setup validation and cloud limits**<br>Describe portable setup, the verified standalone build and domain tests, sample-data behavior and known constraints. Keep real authentication, backend integration and AWS or Azure hosting pending. | 2026-10-07T19:33:08-05:00 |
+| friotrack-api | `feature/av2-api-design` | [05d95306d58e](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/commit/05d95306d58e41c09c96313aa760c659ce6f5e10) | **docs(api): prepare AV2 scope and domain design**<br>Document the planned ASP.NET Core, C# and EF Core service with the existing editable domain designs. No executable API, database, endpoints, authentication, migrations or passing API tests are claimed. | 2026-10-07T19:33:09-05:00 |
+
+| Repositorio / fuente publicada | Rama | Pull request | Estado al registrar |
+|---|---|---|---|
+| [report-friotrack](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/tree/feature/tb1-report-corrections) | `feature/tb1-report-corrections` | [PR #12](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/pull/12) | Draft hacia `develop`; sin merge |
+| [friotrack-landing](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/tree/feature/tb1-landing-corrections) | `feature/tb1-landing-corrections` | [PR #7](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/pull/7) | Draft hacia `develop`; sin merge |
+| [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application) | `feature/tb1-frontend-application` | [PR #1](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/pull/1) | Draft hacia `develop`; sin merge |
+| [friotrack-api](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/tree/feature/av2-api-design) | `feature/av2-api-design` | [PR #1](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/pull/1) | Draft hacia `develop`; sin merge |
+
+Este registro documenta los diez commits iniciales antes de la actualización documental que incorpora sus enlaces; no anticipa el hash de esa actualización. Los PRs son draft y no se han fusionado. Solo se acredita la integración publicada bajo la identidad Git indicada: siguen pendientes las contribuciones y revisiones sustantivas de los otros cuatro integrantes, los analytics y el board. No se atribuye a los compañeros la autoría de estos commits ni se igualan sus cantidades. La API aporta diseño previsto para AV2, no implementación ni Story Points de frontend terminados.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -277,13 +297,13 @@ La landing muestra las cinco fotografías al recorrer la sección del equipo. Su
 
 Se calcularon tres muestras de contraste del detalle del frontend a partir de colores efectivos leídos del DOM: título 17,06:1, descripción 4,55:1 y control CSV 5,58:1. Cumplen el umbral de 4,5:1 para esas combinaciones; no cubren todos los colores, estados ni fondos de ambos productos. La fuente incluye reglas y guardas para `prefers-reduced-motion`; la preferencia del navegador observado estaba desactivada, por lo que no se declara una prueba funcional con ella activada.
 
-Las fuentes de verificación son `apps/friotrack-web/tests/operations.test.js`, `apps/friotrack-web/verification.json`, `work/verify_sources.py`, `work/verify_landing.mjs`, `work/verify_frontend_i18n.mjs` y `work/verification-results.json`. Estos resultados **no prueban** autenticación, API, persistencia compartida, exactitud de sensores ni cumplimiento integral de accesibilidad.
+Las pruebas publicadas están en [tests/operations.test.js](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/blob/feature/tb1-frontend-application/tests/operations.test.js). El ZIP compartido contiene la verificación local original en `apps/friotrack-web/verification.json`, los scripts `work/verify_sources.py`, `work/verify_landing.mjs`, `work/verify_frontend_i18n.mjs` y el recibo `work/verification-results.json`; las carpetas work/outputs no forman parte de los repositorios Git. Estos resultados **no prueban** autenticación, API, persistencia compartida, exactitud de sensores ni cumplimiento integral de accesibilidad.
 
 **Video local de ejecución · 07/10/2026**
 
 Se preparó un MP4 silencioso de **4 minutos y 46 segundos**, mediante 152 capturas muestreadas del navegador durante un recorrido real, conservando el tiempo transcurrido entre capturas. Se muestran los cuatro pasos de programación de FT-0006, validación de rangos, inicio del viaje de ejemplo, lectura manual de 8 °C, acción correctiva sin cierre prematuro, lectura normal de 4 °C / 87 %, consulta del cliente asignado, inglés/español y detalle móvil. Es una grabación de pantalla muestreada; los intervalos sin captura mantienen el último fotograma. Los datos, perfiles y lecturas son muestras locales.
 
-Archivo del paquete: `outputs/upc-pre-202620-1asi0730-8088-blackstartup-productnavigation-sprint-2.mp4`. La verificación técnica se registra en `work/product-video-verification.json`. No tiene narración, cámaras del equipo ni URL de Stream. Falta revisar el guion con el equipo y completar narración/publicación cuando corresponda. Este video no sustituye las entrevistas, el video del prototipo ni la exposición con todos los integrantes.
+Archivo del ZIP compartido: `outputs/upc-pre-202620-1asi0730-8088-blackstartup-productnavigation-sprint-2.mp4`. La verificación técnica se registra en `work/product-video-verification.json` dentro del mismo ZIP. No tiene narración, cámaras del equipo ni URL de Stream. Falta revisar el guion con el equipo y completar narración/publicación cuando corresponda. Este video no sustituye las entrevistas, el video del prototipo ni la exposición con todos los integrantes.
 
 ![Captura del envío FT-0006 al terminar el recorrido grabado](assets/images/chapter-05/tb1-product-video.jpg)
 
@@ -296,14 +316,14 @@ No hay Web Services internos implementados en Sprint2. El cliente usa LocalDemoR
 | Producto | URL/ubicación | Estado TB1 |
 |---|---|---|
 | Landing AV1 | URL GitHub Pages de 5.2.1.7 | Histórica publicada |
-| Landing corregida | Checkout friotrack-landing; puerto local 4175 | Preparada localmente; publicación pendiente |
-| Primera aplicación frontend | apps/friotrack-web; puerto local 5173 o preview 4173 | Fuente/build local; destino final AWS o Azure, pendiente de cuenta, repositorio público y URL verificada |
+| Landing corregida | [Fuente publicada](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/tree/feature/tb1-landing-corrections); revisión local 4175 | PR draft; nuevo despliegue pendiente, Pages AV1 no actualizado |
+| Primera aplicación frontend | [Fuente publicada](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application); puerto local 5173 o preview 4173 | PR draft y build local; AWS o Azure pendiente de cuenta, publicación y URL verificada |
 | API / PostgreSQL | Sin URL ni servicio | No aplicable como primera entrega desplegada hasta AV2 |
 
 El frontend de TB1 se desplegará en AWS o Azure, según el requisito del equipo. La preparación continúa localmente mientras se crea la cuenta. Después se publicará el contenido compilado de dist, se actualizará frontendBaseUrl en assets/js/config.js de la landing y se comprobarán la URL HTTPS, rutas y CTA de ambos perfiles e idiomas. Los datos de ejemplo de localStorage pertenecen a cada origen y no se trasladan automáticamente a la URL cloud. La evidencia de despliegue se incorporará tras verificar la publicación efectiva.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Las contribuciones individuales de TB1 están pendientes de documentar. Cada integrante debe registrar sus tareas, resultados, commits y revisiones correspondientes, participar en la exposición y aportar las evidencias necesarias para que el Team Leader evalúe su desempeño. Student Outcome y Performance Report se completarán con esos registros.
+La integración de diez commits bajo la identidad Git de Alexander está documentada en 5.2.2.4. Las demás contribuciones individuales y revisiones de TB1 están pendientes de documentar. Cada integrante debe registrar sus tareas, resultados, commits y revisiones correspondientes, participar en la exposición y aportar las evidencias necesarias para que el Team Leader evalúe su desempeño. Student Outcome y Performance Report se completarán con esos registros.
 
 La evidencia que debe incorporarse incluye los analytics del repositorio de cada producto, periodo/ramas de conteo, tareas cerradas, PRs revisados y conclusiones grupales basadas en hechos. No se fabrican commits para equilibrar cifras.

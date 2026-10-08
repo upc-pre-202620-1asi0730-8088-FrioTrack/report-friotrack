@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-10-08T02:05:15.035251+00:00",
+  "reportArtifact": "outputs/upc-pre-202620-1asi0730-8088-blackstartup-report-tb1.pdf in the shared delivery ZIP",
+  "pdfSha256": "94fe8d0099e3aa7cb4b7b141865c7b66fffe83f66ac430bf4aa13ebd5371a6ab",
+  "pages": 211,
+  "images": 172,
+  "tables": 82,
+  "checkedTableCells": 3063,
+  "localSourceReferences": 591,
+  "markdownAnchors": 377,
+  "automaticFindings": 0,
+  "unresolvedVisualFindings": 0,
+  "allPagesInspectedAtContactSheetScale": true,
+  "sourceSha256": {
+    "report/00-frontmatter.md": "951e547d38c84311bd7c8deae97a665a096b3447e01dd29e30423119407655d9",
+    "report/01-student-outcome.md": "c821993d53e6f4f44d61cec2b5a302de6b4a7b49dd15e9d821b9534304242e16",
+    "report/11-chapter1-introduction.md": "03548e517c4d32d8056082d589f3be754d3832773823d43234b7b7ae786da788",
+    "report/12-chapter2-requirements.md": "70a3491a73a7d6e47e42ffebfd4c607cc246831b853c9e28c836ff18c84aff54",
+    "report/13-chapter3-requirements-spec.md": "03f86036866198688315e7b9f521f9bd7d9c96bc79f089b144a78e65c7b5bdd3",
+    "report/14-chapter4-product-design.md": "ee7713a6e7478191150930d4e0e02c20b58288439110e35cd4cb446f9292724e",
+    "report/15-chapter5-product-impl.md": "d856491c23116c62b36256e270e83572fed0ac2350569414b42ad15f23a4b381",
+    "report/16-backmatter.md": "366e75a80347f1f5b8960c6d29acadb67278305ddc01b9618f59d89825f736ff"
+  },
+  "scope": "Export layout and source consistency only. Draft PRs and local frontend checks do not establish team interviews, shared UX decisions, real authentication, backend execution or AWS/Azure hosting."
+}

@@ -83,6 +83,7 @@ Fechas de revisión: 06–07/10/2026. Fecha y hora de entrega: pendiente de conf
 | AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
 | AV1 | 19/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Product Backlog |
 | TB1 · borrador | 06–07/10/2026 | Revisión técnica; pendiente de validación del equipo | Integración del capítulo III y Student Outcome; corrección del dominio, investigación, arquitectura y sprints; primera aplicación Vue local, pruebas y capturas de ejecución; preparación de entregables. No acredita nuevas contribuciones individuales del equipo. |
+| TB1 · integración de fuentes | 07/10/2026 | Atauje Barreto, Alexander Sebastián | Diez commits de integración publicados en cuatro ramas de producto y cuatro PRs draft hacia develop. Sin merges, release ni nuevo despliegue. La evidencia del grupo sigue pendiente. |
 
 </div>
 
@@ -102,7 +103,7 @@ Fechas de revisión: 06–07/10/2026. Fecha y hora de entrega: pendiente de conf
 
 AV1 reportó trabajo en los capítulos I a V. La revisión constató que el capítulo III y Student Outcome no estaban integrados en la rama principal. TB1 incorpora esos archivos y corrige inconsistencias; las entrevistas del dominio de transporte, los artefactos en herramientas solicitadas y las evidencias del equipo conservan estado pendiente cuando falta respaldo.
 
-Debido a que se manejan dos repositorios dentro de la organización, uno para el reporte y otro para el despliegue de la Landing Page, con el fin de aplicar correctamente el flujo de trabajo GitFlow, se presenta a continuación la actividad de commits del repositorio principal del reporte.
+La organización dispone ahora de cuatro repositorios: informe, landing, frontend y API prevista. A continuación se conserva el corte histórico AV1 del reporte; el registro de integración TB1 de los cuatro productos se presenta en el capítulo V.
 
 Link de la organización: https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack
 
@@ -124,7 +125,7 @@ Durante este avance del trabajo, se desarrollaron los siguientes puntos del repo
 
 ## Commits verificados de la versión integrada
 
-Se cuenta el historial alcanzable desde `HEAD = 3a9a17fcac89bb84e8b86b11fed4d186080dd076`, con fecha de último commit 20/09/2026, incluyendo merges. Comando reproducible: `git shortlog -sn HEAD`. El nombre de autor se relaciona con el integrante; no se mezclan ramas no integradas ni repositorios. La captura AV1 se conserva como antecedente y no acredita los cambios locales de TB1.
+Se cuenta el historial alcanzable desde `HEAD = 3a9a17fcac89bb84e8b86b11fed4d186080dd076`, con fecha de último commit 20/09/2026, incluyendo merges. Comando reproducible para ese corte AV1: `git shortlog -sn 3a9a17fcac89bb84e8b86b11fed4d186080dd076`. El nombre de autor se relaciona con el integrante; no se mezclan ramas no integradas ni repositorios. La captura AV1 se conserva como antecedente y no acredita los diez commits de integración TB1 del capítulo V.
 
 | Integrante | Autor Git observado | Commits alcanzables desde HEAD |
 |---|---|---:|
@@ -135,7 +136,7 @@ Se cuenta el historial alcanzable desde `HEAD = 3a9a17fcac89bb84e8b86b11fed4d186
 | Nayely Vera | Macaxprogram29 | 5 |
 | **Total** | Incluye merges | **99** |
 
-Las cifras históricas 109/113 no correspondían a un criterio documentado y se sustituyen por este conteo reproducible. La cantidad de commits no demuestra calidad, liderazgo o cumplimiento de responsabilidades. Los cambios de esta revisión permanecen sin commit; no se atribuyen como aportes individuales de TB1.
+Las cifras históricas 109/113 no correspondían a un criterio documentado y se sustituyen por este conteo reproducible del historial AV1. La cantidad de commits no demuestra calidad, liderazgo o cumplimiento de responsabilidades. Los diez commits de integración TB1 publicados se registran en el capítulo V con Alexander Sebastián Atauje Barreto como autor Git; no acreditan contribuciones de los otros integrantes.
 
 El código de Nayely aparece como `u20231H17` en el texto y `u20231h171` en el nombre de la foto. Se conserva el texto original hasta confirmarlo en el registro académico.
 
@@ -342,6 +343,6 @@ Repositorio de GitHub: [Proyecto](https://github.com/upc-pre-202620-1asi0730-808
 
 ## Revisión y ejecución local TB1
 
-El frontend Vue/PrimeVue está en [apps/friotrack-web](apps/friotrack-web/README.md). Los datos y perfiles son demostrativos; la API y el despliegue están pendientes. La [checklist](report/TB1_CHECKLIST.md) y la [guía de grabaciones/entrega](report/TB1_DELIVERY_GUIDE.md) describen lo que falta con su fuente.
+El frontend Vue/PrimeVue está publicado como fuente en [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application); clonar ese repositorio y ejecutar `npm ci`, `npm run dev`, `npm test` y `npm run build` desde su raíz. Los datos y perfiles son demostrativos; la API ejecutable y el despliegue AWS/Azure están pendientes. La [integración GitHub](report/GITHUB_TB1_INTEGRATION.md), la [checklist](report/TB1_CHECKLIST.md) y la [guía de grabaciones/entrega](report/TB1_DELIVERY_GUIDE.md) describen el avance y lo que falta.
 
-Los entregables revisables están en `outputs/`. Para generar el informe desde Markdown se incluye `work/report-export/build_report.py --chrome` (requiere Pandoc, Python y Chrome; las rutas del runtime se configuran en el script). La [fuente AV1 archivada](report/archive/) preserva declaraciones históricas; la colaboración de TB1 debe documentarse con tareas y resultados verificables.
+El ZIP compartido del avance contiene los entregables revisables en `outputs/` y los scripts/recibos locales en `work/`, incluido `work/report-export/build_report.py --chrome` (requiere Pandoc, Python y Chrome). Esas carpetas no se publican en este repositorio Git. La [fuente AV1 archivada](report/archive/) preserva declaraciones históricas; la colaboración de TB1 debe documentarse con tareas y resultados verificables.

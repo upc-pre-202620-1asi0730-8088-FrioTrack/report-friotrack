@@ -76,14 +76,14 @@ El Anexo B del statement requiere Word y PDF, preparados por Team Leader, con ca
 
 | Producto | Fuente | Estado |
 |---|---|---|
-| Informe | [Repositorio existente](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack) | Correcciones locales sin push |
-| Landing | [Repositorio existente](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing) | Fuente local modificada |
-| Frontend | `apps/friotrack-web` | Fuente local; repositorio público propio pendiente |
-| API | Sin repositorio proporcionado | Pendiente AV2 |
+| Informe | [report-friotrack](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/tree/feature/tb1-report-corrections) | [PR draft #12](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/report-friotrack/pull/12), base develop; Fuente publicada; sin nuevo despliegue |
+| Landing | [friotrack-landing](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/tree/feature/tb1-landing-corrections) | [PR draft #7](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/pull/7), base develop; Fuente publicada; sin nuevo despliegue |
+| Frontend | [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application) | [PR draft #1](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/pull/1), base develop; Fuente publicada; sin nuevo despliegue |
+| API | [friotrack-api](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/tree/feature/av2-api-design) | [PR draft #1](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-api/pull/1), base develop; Diseño AV2; sin API ejecutable |
 
 ## Anexo C. Despliegues
 
-La [landing publicada AV1](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/) se conserva. Los puertos locales 4175 (landing), 5173 (Vite dev) y 4173 (preview) son revisión local, no URLs públicas. La publicación de las correcciones y primera aplicación está pendiente.
+La [landing publicada AV1](https://upc-pre-202620-1asi0730-8088-friotrack.github.io/friotrack-landing/) se conserva. Los puertos locales 4175 (landing), 5173 (Vite dev) y 4173 (preview) son revisión local, no URLs públicas. Las fuentes de las correcciones y primera aplicación están publicadas en ramas con PRs draft; sus nuevos despliegues siguen pendientes, incluido AWS/Azure para el frontend.
 
 ## Anexo D. Tableros y artefactos compartidos
 
@@ -104,4 +104,4 @@ La checklist operativa se mantiene en [TB1_CHECKLIST.md](TB1_CHECKLIST.md). Dist
 
 ## Anexo G. Verificación de la versión local
 
-Los resultados automáticos y de navegador están en `work/verification-results.json`; las fuentes y capturas de ejecución se describen en Sprint2. La revisión no prueba integración API, seguridad servidor, exactitud de sensores, entrevistas o colaboración humana. Los archivos del paquete y sus hashes quedan en `outputs/DELIVERY_MANIFEST.json`.
+Los resultados automáticos y de navegador están en `work/verification-results.json` dentro del ZIP compartido; las fuentes y capturas de ejecución se describen en Sprint2. La revisión no prueba integración API, seguridad servidor, exactitud de sensores, entrevistas o colaboración humana. Los archivos del paquete y sus hashes quedan en `outputs/DELIVERY_MANIFEST.json` del mismo ZIP, no en una carpeta outputs publicada en Git.

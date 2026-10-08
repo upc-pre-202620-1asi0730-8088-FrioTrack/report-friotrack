@@ -58,7 +58,7 @@ Revisión local: **06–07/10/2026**. Archivo y formato pueden estar completados
 
 | ID | Ítem | Fuente | Estado | Evidencia / trabajo restante |
 | :--- | :--- | :--- | :--- | :--- |
-| W01 | Primera versión de frontend Vue, JavaScript y PrimeVue | S; U | Completado | Primera versión LOCAL Vue/JavaScript/PrimeVue en apps/friotrack-web; 15/15 pruebas y build Vite 7.3.7, 223 módulos, sin advertencias. Publicación separada en W08. |
+| W01 | Primera versión de frontend Vue, JavaScript y PrimeVue | S; U | Completado | Primera versión Vue/JavaScript/PrimeVue en [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application); 15/15 pruebas y build Vite 7.3.7, 223 módulos, sin advertencias. Fuente publicada con PR draft; despliegue separado en W08. |
 | W02 | Flujos core implementados y datos de demostración identificados | S; U | Completado | Programar en cuatro pasos, consultar muestras/mapa, reconocer alerta y consultar envíos del cliente verificados; roles locales, datos de ejemplo y límites visibles. |
 | W03 | Inglés por defecto y español latinoamericano | S; U | Completado | Inglés inicial sin preferencia; es-419, mensajes/controles PrimeVue/Leaflet y query lang verificados. 234 claves frontend por idioma sin faltantes; atributos landing revisados. |
 | W04 | Responsive y accesibilidad, incluidos keyboard/focus/formularios | S; U | Parcial | Escritorio 1280 px y móvil 390×844, foco, errores, Escape y navegación móvil verificados; tabla desplaza dentro del contenedor. Tres contrastes frontend ≥4,5:1; fuente contempla reducción de movimiento, sin probar la preferencia activada. Falta evaluación completa y cobertura adicional; no auditoría WCAG. |
@@ -77,19 +77,19 @@ Revisión local: **06–07/10/2026**. Archivo y formato pueden estar completados
 | S03 | 5.2.2.1 Sprint Planning 2 | S p. 32 | Parcial | Fecha, hora, lugar, participantes, review/retrospective, goal y velocity reales pendientes de equipo. |
 | S04 | 5.2.2.2 Aspect Leaders and Collaborators | S p. 32 | Parcial | Matriz requiere responsables reales y correspondencia con tareas. |
 | S05 | 5.2.2.3 Sprint Backlog 2 | S p. 32 | Parcial | Historias, tareas, horas, responsables, estados y board público verificable. |
-| S06 | 5.2.2.4 Development Evidence | S p. 32 | Parcial | Commits reales de cada repositorio con rama, hash, mensaje, cuerpo y fecha; no hay nuevos commits atribuibles al equipo por crear archivos locales. |
+| S06 | 5.2.2.4 Development Evidence | S p. 32 | Parcial | Diez commits iniciales reales de integración publicados, con rama, hash, mensaje/cuerpo inglés y fecha ISO en 5.2.2.4; cuatro PRs draft hacia develop. Autor Git: Alexander. Faltan contribuciones reales de los demás integrantes, revisión cruzada y analytics. |
 | S07 | 5.2.2.5 Execution Evidence | S p. 32 | Parcial | Capturas reales y MP4 silencioso de pantalla muestreada (4:46) de un recorrido local. Falta revisión/narración del equipo y URL en Stream. |
 | S08 | 5.2.2.6 Services Documentation Evidence | S p. 32 | Completado | 5.2.2.6 explica LocalDemoRepository y teselas OSM; API interna no desarrollada, TS son contratos futuros AV2. No endpoints ni Swagger inventados. |
 | S09 | 5.2.2.7 Software Deployment Evidence | S p. 32 | Pendiente | Pasos y capturas de publicación efectiva; URLs y versión verificadas. |
 | S10 | 5.2.2.8 Team Collaboration Insights | S p. 32; P | Parcial | Aportes reales de todos, periodo y método de conteo definidos; commits similares requieren trabajo sustantivo del equipo. |
-| S11 | Configuración, repositorios, GitFlow, SemVer y convenciones | S; U | Parcial | Configuración/README local, lockfile, GitFlow propuesto, SemVer 0.1.0 y convenciones Vue/JS/C#/Gherkin corregidas. Repositorio público propio frontend y API pendientes. |
-| S12 | Conservación de evidencias de AV1 y nombres de repositorio correctos | U | Completado | Fuentes y capturas AV1 archivadas e identificadas; repo correcto friotrack-landing; cambios locales sin hashes/atribuciones ficticios. |
+| S11 | Configuración, repositorios, GitFlow, SemVer y convenciones | S; U | Completado | Cuatro repositorios públicos separados; feature desde develop y cuatro PRs draft hacia develop, main conservado. Configuración portable, lockfile, SemVer de desarrollo 0.1.0 y mensajes/cuerpos ingleses Conventional Commits verificables. No hay release ni despliegue creado; revisiones del equipo pendientes en S06/S10. |
+| S12 | Conservación de evidencias de AV1 y nombres de repositorio correctos | U | Completado | Fuentes y capturas AV1 preservadas, incluido capítulo III heredado de develop; nombres de los cuatro repositorios correctos. Diez commits publicados con autor verificado, sin autores ficticios ni alteración del historial. |
 
 ## 6. Archivos, videos y entrega
 
 | ID | Ítem | Fuente | Estado | Evidencia / trabajo restante |
 | :--- | :--- | :--- | :--- | :--- |
-| E01 | Informe acumulativo PDF verificado | S pp. 2–4, 32 | Completado | PDF de 209 páginas, 172 imágenes y 81 tablas; hashes, enlaces y disposición revisados sin incidencias. El contenido sigue siendo borrador revisable por pendientes humanos/externos. |
+| E01 | Informe acumulativo PDF verificado | S pp. 2–4, 32 | Completado | PDF de 211 páginas, 172 imágenes y 82 tablas, regenerado tras incorporar los PR y commits reales; hashes, enlaces y disposición revisados sin incidencias. Borrador revisable por pendientes humanos/externos. |
 | E02 | PowerPoint y PDF con fotos, nombres y carrera | S p. 4 | Completado | 12 diapositivas revisadas, cinco fotos/nombres/carrera, siete capturas reales y notas; PPTX validado y PDF comparado con los renders. Es material preparado para completar la sustentación del equipo. |
 | E03 | Participant Performance Report Word y PDF | S p. 4; Anexo B | Parcial | DOCX editable con Alexander como líder y PDF de dos páginas revisadas. PDF compuesto desde los datos del DOCX; no es render Word. Verificar diseño nativo del DOCX al abrirlo y completar responsabilidades/evidencias/notas 20 / 16 / 13 / 07 / 00. Un borrador no es evaluación realizada. |
 | E04 | Exposición pregrabada ≤ 30 minutos con todos ante cámara | S pp. 2–3 | Pendiente | Grabación real, montaje MP4 y URL privada de Stream. |
@@ -98,7 +98,7 @@ Revisión local: **06–07/10/2026**. Archivo y formato pueden estar completados
 | E07 | Nomenclatura consistente con startup BlackStartup | S p. 3; U | Completado | Nombres finales usan blackstartup consistentemente; no se genera MP4 vacío para simular exposición. |
 | E08 | Guion de sustentación de 12 minutos | S pp. 3–4; R | Completado | TB1_DELIVERY_GUIDE.md: 1 min introducción, 2 correcciones, 6 demo, 3 colaboración. Ensayo y reparto reales pendientes. |
 | E09 | Fecha límite calculada desde horario real | S p. 3 | Parcial | El equipo confirmó sábado 09:00–11:00 (Lima); el límite semanal es viernes 09:00. Falta confirmar la semana asignada a TB1. |
-| E10 | Autorización para push, despliegue y publicación externa | U | Pendiente | Mostrar resultado local revisable y solicitar aprobación final de la acción externa. |
+| E10 | Autorización para push, despliegue y publicación externa | U | Parcial | Push de fuentes y cuatro PRs draft realizados con autorización del usuario. Merges, releases y despliegues no autorizados ni realizados; AWS/Azure sigue pendiente de cuenta y autorización de despliegue. |
 
 ## 7. Entregables ubicados explícitamente en AV2
 
@@ -115,6 +115,6 @@ Revisión local: **06–07/10/2026**. Archivo y formato pueden estar completados
 2. Grabación y edición de videos por el equipo; enlaces y permisos de Stream.
 3. Reconstrucción y exportación de artefactos actuales en UXPressia y Figma; boards reales de Trello con acceso verificable.
 4. Planificación, responsables, colaboración y calificaciones reales del Team Leader.
-5. Confirmar la semana asignada a TB1 (segunda sesión: sábado 09:00–11:00; límite semanal: viernes 09:00) y autorizar la publicación. Después de desplegar se incorporan URLs y capturas reales.
+5. Confirmar la semana asignada a TB1 (segunda sesión: sábado 09:00–11:00; límite semanal: viernes 09:00) y autorizar el despliegue cloud cuando exista la cuenta AWS/Azure. El push de fuentes y los PRs ya están realizados. Después de desplegar se incorporan URLs y capturas reales.
 
 Los ajustes de documentación, las propuestas de diseño y un producto de demostración local pueden completarse sin esos datos, pero no cierran los requisitos de investigación, colaboración y despliegue. Consultar [Guía de entrega](TB1_DELIVERY_GUIDE.md) y [Kit de entrevistas](research-interview-kit.md).

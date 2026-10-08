@@ -15,8 +15,8 @@ La entrega TB1 se realiza **24 horas antes del inicio de la segunda sesión sinc
 | Producto | Ubicación / estado que debe comprobarse | Evidencia de entrega |
 | :--- | :--- | :--- |
 | Informe | README.md y report/ del repositorio report-friotrack. | PDF generado del contenido acumulativo y verificado visualmente. |
-| Frontend | apps/friotrack-web/ en el repositorio local. | Ejecución, capturas, verificación de flujos, repositorio público y URL desplegada tras autorización. |
-| Landing | Repositorio hermano ../friotrack-landing/. | Versión corregida, CTA hacia la aplicación, verificación y URL de la nueva versión desplegada. |
+| Frontend | [friotrack-frontend](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-frontend/tree/feature/tb1-frontend-application); ejecutar npm ci y npm run dev desde su raíz. | Fuente publicada en PR draft; ejecución/capturas existentes. URL AWS/Azure pendiente de cuenta, autorización y verificación. |
+| Landing | [friotrack-landing](https://github.com/upc-pre-202620-1asi0730-8088-FrioTrack/friotrack-landing/tree/feature/tb1-landing-corrections). | Correcciones publicadas como fuente en PR draft. CTA local; URL y verificación del nuevo despliegue pendientes. |
 | Presentación | Archivo PowerPoint de TB1 y exportación PDF. | Nombres, fotos, carrera y evidencias reales. |
 | Participant Performance Report | Borrador para completar por el Team Leader. | Responsabilidades reales, valoración 20 / 16 / 13 / 07 / 00, Word y PDF final. |
 | Videos | Grabaciones originales y montaje final. | MP4, URL privada de Stream, captura y tiempos verificados. |
@@ -74,7 +74,7 @@ Nombre propuesto cuando corresponda al Sprint 2: **upc-pre-202620-1asi0730-8088-
 
 ## 6. Video de ejecución del producto
 
-El paquete contiene un primer video silencioso de ejecución local de **4:46**, `outputs/upc-pre-202620-1asi0730-8088-blackstartup-productnavigation-sprint-2.mp4`. Se construyó con 152 capturas muestreadas durante un recorrido real del navegador, conservando el tiempo entre capturas; muestra FT-0006, programación, alertas, cliente, idiomas y móvil. Los datos son de ejemplo. Falta revisar el guion con el equipo y añadir narración/URL de Stream cuando corresponda. No sustituye el video del prototipo ni la exposición ante cámara. Guion para completar:
+El ZIP compartido del avance contiene un primer video silencioso de ejecución local de **4:46**, `outputs/upc-pre-202620-1asi0730-8088-blackstartup-productnavigation-sprint-2.mp4`. Se construyó con 152 capturas muestreadas durante un recorrido real del navegador, conservando el tiempo entre capturas; muestra FT-0006, programación, alertas, cliente, idiomas y móvil. Los datos son de ejemplo. Falta revisar el guion con el equipo y añadir narración/URL de Stream cuando corresponda. No sustituye el video del prototipo ni la exposición ante cámara. Guion para completar:
 
 | Escenario | Mostrar | Explicar |
 | :--- | :--- | :--- |
@@ -125,6 +125,6 @@ Incluir el enlace de exposición TB1 en el anexo **Videos de Exposiciones**. Emp
 
 El equipo requiere que la aplicación se publique en **AWS o Azure**. Continuar el desarrollo local mientras se crea la cuenta; la compilación actual se puede publicar después. Actualizar el enlace de la landing y verificar la URL cloud antes de cerrar la evidencia de despliegue. Los datos locales de ejemplo no se migran automáticamente entre orígenes.
 
-Antes de solicitar autorización para push o despliegue, mostrar cambios revisables, resultado de build y verificación de los recorridos, archivos listos para publicación y destino propuesto. La autorización se pide solo para la acción externa pendiente; no para continuar correcciones locales ya solicitadas.
+El push de fuentes y la apertura de cuatro PRs draft ya se realizaron con autorización del usuario; los enlaces están en GITHUB_TB1_INTEGRATION.md. No se realizaron merges ni despliegues. Para la posterior publicación AWS/Azure deben existir la cuenta, el destino concreto, archivos revisables y autorización de despliegue; la actual integración Git no la sustituye.
 
 Después de publicar, comprobar la landing y el frontend desde sus URLs finales, revisar redirecciones y rutas y añadir evidencia real de versión, fecha, plataforma y ejecución. Hasta entonces **Software Deployment Evidence** permanece pendiente o parcial, aun cuando el producto funcione localmente.
