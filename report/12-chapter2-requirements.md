@@ -1,239 +1,131 @@
 # Capítulo II: Requirements Elicitation & Analysis
 
+Este capítulo relaciona el análisis competitivo y la investigación exploratoria con la propuesta actual de **FríoTrack**: monitorear temperatura, humedad y ubicación de cargas durante el transporte refrigerado de alimentos perecibles. El diseño considera dos perfiles: **Coordinador Logístico**, de una empresa de transporte refrigerado, y **Cliente de Carga**, productor, exportador o comprador.
+
+La evidencia disponible corresponde a una exploración anterior de distribución, almacenamiento e inventario. Se conservan tres registros de entrevistas y sus artefactos originales para mantener trazabilidad. Una entrevista incluye problemas térmicos durante el transporte; las otras dos tratan principalmente inventario y vencimientos en un restaurante y una bodega. Esta muestra aporta indicios, pero no permite afirmar que se hayan validado los dos segmentos actuales ni sus características demográficas.
+
+En este capítulo se distinguen **hallazgos documentados**, **artefactos históricos** y **propuestas de diseño pendientes de validación**. Las últimas orientan el trabajo, pero requieren entrevistas reales antes de convertirse en User Personas y mapas definitivos. El control de inventario, FEFO, promociones por caducidad y gestión de cámaras de almacenamiento se conserva como antecedente exploratorio; no se incluye en el alcance actual de transporte descrito en los capítulos I, III y IV.
+
 ## 2.1. Competidores
 
-En esta sección se identifican y describen los principales competidores de **FrioTrack**, tanto directos como indirectos. Estos ofrecen soluciones digitales relacionadas con la gestión logística, el control de inventario y el monitoreo de productos sensibles a la temperatura dentro de la cadena de frío.
+Se comparan tres productos digitales con funciones de visibilidad de la cadena de frío. **Tive** y **Sensitech / SensiWatch** constituyen referencias directas para el monitoreo de alimentos en tránsito. **Controlant** ofrece capacidades similares, pero su propuesta pública actual se concentra en la cadena farmacéutica; por ello se considera una referencia indirecta por sector. Su existencia no demuestra adopción, precios ni disponibilidad de soporte específico en Perú.
+
+La versión de AV1 comparaba Óptima ERP y Sinapsys WMS. Al no disponer de una fuente primaria que identifique inequívocamente esos productos y respalde sus características, se sustituyen en el análisis vigente. Se retira el precio de S/ 89 y las afirmaciones no sustentadas sobre sus limitaciones. Las versiones anteriores permanecen en el historial del repositorio.
 
 ### 2.1.1. Análisis competitivo
 
 #### Competitive Analysis Landscape
 
-**¿Por qué realizar este análisis?**
+**Objetivo del análisis:** ¿qué funciones de seguimiento, alertas y evidencia de un envío ofrecen las soluciones existentes, y qué propuesta para transporte refrigerado de alimentos en Perú podría diferenciar a FríoTrack?
 
-El análisis permite identificar oportunidades de diferenciación y aspectos de mejora para la propuesta de valor de **FrioTrack**. Asimismo, permite comparar cómo otras soluciones atienden las necesidades de gestión de inventario, monitoreo y distribución, considerando factores como funcionalidades, precio y experiencia de usuario.
+La consulta de las páginas oficiales se realizó el **6 de octubre de 2026**. Las funcionalidades de FríoTrack representan alcance de diseño, salvo donde el capítulo V presente evidencia de implementación. Las ventajas y oportunidades propuestas son hipótesis del equipo, no resultados comerciales comprobados.
 
-| Perfil | **FrioTrack** | **Óptima ERP (Perú)** | **Sinapsys WMS (Perú)** | **Tive (EE. UU.)** |
-|---|---|---|---|---|
-| **Descripción general** | Plataforma SaaS orientada al monitoreo de temperatura y gestión de productos perecibles, integrando información de la cadena de frío en una sola solución. | ERP peruano orientado a pymes, con módulos de inventario y facturación electrónica integrada con SUNAT. | Sistema WMS para la gestión de almacenes, incluyendo recepción, picking y despacho. | Plataforma IoT para monitoreo de temperatura y ubicación en la cadena de suministro. |
-| **Ventaja competitiva** | Integra monitoreo de temperatura, control de productos perecibles, alertas y trazabilidad en una solución dirigida al mercado peruano. | Integración con SUNAT y experiencia en el mercado peruano de pymes. | Amplia cobertura de procesos de almacén y adaptación a diferentes sectores. | Alta precisión en el monitoreo de temperatura y geolocalización, con cobertura internacional. |
+| Perfil | **FríoTrack**<br><img src="assets/images/chapter-02/competitors/friotrack.svg" alt="Logo FríoTrack del proyecto" width="48"> | **Tive**<br><span style="display:inline-block;background:white;padding:6px"><img src="assets/images/chapter-02/competitors/tive.svg" alt="Logo oficial Tive" width="100"></span> | **Sensitech / SensiWatch**<br><span style="display:inline-block;background:white;padding:6px"><img src="assets/images/chapter-02/competitors/sensitech.svg" alt="Logo oficial Sensitech" width="100"></span> | **Controlant**<br><span style="display:inline-block;background:#243447;padding:6px"><img src="assets/images/chapter-02/competitors/controlant.svg" alt="Logo oficial Controlant" width="100"></span> |
+| :--- | :--- | :--- | :--- | :--- |
+| **Overview** | Propuesta web para seguir cargas de alimentos durante el transporte terrestre refrigerado en Perú. | Plataforma y dispositivos para conocer ubicación y condiciones de envíos. | Plataforma de visibilidad de envíos y dispositivos de monitoreo de la cadena de frío. | Plataforma de visibilidad y monitoreo de envíos orientada a la industria farmacéutica. |
+| **Ventaja observada o propuesta** | Propuesta de flujos diferenciados para Coordinador Logístico y Cliente de Carga; pendiente de validación. | Combina seguimiento, sensores y alertas en una plataforma. | Combina visibilidad del envío con seguimiento de condiciones y reportes. | Combina seguimiento con gestión de excursiones y evidencia para calidad farmacéutica. |
+| **Mercado objetivo** | Empresas de transporte refrigerado y propietarios o receptores de carga alimentaria. | Cadenas de suministro de alimentos, perecibles y ciencias de la vida. | Cadenas de suministro de alimentos y otras industrias. | Organizaciones farmacéuticas y sus socios logísticos. |
+| **Marketing observado / propuesto** | Propuesta: comunicar los flujos de envío, atención de incidencias y consulta por cliente. | Sitio de producto y solicitud de contacto comercial. | Sitio de producto y solicitud de demostración. | Sitio de plataforma y solicitud de demostración. |
+| **Productos y servicios verificados / propuestos** | Propuesta: programación, lecturas térmicas y humedad, ubicación, alertas, acciones correctivas e historial por envío. | Monitoreo de temperatura, humedad y ubicación según el modelo de dispositivo; alertas. | SensiWatch para visibilidad de envíos; TempTale GEO para temperatura y ubicación en la cadena alimentaria. | Creación y seguimiento de envíos, temperatura, ubicación, alertas y reportes de entrega. |
+| **Precios y costos** | Los planes ilustrativos del diseño requieren validar costos y disposición a pagar con usuarios actuales. | Las páginas citadas no permiten determinar un costo total comparable. Se requiere cotización. | Las páginas citadas no permiten determinar un costo total comparable. Se requiere cotización. | Las páginas citadas no permiten determinar un costo total comparable. Se requiere cotización. |
+| **Canales de distribución** | Propuesta: landing informativa y aplicación web responsive. | Oferta digital y dispositivos; contacto comercial en su web. | Plataforma cloud y aplicación móvil; contacto comercial. | Plataforma cloud y contacto comercial. |
+| **Fuente primaria** | Alcance de los capítulos I, III y IV; estado real en el V. | [Cold chain monitoring](https://www.tive.com/solutions/cold-chain-monitoring) y [Real-time trackers](https://www.tive.com/products/real-time-trackers). | [SensiWatch Platform](https://www.sensitech.com/en/products/sensiwatch-platform/) y [Food solutions](https://www.sensitech.com/en/industries/food/). | [The Controlant Platform](https://www.controlant.com/platform) y [System overview](https://support.controlant.com/en/20956-39992-system-overview.html). |
 
-#### Perfil de marketing
-
-| Aspecto | **FrioTrack** | **Óptima ERP** | **Sinapsys WMS** | **Tive** |
-|---|---|---|---|---|
-| **Mercado objetivo** | Empresas distribuidoras y negocios que comercializan alimentos perecibles y requieren controlar las condiciones de almacenamiento y transporte. | Pymes peruanas de comercio, manufactura y distribución que requieren gestionar inventario y facturación. | Empresas medianas y grandes de distribución y manufactura en Latinoamérica. | Empresas exportadoras, operadores logísticos y cadenas de suministro que manejan productos sensibles a la temperatura. |
-| **Estrategias de marketing** | Marketing digital, posicionamiento en buscadores, redes sociales y ventas directas a empresas relacionadas con la cadena de frío. | Publicidad digital, participación en eventos empresariales y referencias de clientes. | Ventas B2B, participación en eventos del sector logístico y alianzas con integradores. | Presencia en medios digitales especializados y eventos internacionales de supply chain, con enfoque en clientes empresariales. |
-
-#### Productos y servicios
-
-| **FrioTrack** | **Óptima ERP** | **Sinapsys WMS** | **Tive** |
-|---|---|---|---|
-| Monitoreo de temperatura en tiempo real, alertas ante variaciones, trazabilidad de productos y visualización de información mediante un dashboard. | Contabilidad, facturación electrónica, inventario, cuentas por cobrar y pagar y generación de reportes. | Recepción de mercadería, gestión de ubicaciones, picking, embalaje, despacho y control de lotes. | Sensores de temperatura y GPS, plataforma SaaS de monitoreo, alertas, reportes y API de integración. |
-
-#### Precios y costos
-
-| **FrioTrack** | **Óptima ERP** | **Sinapsys WMS** | **Tive** |
-|---|---|---|---|
-| Modelo de suscripción según las funcionalidades y necesidades del cliente. | Planes desde aproximadamente S/ 89 mensuales, con módulos adicionales. | Solución con costos asociados a implementación y configuración. | Suscripción por sensor más el costo del hardware, principalmente orientada a clientes empresariales. |
-
-#### Canales de distribución
-
-| **FrioTrack** | **Óptima ERP** | **Sinapsys WMS** | **Tive** |
-|---|---|---|---|
-| Plataforma web accesible desde dispositivos con conexión a internet. | Plataforma web y aplicación de escritorio. | Plataforma web y aplicaciones orientadas a la gestión empresarial. | Plataforma web, API y aplicaciones móviles, complementadas con sensores físicos. |
+**Procedencia de los logotipos:** los SVG de [Tive](https://www.tive.com/), [Sensitech](https://www.sensitech.com/en/) y [Controlant](https://www.controlant.com/) se obtuvieron de las URLs de imagen presentes en las cabeceras de sus sitios oficiales el 07/10/2026, conservando los bytes originales. El logo de FríoTrack procede de `assets/images/logo.svg` de la landing del proyecto. Las URLs de los originales, fecha y hashes constan en `assets/images/chapter-02/competitors/SOURCES.json`. No se infiere que una función esté ausente solo porque no se menciona en una página pública.
 
 #### Análisis SWOT
 
-**Fortalezas**
+La tabla distingue capacidades que los proveedores publican de riesgos e hipótesis analíticas del equipo. No atribuye a los competidores fallas, costos superiores ni menor facilidad de uso sin una evaluación comparable.
 
-- **FrioTrack:** Plataforma enfocada en la cadena de frío, con monitoreo de temperatura y acceso a la información desde una interfaz web.
-- **Óptima ERP:** Experiencia en el mercado peruano e integración con SUNAT.
-- **Sinapsys WMS:** Amplia cobertura de procesos relacionados con la gestión de almacenes.
-- **Tive:** Alta precisión en sensores y experiencia internacional en monitoreo de temperatura.
-
-**Debilidades**
-
-- **FrioTrack:** Al ser una solución en desarrollo, requiere validación y adopción inicial por parte de los usuarios.
-- **Óptima ERP:** No cuenta con un módulo especializado para el monitoreo de temperatura.
-- **Sinapsys WMS:** Su implementación puede representar una mayor complejidad y costo para pequeñas empresas.
-- **Tive:** Su enfoque empresarial y dependencia de hardware especializado pueden incrementar el costo de implementación.
-
-**Oportunidades**
-
-- **FrioTrack:** Crecimiento de la necesidad de monitorear productos perecibles y reducir pérdidas asociadas a variaciones de temperatura.
-- **Óptima ERP:** Incorporar funcionalidades de monitoreo de temperatura para ampliar su propuesta de valor.
-- **Sinapsys WMS:** Integrar tecnologías IoT para complementar la gestión de almacenes.
-- **Tive:** Establecer alianzas con proveedores locales para ampliar su presencia en nuevos mercados.
-
-**Amenazas**
-
-- **FrioTrack:** Resistencia al cambio tecnológico, competencia de soluciones consolidadas y problemas de conectividad en determinadas zonas.
-- **Óptima ERP:** Aparición de soluciones especializadas que integren inventario y monitoreo de temperatura.
-- **Sinapsys WMS:** Competencia de plataformas empresariales con funcionalidades similares y mayor reconocimiento.
-- **Tive:** Aparición de sensores de menor costo y nuevas plataformas IoT orientadas a pequeñas y medianas empresas.
+| Producto | Fortalezas | Debilidades o aspectos por comprobar | Oportunidades (análisis del equipo) | Amenazas (análisis del equipo) |
+| :--- | :--- | :--- | :--- | :--- |
+| **FríoTrack** | Alcance de diseño enfocado en transporte refrigerado de alimentos y consulta diferenciada de dos roles. | Muestra de investigación insuficiente; integración de sensores, costo y efectividad aún por validar. | Investigar necesidades de coordinación e historial por envío con operadores y clientes del mercado local. | Soluciones consolidadas; conectividad en ruta; dificultad para sostener la operación y captar usuarios. |
+| **Tive** | Sensores y plataforma para condiciones y ubicación de envíos, según sus páginas de producto. | Costo integral y adecuación al operador peruano pequeño por comprobar. | Investigar adaptación de su oferta a corredores y procesos locales. | Nuevas alternativas y cambios en requisitos de conectividad o integración. |
+| **Sensitech** | Visibilidad de envíos y monitoreo de temperatura y ubicación para alimentos. | Costo integral, incorporación y soporte local por comprobar. | Investigar necesidades de coordinación entre proveedor, transportista y receptor. | Nuevas soluciones de monitoreo y decisiones de compra basadas en integración o costo. |
+| **Controlant** | Monitoreo, alertas e historial de envíos en su oferta farmacéutica. | Pertinencia de la oferta actual para el transporte alimentario peruano por comprobar. | Explorar usos adyacentes de la visibilidad térmica; no se afirma que existan planes comerciales para ello. | Cambios del sector y nuevas ofertas de visibilidad especializada. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A partir del análisis competitivo, **FrioTrack** define las siguientes estrategias y tácticas preliminares para responder a las fortalezas de sus competidores y aprovechar las oportunidades identificadas en el mercado peruano.
+Las estrategias son propuestas por evaluar. FríoTrack no se presenta como más barato, más preciso ni más sencillo mientras no exista una comparación con evidencia.
 
-**Frente a Óptima ERP**
+| Referencia | Estrategia propuesta | Tácticas y evidencia necesaria |
+| :--- | :--- | :--- |
+| **Tive** | Especializar el flujo de coordinación y consulta en transporte terrestre de alimentos en Perú. | Entrevistar a operadores y clientes; comparar cómo programan un envío, reconocen una desviación y comparten su historial. Evaluar el costo completo antes de comunicar ventajas económicas. |
+| **Sensitech / SensiWatch** | Centrar la experiencia en las tareas prioritarias de los dos roles del proyecto. | Probar programación, atención de incidencias y consulta de entregas; observar tiempos, errores y comprensión. Verificar dispositivos e integración antes de anunciar compatibilidad. |
+| **Controlant** | Delimitar un producto para alimentos sin prometer las capacidades de una solución validada para farmacia. | Recoger requisitos reales de recepción de carga alimentaria; describir incidentes y acciones correctivas; evitar afirmar certificaciones o liberaciones automáticas que no forman parte del alcance. |
 
-*Estrategia:* Diferenciación mediante especialización y atención de necesidades específicas.
-
-Óptima ERP cuenta con presencia en el segmento pyme peruano, pero no está especializado en el monitoreo de temperatura ni en la gestión de productos perecibles. **FrioTrack** puede aprovechar esta diferencia mediante el monitoreo térmico en tiempo real, las alertas y la trazabilidad de productos.
-
-*Tácticas:*
-
-- Desarrollar materiales de comunicación que destaquen los beneficios del monitoreo de temperatura y el control de productos perecibles.
-- Implementar la importación de datos desde Excel para facilitar la migración de empresas que utilizan hojas de cálculo u otras soluciones.
-- Ofrecer un periodo de prueba gratuito para facilitar la adopción de la plataforma.
-
-**Frente a Sinapsys WMS**
-
-*Estrategia:* Competir mediante accesibilidad y facilidad de adopción para el segmento PYME.
-
-Sinapsys WMS ofrece una cobertura amplia para la gestión de almacenes, pero su implementación puede resultar compleja para pequeñas y medianas empresas. **FrioTrack** busca diferenciarse mediante una solución especializada, sencilla y enfocada en las necesidades de la cadena de frío.
-
-*Tácticas:*
-
-- Ofrecer un proceso de incorporación sencillo, acompañado de tutoriales y soporte en español.
-- Orientar las campañas de adquisición hacia empresas que busquen una alternativa especializada y de menor complejidad.
-- Desarrollar casos de uso para sectores como alimentos, bebidas y otros productos sensibles a la temperatura.
-
-**Frente a Tive**
-
-*Estrategia:* Aprovechar la orientación hacia pymes locales y la accesibilidad de la solución frente a plataformas empresariales internacionales.
-
-Tive ofrece una solución especializada para el monitoreo de temperatura y ubicación. Sin embargo, su orientación hacia clientes empresariales permite que **FrioTrack** se diferencie mediante una propuesta enfocada en las necesidades de pequeñas y medianas empresas del mercado peruano.
-
-*Tácticas:*
-
-- Destacar la compatibilidad de **FrioTrack** con sensores IoT disponibles en el mercado, reduciendo la dependencia de hardware propietario.
-- Desarrollar alianzas con proveedores locales de sensores IoT para facilitar la adquisición e implementación de los dispositivos.
-- Orientar la comunicación de la marca hacia las necesidades particulares de las empresas peruanas que trabajan con productos perecibles.
-
-**Frente a Sinapsys WMS**
-
-*Estrategia:* Competir mediante accesibilidad económica y facilidad de adopción para el segmento PYME.
-
-Sinapsys WMS ofrece funciones amplias para la gestión de almacenes, pero su implementación puede representar una barrera para pequeñas y medianas empresas. Además, su mayor complejidad puede dificultar la adopción. **FrioTrack** puede aprovechar esta diferencia mediante una solución especializada en cadena de frío, sencilla de utilizar y enfocada en las necesidades del segmento objetivo.
-
-*Tácticas:*
-
-- Posicionar a **FrioTrack** como una solución de fácil adopción, con un proceso de incorporación sencillo, tutoriales en español y soporte al usuario.
-- Orientar las campañas hacia empresas que hayan descartado soluciones WMS por su costo o complejidad, destacando funcionalidades específicas como el monitoreo de temperatura y la trazabilidad.
-- Publicar casos de uso en sectores como lácteos, cárnicos y frutas y verduras para demostrar la especialización de **FrioTrack**.
-
-**Frente a Tive**
-
-*Estrategia:* Aprovechar la orientación hacia PYMES locales y la accesibilidad de la solución frente a plataformas empresariales internacionales.
-
-Tive ofrece una solución especializada para el monitoreo de temperatura y ubicación. Sin embargo, **FrioTrack** puede diferenciarse mediante una propuesta orientada a las necesidades de pequeñas y medianas empresas, integrando el monitoreo de temperatura con la gestión de productos perecibles.
-
-*Tácticas:*
-
-- Comunicar la compatibilidad de **FrioTrack** con sensores IoT disponibles en el mercado, reduciendo la dependencia de hardware propietario.
-- Desarrollar alianzas con proveedores locales de sensores IoT para facilitar la adquisición e implementación de los dispositivos.
-- Orientar la comunicación de marca hacia las necesidades del mercado peruano, destacando una solución desarrollada para empresas que trabajan con productos perecibles y requieren controlar sus condiciones de almacenamiento y transporte.
+Estas tácticas se relacionan con el Product Backlog cuando las entrevistas confirmen su valor. Alianzas con sensores, importación de datos, periodos de prueba y tarifas siguen siendo decisiones de negocio por acordar, no capacidades ya disponibles.
 
 ## 2.2. Entrevistas
 
-Se diseñó una investigación mediante entrevistas semiestructuradas dirigidas a representantes de ambos segmentos. En el material recopilado se registran tres entrevistas por segmento y se desarrollaron tres resúmenes en total.
+El repositorio documenta **tres entrevistas en total**: una a un responsable de distribución de perecibles y dos a compradores minoristas. No hay evidencia de tres entrevistas por segmento. El statement exige **entre tres y cinco entrevistas por cada segmento objetivo** y el Anexo C exige consolidarlas en un solo video de needfinding, con títulos de entrevistado, segmento y fecha.
+
+El déficit numérico del estudio anterior era de dos registros para distribuidoras y uno para compradores minoristas, si todos fueran pertinentes. Sin embargo, completar esas cantidades no corrige por sí solo la relación con los perfiles actuales. Debe confirmarse la participación de cada persona en transporte refrigerado y en la propiedad o recepción de carga antes de asignarla a un segmento actual. No se declara una muestra representativa ni una validación del dominio vigente.
 
 ### 2.2.1. Diseño de entrevistas
 
-El diseño de las guías de entrevista siguió buenas prácticas de *needfinding* aplicadas al diseño de experiencia de usuario (Portigal, 2013; Goodman et al., 2012). Las preguntas fueron formuladas de manera abierta para evitar sesgar las respuestas de los entrevistados, priorizando la descripción de comportamientos y experiencias reales sobre opiniones o intenciones.
+Las guías anteriores se centraron en inventario, vencimiento, almacenamiento y distribución. Algunas preguntas preguntaban directamente si una función propuesta sería útil. Esas respuestas expresan interés declarado y no prueban adopción ni necesidad observada.
 
-### Segmento 1: Empresas distribuidoras de productos perecibles
+La siguiente guía revisada es un **instrumento para entrevistas futuras**, no una entrevista ya realizada. Se inicia con una experiencia reciente, solicita ejemplos y documentos que el participante pueda compartir y profundiza en decisiones, dificultades y consecuencias. La propuesta FríoTrack se presenta después de investigar la operación actual.
 
-#### Datos del entrevistado
+#### Datos principales y complementarios para ambos segmentos
 
-1. ¿Cuál es su nombre y edad?
-2. ¿En qué distrito opera su empresa actualmente?
-3. ¿Cuál es su cargo o rol dentro de la empresa?
-4. ¿En qué sector específico trabaja su empresa? (alimenticio, farmacéutico, agroindustrial, otro)
-5. ¿Cuántos años lleva trabajando en el rubro logístico o de distribución?
-6. ¿Cuántas personas conforman su equipo operativo actualmente?
+1. ¿Cómo desea que lo identifiquemos en el informe? ¿Cuál es su nombre y apellido y su edad?
+2. ¿En qué distrito reside y en cuál trabaja? ¿Qué actividad, organización y cargo desempeña?
+3. ¿Cuál es su relación con el transporte refrigerado o la contratación y recepción de carga? ¿Desde cuándo participa en esa actividad?
+4. ¿Cómo se organiza su equipo y qué decisiones toma personalmente?
+5. ¿Qué formación o experiencia considera relevante para su trabajo?
+6. ¿Qué dispositivos, sistema operativo y navegador usa para esas tareas? ¿En qué condiciones dispone de conexión?
+7. ¿Qué canales emplea para coordinar con conductores, transportistas, clientes o proveedores?
+8. ¿Qué herramientas o marcas usa y por qué las elige? ¿Quién influye en la compra de herramientas para su operación?
+9. ¿Qué objetivo considera más importante y qué situación le genera mayor dificultad? Solicite un ejemplo reciente.
+10. Si desea compartirlo, ¿qué aspectos de su entorno personal o familiar influyen en su disponibilidad o en el uso de esas herramientas?
 
-#### Gestión de inventario
+Los datos personales se registran solo cuando el participante los proporciona. No se deducen género, estado civil, familia, personalidad, marcas ni destreza tecnológica a partir de su fotografía o edad. Se solicita autorización para grabar y utilizar la evidencia académica.
 
-7. ¿Qué método utilizan actualmente para registrar y controlar el inventario de sus productos perecibles?
-8. ¿Con qué frecuencia detectan pérdidas por productos vencidos o en mal estado?
-9. ¿Qué tan actualizado se mantiene el stock en sus registros durante las operaciones diarias?
-10. ¿Han tenido inconvenientes graves por errores en el registro del inventario? ¿Cómo los manejaron?
+#### Segmento actual 1: Coordinador Logístico de transporte refrigerado
 
-#### Control de temperatura y cadena de frío
+| Tema | Pregunta principal | Preguntas complementarias |
+| :--- | :--- | :--- |
+| Preparación | Cuente cómo organizaron el último traslado refrigerado en el que participó. | ¿Quién pidió el servicio? ¿Qué carga, origen y destino tenía? ¿Cómo se acordó el rango de conservación? |
+| Asignación | ¿Cómo decidieron qué unidad y conductor atenderían ese envío? | ¿Qué información verificaron? ¿Dónde quedó registrada? ¿Qué hicieron si la unidad no estaba disponible? |
+| Seguimiento | Durante ese traslado, ¿cómo supieron dónde estaba la carga y en qué condiciones viajaba? | ¿Quién realizó las mediciones? ¿Con qué frecuencia? ¿Cómo supieron cuándo se había obtenido cada dato? |
+| Incidentes | Describa la última desviación de temperatura, pérdida de comunicación o retraso que atendió. | ¿Quién lo detectó? ¿Cuándo se enteró usted? ¿Qué hizo? ¿Qué evidencia conservó? |
+| Coordinación | ¿Cómo comunicaron al cliente el estado del envío y los problemas? | ¿Quién recibió la información? ¿Cómo comprobó que fue atendida? |
+| Cierre | ¿Cómo cerraron ese traslado y verificaron la entrega? | ¿Qué documentos o mediciones revisaron? ¿Cómo registraron desacuerdos? |
+| Historial | Cuente una ocasión en que necesitó reconstruir lo ocurrido en un viaje. | ¿Qué encontró? ¿Qué faltaba? ¿Cuánto tiempo tomó reunir la evidencia? |
+| Prioridad y compra | ¿Qué parte de esa operación cambiaría primero y cómo sabría que mejoró? | ¿Quién decide la inversión? ¿Qué condiciones y costos debe evaluar? |
 
-11. ¿Cómo monitorean la temperatura durante el almacenamiento y el transporte de sus productos?
-12. ¿Qué sucede operativamente cuando detectan un fallo en la cadena de frío?
-13. ¿Qué tan difícil les resulta identificar mermas o pérdidas en tiempo real dentro del proceso?
+#### Segmento actual 2: Cliente de Carga
 
-#### Logística y distribución
+| Tema | Pregunta principal | Preguntas complementarias |
+| :--- | :--- | :--- |
+| Contratación | Cuente el último envío refrigerado que contrató, despachó o recibió. | ¿Qué papel tuvo? ¿Cómo eligió al transportista? ¿Qué condiciones acordaron? |
+| Condiciones | ¿Cómo definieron y comunicaron las condiciones necesarias para conservar esa carga? | ¿Quién confirmó los rangos? ¿Qué documento emplearon? |
+| Seguimiento | Mientras la carga viajaba, ¿qué información recibió y cómo la obtuvo? | ¿Cuándo la solicitó? ¿Qué información faltaba? ¿Cómo reconoció un dato actualizado? |
+| Incidentes | Describa un problema de condición o entrega que haya enfrentado. | ¿Cuándo lo conoció? ¿Qué decidió? ¿Qué hizo el transportista? |
+| Recepción | ¿Cómo decidió aceptar, observar o rechazar la carga al recibirla? | ¿Qué comprobaciones y documentos utilizó? ¿Quién tenía autoridad para decidir? |
+| Evidencia | ¿Cómo conservó o solicitó el historial de ese envío? | ¿Lo necesitó para un reclamo o control de calidad? ¿Qué dificultad encontró? |
+| Permisos | ¿Qué información debería compartir cada participante y cuál necesita mantenerse restringida? | ¿Quiénes trabajan con el mismo envío? ¿Qué acceso tienen actualmente? |
+| Prioridad y compra | ¿Qué incertidumbre le gustaría reducir primero y cómo reconocería una mejora? | ¿Quién evalúa herramientas? ¿Cómo compara costos y beneficios? |
 
-14. ¿Qué herramientas o sistemas utilizan actualmente para planificar y ejecutar su distribución?
-15. ¿Cómo realizan el seguimiento de los productos desde el almacén hasta el punto de entrega final?
-16. ¿Qué tan eficiente consideran su proceso de distribución actual y en qué basan esa valoración?
-
-#### Impacto económico y operativo
-
-17. ¿Cuánto estiman que pierden mensualmente por fallas en almacenamiento, transporte o control de inventario?
-18. ¿Cuál de estos factores afecta más su rentabilidad: gestión de inventario, transporte o control de calidad?
-19. ¿Cómo repercuten estos problemas en la satisfacción de sus clientes?
-
-#### Disposición hacia una solución digital
-
-20. ¿Qué tan valioso sería para ustedes contar con visibilidad del stock en tiempo real?
-21. ¿Qué importancia le darían a una herramienta que monitoree la temperatura de forma automática y continua?
-22. ¿Estarían dispuestos a invertir en una solución que automatice su inventario y distribución? ¿Bajo qué condiciones?
-23. ¿Qué funcionalidades serían indispensables en una plataforma de gestión logística como FrioTrack?
-
-### Segmento 2: Tiendas y bodegas con productos perecibles
-
-#### Datos del entrevistado
-
-1. ¿Cuál es su nombre y edad?
-2. ¿En qué distrito se ubica su tienda o bodega?
-3. ¿Cuántos años lleva gestionando su negocio?
-4. ¿Qué tipo de productos perecibles comercializa principalmente?
-5. ¿Cuántas personas trabajan en su negocio actualmente?
-6. ¿Maneja un solo local o tiene más puntos de venta?
-
-#### Control de inventario
-
-7. ¿Cómo controlan actualmente el stock de sus productos perecibles?
-8. ¿Registran las entradas y salidas de forma manual o cuentan con algún sistema digital?
-9. ¿Qué tan actualizado suele estar su inventario durante un día normal de operación?
-10. ¿Con qué frecuencia se quedan sin stock de productos de alta rotación?
-
-#### Fechas de vencimiento y pérdidas
-
-11. ¿Cómo controlan las fechas de vencimiento de sus productos actualmente?
-12. ¿Con qué frecuencia tienen pérdidas por productos vencidos o deteriorados?
-13. ¿Qué tipo de productos les generan mayor cantidad de pérdidas y a qué lo atribuyen?
-
-#### Organización y errores frecuentes
-
-14. ¿Qué dificultades enfrentan para mantener ordenado su almacén o área de stock?
-15. ¿Qué errores ocurren con mayor frecuencia en el registro o control de su inventario?
-16. ¿Qué consecuencias les trae no encontrar un producto rápidamente cuando un cliente lo solicita?
-
-#### Impacto en ventas y clientes
-
-17. ¿Han perdido ventas o clientes por problemas relacionados con una mala gestión del inventario?
-18. ¿Cómo deciden actualmente cuándo y cuánto reponer de cada producto?
-
-#### Disposición hacia una solución digital
-
-19. ¿Les resultaría útil recibir alertas automáticas cuando un producto esté próximo a vencerse?
-20. ¿Utilizarían una aplicación sencilla para gestionar su inventario desde el celular o computadora?
-21. ¿Qué funciones priorizarían: alertas de vencimiento, reportes de ventas o control automático de stock?
-22. ¿Cuánto estarían dispuestos a pagar mensualmente por una solución como FrioTrack?
+El kit de registro y análisis se conserva en [Research Interview Kit](research-interview-kit.md). Las entrevistas de validación de la aplicación se documentarán por separado en el capítulo V cuando corresponda; no sustituyen esta investigación de necesidades.
 
 ### 2.2.2. Registro de entrevistas
 
-A continuación, se presenta el registro de las entrevistas realizadas a los representantes de cada segmento objetivo.
+Se conservan los registros de AV1. Sus enlaces apuntan a grabaciones individuales; **no constituyen todavía el video consolidado** solicitado. Los resúmenes de abajo provienen del informe original y no se presentan como nuevas transcripciones verificadas.
 
-#### Entrevistas segmento 1:
+| Evidencia por resolver | Jari Hassan | Irma Barreto | Santiago Silva Jara |
+| :--- | :--- | :--- | :--- |
+| **Fecha de entrevista** | No consignada; confirmar con el autor o la grabación. | No consignada; confirmar con el autor o la grabación. | No consignada; confirmar con el autor o la grabación. |
+| **Distrito** | La ficha dice San Borja y el resumen ubica la empresa en San Luis; aclarar residencia y operación. | San Juan de Lurigancho según el registro original. | Víctor Larco Herrera, Trujillo, según el registro original. |
+| **Inicio y duración originales** | 00:40 y 10:42, consignados en AV1; contrastar con el video. | 00:00 y 08:15, consignados en AV1; contrastar con el video. | 00:00 y 04:08, consignados en AV1; contrastar con el video. |
+| **Inicio y duración en consolidado** | Pendientes de edición y verificación. | Pendientes de edición y verificación. | Pendientes de edición y verificación. |
+| **Relación con perfil actual** | Responsable de distribución con un relato relacionado con transporte; confirmar si representa a la empresa transportista. | Compradora minorista; no se ha verificado contratación o seguimiento de carga refrigerada. | Comprador minorista; no se ha verificado contratación o seguimiento de carga refrigerada. |
+
+No se calcula el inicio del consolidado sumando las duraciones originales: el Anexo C pide editar cada entrevista a aproximadamente tres a cinco minutos y los títulos modifican los tiempos. Quedan pendientes el archivo único, la captura, la URL privada de Stream y sus permisos de visualización.
+
+#### Registros del segmento exploratorio 1: distribuidoras de perecibles
 
 #### Entrevista 1: Jari Hassan 
 | Campo                                  | Detalle                                                                                                                                                                                                                                                                                                                                                          |
@@ -245,11 +137,11 @@ A continuación, se presenta el registro de las entrevistas realizadas a los rep
 | **Distrito**                           | San Borja                                                                                                                                                                                                                                                                                                                                                        |
 | **Enlace al video (Microsoft Stream)** | [Entrevista grabada – Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d811_upc_edu_pe/IQCBD_5MzFsIQ7WwTMg6JH1CAVHjGSGzKYEmoNuR2M1T4X0?e=meBl8F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Timing de inicio y duración**        | Inicio: 00:40 - Duración: 10:42 minutos                                                                                                                                                                                                                                                                                                                          |
-| **Evidencia fotográfica**              | *<p><img src="assets/images/chapter-02/evidencia.png" width="400" alt="Logo AgroFlet"> </p>*                                                                                                                                                                                                                                                                     |
+| **Evidencia fotográfica**              | *<p><img src="assets/images/chapter-02/evidencia.png" width="400" alt="Captura conservada del registro de entrevista de Jari Hassan"> </p>*                                                                                                                                                                                                                                                                     |
 
 **Resumen de la entrevista:**
 
-Jari Hassan es un profesional de 25 años que se desempeña como Jefe de Operaciones y Logística en una empresa del sector alimenticio con base en San Luis. Trabaja directamente con la distribución de productos perecibles, como lácteos, embutidos y carnes envasadas, por lo que conoce de cerca las exigencias que implica mantener la cadena de frío y el control del inventario en este tipo de operación.
+Jari Hassan es un profesional de 25 años que se desempeña como Jefe de Operaciones y Logística en una empresa del sector alimenticio con base en San Luis, según el resumen original. La ficha indica San Borja y no permite determinar si se refiere a residencia o lugar de trabajo; este dato debe contrastarse con la grabación. Trabaja directamente con la distribución de productos perecibles, como lácteos, embutidos y carnes envasadas, por lo que conoce de cerca las exigencias que implica mantener la cadena de frío y el control del inventario en este tipo de operación.
 
 A partir de su experiencia, señala que uno de los principales problemas en su empresa es la **falta de visibilidad en tiempo real**, tanto del stock como de las condiciones de temperatura durante el transporte. Actualmente combinan un ERP tradicional con registros manuales en Excel, lo que genera desfases en la información, errores de inventario y pérdidas por productos vencidos o en mal estado. También menciona que, cuando ocurre una falla en ruta, muchas veces se enteran demasiado tarde y la mercadería termina en cuarentena o merma.
 
@@ -263,7 +155,7 @@ Estas funcionalidades ayudarían a prevenir pérdidas, mejorar la distribución 
 
 
 
-#### Entrevistas segmento 2:
+#### Registros del segmento exploratorio 2: compradores minoristas de perecibles
 
 #### Entrevista 1: Irma Barreto
 
@@ -303,65 +195,105 @@ Estas funcionalidades ayudarían a prevenir pérdidas, mejorar la distribución 
 
 ### 2.2.3. Análisis de entrevistas
 
-El presente análisis sintetiza la información recopilada a partir de las entrevistas en profundidad realizadas a los representantes de los dos segmentos objetivo.
+El análisis utiliza los resúmenes conservados, con **n = 1** para el grupo exploratorio de distribución y **n = 2** para el grupo exploratorio de compradores minoristas. Los porcentajes describen esta muestra pequeña; no son estimaciones del mercado ni resultados de los segmentos actuales. “No consta” significa que el resumen no permite determinar la respuesta.
 
-**Análisis Primer Segmento: Empresas Distribuidoras de Productos Perecibles (Jari Hassan)**
+#### Distribución de perecibles: Jari Hassan
 
-En primer lugar, se evidencia una limitación operativa significativa derivada de la falta de visibilidad en tiempo real sobre el stock y las condiciones térmicas durante el transporte. El 100% (1 de 1) de los entrevistados de este segmento gestiona la distribución de productos altamente sensibles a la temperatura —lácteos, embutidos y carnes envasadas— desde una empresa del sector alimenticio con base en San Luis, combinando un ERP tradicional con registros manuales en hojas de cálculo, lo que genera desfases entre la información registrada y el estado real del inventario.
+El único resumen documenta falta de visibilidad térmica durante el transporte, detección tardía de fallas en ruta e interés por GPS y monitoreo con avisos. Es un indicio para investigar el seguimiento de envíos y la respuesta a incidentes. También contiene necesidades de inventario y lotes que pertenecían a la propuesta anterior y no se trasladan automáticamente al alcance vigente.
 
-En segundo lugar, se identifica un impacto financiero directo generado por la detección tardía de fallas en la cadena de frío. El entrevistado señaló que, cuando ocurre una interrupción térmica durante el traslado, la empresa suele enterarse cuando ya es demasiado tarde, lo que deriva en mercadería puesta en cuarentena o convertida directamente en merma, además de errores de inventario que afectan la rentabilidad de la operación.
+| Característica | Evidencia documentada | Proporción en el grupo exploratorio | Límite de interpretación |
+| :--- | :--- | :--- | :--- |
+| Falta de visibilidad térmica durante transporte | Jari. | 1/1 = 100 %. | Un relato; no prueba que todos los transportistas tengan el mismo problema. |
+| Uso combinado de ERP y Excel | Jari. | 1/1 = 100 %. | No se conoce la configuración, volumen ni frecuencia de errores. |
+| Interés declarado en GPS y avisos térmicos | Jari. | 1/1 = 100 %. | No demuestra adopción, disposición a pagar ni eficacia. |
+| Cargo y edad consignados | Jefe de Operaciones y Logística, 25 años. | 1/1 = 100 %. | No permite definir rangos etarios del perfil actual. |
 
-En tercer lugar, se identifica una demanda concreta por funcionalidades de monitoreo automatizado y trazabilidad. El entrevistado, de 25 años y con el cargo de Jefe de Operaciones y Logística, prioriza contar con control de lotes mediante alertas de vencimiento, trazabilidad de vehículos por GPS y monitoreo térmico en vivo con notificaciones inmediatas ante cualquier desviación fuera de rango.
+No se cuantificaron pérdidas, tiempo de detección o ahorro. Se requiere verificar el rol del entrevistado, la fecha, el distrito y la referencia temporal de cada afirmación en la grabación.
 
-En cuarto lugar, respecto a la viabilidad y adopción de la plataforma, la disposición a migrar hacia una solución digital está condicionada a que esta sea práctica, intuitiva y rápida de implementar dentro de la operación diaria. En síntesis, este segmento requiere una solución que centralice la telemetría térmica y la ubicación de la flota en un único panel, reduciendo la brecha entre el momento en que ocurre una falla y el momento en que el equipo logístico puede reaccionar.
+#### Compradores minoristas: Irma Barreto y Santiago Silva Jara
 
-**Análisis Segundo Segmento: Tiendas y Bodegas con Productos Perecibles (Irma Barreto y Santiago Silva Jara)**
+Los dos resúmenes describen registros manuales e interés por alertas de vencimiento. Irma relata dificultades de stock y problemas con ingredientes recibidos; el resumen de Santiago se limita a caducidad y cambios de productos. Por ello no se atribuyen a ambos la experiencia de entregas incompletas, el uso de Android ni una disposición a pagar.
 
-En primer lugar, se evidencia una dependencia generalizada de métodos manuales para el control de inventario y de fechas de vencimiento. De acuerdo con los testimonios recopilados, el 100% (2 de 2) de los comerciantes registra sus productos a mano —ya sea en un cuaderno o directamente sobre el empaque—, sin apoyo de ningún sistema digital, lo que abarca desde un restaurante familiar en San Juan de Lurigancho con un volumen de 30 a 40 kg de productos perecibles por semana, hasta una bodega en Trujillo que comercializa productos perecibles junto con otros rubros.
+| Característica | Irma | Santiago | Proporción documentada (n = 2) |
+| :--- | :--- | :--- | :--- |
+| Registro manual de inventario o vencimiento | Sí: cantidades y compras. | Sí: fecha de caducidad. | 2/2 = 100 %; tareas relacionadas, pero distintas. |
+| Interés por aviso de vencimiento | Sí. | Sí. | 2/2 = 100 % de interés declarado. |
+| Falta de actualización del stock | Sí. | No consta. | 1/2 = 50 % con mención; no equivale a 50 % de ausencia. |
+| Productos maltratados, maduros o incompletos al recibir | Sí. | No consta. | 1/2 = 50 % con mención. |
+| Uso de celular Android | Sí. | No consta. | 1/2 = 50 % con mención. |
+| Disposición declarada a pagar S/ 30–50 por gestión de inventario | Sí. | No consta. | 1/2 = 50 % con mención; no es precio validado para transporte. |
+| Contratación y consulta térmica de un envío refrigerado | No consta. | No consta. | 0/2 documentados; no demuestra que nunca realicen esa actividad. |
 
-En segundo lugar, existe un impacto directo en las pérdidas y en la operación diaria derivado de la falta de actualización del stock en tiempo real. El 100% de los entrevistados reportó dificultades vinculadas a productos que llegan en mal estado, maltratados o en cantidades menores a las solicitadas, así como el riesgo constante de quedarse sin ingredientes o productos de alta rotación durante las horas de mayor atención al público.
+Las edades consignadas son 40 y 22 años, respectivamente. No se dispone de evidencia común para género declarado, estado civil, familia, personalidad, marcas, influencias, navegador o habilidades cuantificadas. Estos campos deben recolectarse y codificarse; no pueden completarse por inferencia visual.
 
-En tercer lugar, se identifica una alta disposición hacia la adopción de alertas automáticas de vencimiento y aplicaciones móviles sencillas. Ambos comerciantes, con edades de 22 y 40 años, coincidieron en el interés por una aplicación accesible desde su celular Android que les permita recibir avisos sobre productos próximos a vencer y revisar sus existencias sin depender del registro manual.
+#### Relación entre hallazgos y decisiones de diseño
 
-En cuarto lugar, respecto a la viabilidad comercial, la disposición a pagar está condicionada a que la solución sea económicamente accesible para negocios de pequeña escala: la entrevistada de San Juan de Lurigancho indicó estar dispuesta a pagar entre 30 y 50 soles mensuales por una herramienta que facilite la gestión de su inventario. En síntesis, este segmento requiere una aplicación simple y de bajo costo que automatice el control de vencimientos y reduzca las pérdidas por deterioro, sin exigir conocimientos técnicos avanzados para su uso diario.
+| Hallazgo documentado | Decisión o hipótesis derivada | Evidencia faltante |
+| :--- | :--- | :--- |
+| Jari describe visibilidad tardía de condiciones en ruta. | Proponer lecturas con fecha y hora y alertas vinculadas a un envío. | Casos de operadores de transporte; intervalos, rangos y protocolos reales. |
+| Jari solicita trazabilidad GPS. | Proponer ubicación con fecha de última actualización. | Tareas y decisiones que cada rol toma con esa información. |
+| Irma describe dificultades al recibir productos. | Investigar qué evidencia necesita un receptor al aceptar u observar carga. | Experiencias específicas de recepción de transporte refrigerado. |
+| Irma y Santiago solicitan alertas de vencimiento. | Mantener ese hallazgo en el estudio histórico de inventario. | No justifica por sí solo una función de FEFO en el producto de transporte. |
+
+Para completar el capítulo según el statement se requieren de tres a cinco entrevistas pertinentes por segmento actual, sus resúmenes completos y la reconstrucción de sus arquetipos. La pertinencia de los registros existentes debe verificarse; no se reemplaza esa comprobación con un cambio de etiqueta.
 
 ## 2.3. Needfinding
 
-Para realizar el proceso de *needfinding* en **FrioTrack**, se llevaron a cabo entrevistas en profundidad con actores clave de los segmentos objetivo. Estas incluyeron representantes de empresas distribuidoras de productos perecibles, así como propietarios y administradores de tiendas y bodegas. Las entrevistas permitieron conocer sus actividades diarias, métodos de control de inventario y principales dificultades relacionadas con la conservación de productos, el control de temperatura, el vencimiento y las pérdidas de productos perecibles.
+El needfinding distingue la actividad actual de las personas de las funciones que propone la aplicación. La exploración de AV1 identificó dificultades de inventario y un relato de seguimiento térmico durante distribución. El diseño vigente se enfoca en envíos refrigerados y toma ese relato como punto de partida de una investigación que debe ampliarse.
 
-A partir de esta exploración, se identificaron oportunidades de mejora relacionadas con el uso de controles manuales, la falta de supervisión continua, las dificultades para realizar un seguimiento adecuado del inventario y el acceso limitado a herramientas tecnológicas sencillas. También se evidenció una diferencia entre el registro de información y la capacidad de tomar decisiones preventivas de manera oportuna.
-
-Durante las entrevistas se identificaron necesidades recurrentes, principalmente la posibilidad de recibir alertas ante variaciones de temperatura, contar con mayor visibilidad del inventario y facilitar el control de las fechas de vencimiento. Asimismo, se identificó la necesidad de contar con herramientas que permitan gestionar estos procesos de manera sencilla.
-
-De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, una plataforma digital orientada al monitoreo de la cadena de frío y la gestión de productos perecibles, buscando reducir las pérdidas y facilitar el control de las operaciones.
+Se conservan las imágenes de UXPressia del estudio anterior. Su conservación permite explicar qué cambió en la propuesta y evita convertir supuestos del equipo en testimonios. Las tablas propuestas para transporte que acompañan esas imágenes son instrumentos de discusión y no resultados de nuevas entrevistas.
 
 ### 2.3.1. User Personas
 
-**Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
+Las fichas históricas describen a **Javier Mendoza**, Jefe de Almacén y Operaciones Frigoríficas, y **Rosa Huamán**, propietaria de bodega. No son los entrevistados registrados y no se dispone de trazabilidad que respalde todos sus datos, marcas, citas y habilidades con los tres resúmenes. Sus nombres, fotografías y demografía no se reasignan a los perfiles de transporte.
+
+#### Arquetipo histórico: Javier Mendoza
 
 <div align="center">
-  <img src="assets/images/chapter-02/user-persona.jpg" alt="User Persona - Segmento 1 - Parte 1" width="600">
+  <img src="assets/images/chapter-02/user-persona.jpg" alt="Ficha histórica de Javier Mendoza, del estudio de almacenamiento e inventario" width="600">
 </div>
 
 <div align="center">
-  <img src="assets/images/chapter-02/user-persona2.jpg" alt="User Persona - Segmento 1 - Parte 2" width="600">
+  <img src="assets/images/chapter-02/user-persona2.jpg" alt="Continuación de la ficha histórica de Javier Mendoza" width="600">
 </div>
 
-**Segmento Objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos:**
+La ficha enfatiza cámaras frigoríficas, controles manuales y rotación FEFO. El resumen de Jari respalda interés por seguimiento térmico y describe ERP y Excel, pero no acredita la edad de 38 años, estado civil, experiencia, citas textuales o preferencias de marcas de Javier. Esos campos permanecen como supuestos de la ficha anterior y necesitan verificación o retiro al reconstruir el arquetipo.
 
-<div align="center">
-  <img src="assets/images/chapter-02/user-persona-segmento2.jpg" alt="User Persona - Segmento 2 - Parte 1" width="600">
-</div>
+#### Arquetipo histórico: Rosa Huamán
 
 <div align="center">
-  <img src="assets/images/chapter-02/user-persona-segmento2-2.jpg" alt="User Persona - Segmento 2 - Parte 2" width="600">
+  <img src="assets/images/chapter-02/user-persona-segmento2.jpg" alt="Ficha histórica de Rosa Huamán, del estudio de bodegas e inventario" width="600">
 </div>
+
+<div align="center">
+  <img src="assets/images/chapter-02/user-persona-segmento2-2.jpg" alt="Continuación de la ficha histórica de Rosa Huamán" width="600">
+</div>
+
+La ficha presenta control de stock, pérdidas por caducidad y equipos de frío en una bodega. Los resúmenes de Irma y Santiago respaldan registros manuales e interés por avisos, pero no permiten afirmar la edad de 42 años, estado civil, once años de experiencia, marcas o pérdidas mensuales de Rosa. La ficha también requiere revisar el campo demográfico “Male”; no se corrige atribuyendo un género a partir de la fotografía.
+
+#### Perfiles preliminares del dominio vigente
+
+Las siguientes fichas textuales delimitan responsabilidades para el diseño y se identifican como **PP01** y **PP02**. No son User Personas validadas ni reemplazan las fichas que deben elaborarse en UXPressia.
+
+| Campo | PP01 — Coordinador Logístico | PP02 — Cliente de Carga |
+| :--- | :--- | :--- |
+| **Segmento propuesto** | Empresas de transporte refrigerado de alimentos. | Productores, exportadores y compradores vinculados a carga refrigerada. |
+| **Responsabilidad de diseño** | Organizar envíos, coordinar unidad y conductor y atender incidentes. | Conocer las condiciones de sus envíos y disponer de evidencia para recepción o reclamos. |
+| **Objetivo propuesto** | Reconocer una desviación y coordinar una respuesta durante el trayecto. | Reducir incertidumbre sobre el traslado y revisar el historial de su carga. |
+| **Indicio disponible** | Jari relata visibilidad tardía durante distribución; falta verificar representatividad transportista. | Irma relata problemas de productos recibidos; falta verificar operación de transporte refrigerado. |
+| **Datos personales y tecnológicos** | Por recolectar; sin nombre ficticio, edad, marcas o habilidades atribuidas. | Por recolectar; sin nombre ficticio, edad, marcas o habilidades atribuidas. |
+| **Validación pendiente** | Tres a cinco entrevistas pertinentes, análisis y ficha UXPressia trazable. | Tres a cinco entrevistas pertinentes, análisis y ficha UXPressia trazable. |
+
+El Impact Mapping y los diseños pueden referirse a PP01/PP02 como hipótesis de rol, con esa limitación visible. Las características definitivas deben provenir de las entrevistas y no de las pantallas ya diseñadas.
 
 ### 2.3.2. User Task Matrix
 
-| **Task** | **Javier Mendoza (Jefe de Almacén y Logística)** |  | **Rosa Huamán (Propietaria de Bodega)** |  |
-|---|---|---|---|---|
-|  | **Frequency** | **Importance** | **Frequency** | **Importance** |
+La matriz relaciona tareas del negocio, realizadas con o sin FríoTrack, con frecuencia e importancia para cada perfil. Las valoraciones de la tabla histórica se conservan como asignaciones del diseño de AV1; no existe una medición documentada que las convierta en frecuencias observadas.
+
+#### Matriz histórica de inventario y almacenamiento
+
+| **Task** | **Javier Mendoza — Frequency** | **Javier Mendoza — Importance** | **Rosa Huamán — Frequency** | **Rosa Huamán — Importance** |
+| :--- | :--- | :--- | :--- | :--- |
 | Monitorear temperatura de cámaras/vitrinas | High | High | High | High |
 | Registrar fecha de vencimiento y lote de productos | High | High | Medium | High |
 | Verificar rotación de inventario bajo criterio FEFO | High | High | Medium | High |
@@ -374,91 +306,156 @@ De esta manera, se identificó una oportunidad para desarrollar **FrioTrack**, u
 | Coordinar mantenimiento de equipos de refrigeración | Low | High | Low | High |
 | Separar y desechar mercadería deteriorada/vencida | Medium | High | Medium | High |
 
+En esta versión histórica ambos arquetipos recibieron alta importancia para conservación y caducidad; el jefe de almacén recibió más peso en trazabilidad y FEFO y la propietaria en promociones. Estas diferencias explican el diseño anterior, pero requieren evidencia para considerarse hallazgos y no justifican agregar esas funciones al alcance actual.
+
+#### Matriz propuesta para transporte, por verificar
+
+| **Task independiente del software** | **PP01 — Frequency** | **PP01 — Importance** | **PP02 — Frequency** | **PP02 — Importance** |
+| :--- | :--- | :--- | :--- | :--- |
+| Acordar carga, origen, destino y condiciones de conservación | Por verificar | Por verificar | Por verificar | Por verificar |
+| Asignar unidad y conductor aptos para el traslado | Por verificar | Por verificar | Por verificar | Por verificar |
+| Comprobar ubicación y condiciones durante el viaje | Por verificar | Por verificar | Por verificar | Por verificar |
+| Reconocer falta de información de la carga | Por verificar | Por verificar | Por verificar | Por verificar |
+| Coordinar respuesta a una desviación o incidencia | Por verificar | Por verificar | Por verificar | Por verificar |
+| Comunicar avances y problemas a las partes involucradas | Por verificar | Por verificar | Por verificar | Por verificar |
+| Verificar condiciones y evidencia al entregar o recibir | Por verificar | Por verificar | Por verificar | Por verificar |
+| Reconstruir el historial para un reclamo o revisión | Por verificar | Por verificar | Por verificar | Por verificar |
+
+Como hipótesis de diseño, PP01 coordina recursos y respuesta operativa y PP02 evalúa la información de su carga y recepción. Se espera que coincidan en seguimiento y evidencia, pero no se afirma qué tarea es más frecuente o importante. Las entrevistas deben registrar cuántas veces se realiza cada tarea, consecuencias de omitirla y quién tiene autoridad para resolverla. Después se traducirán esas respuestas a una escala explícita y se priorizará el backlog.
+
 ### 2.3.3. User Journey Mapping
 
-**Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
+Los journeys deben representar la experiencia **As-Is**, antes de FríoTrack, desde el inicio de una actividad hasta su cierre. Las imágenes históricas fueron elaboradas para Javier y Rosa en UXPressia. Se conservan vinculadas a sus fichas, con límites de evidencia; sus curvas emocionales y oportunidades no son mediciones de participantes actuales.
+
+#### Journey histórico: Javier Mendoza
 
 <div align="center">
-  <img src="assets/images/chapter-02/user-journey-mapping.jpg" alt="User Journey Mapping - Segmento 1" width="600">
+  <img src="assets/images/chapter-02/user-journey-mapping.jpg" alt="Journey histórico As-Is de Javier Mendoza para almacenamiento y despacho" width="600">
 </div>
 
-**Segmento objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos**
+La imagen recorre recepción e ingreso, monitoreo, selección y rotación FEFO, preparación del despacho y revisión de mermas. Describe discontinuidad de información y trabajo manual en almacenamiento. El relato de Jari permite investigar esa discontinuidad durante distribución, pero no respalda todas las etapas, horarios ni emociones atribuidas al arquetipo. Las oportunidades de la imagen son propuestas de solución y no deben insertarse como actividades de un journey As-Is.
+
+#### Journey histórico: Rosa Huamán
 
 <div align="center">
-  <img src="assets/images/chapter-02/user-journey-mapping-seg2.jpg" alt="User Journey Mapping - Segmento 2" width="600">
+  <img src="assets/images/chapter-02/user-journey-mapping-seg2.jpg" alt="Journey histórico As-Is de Rosa Huamán para control de perecibles en bodega" width="600">
 </div>
+
+La imagen recorre reposición, control de stock y vencimiento, revisión del frío, atención al cliente y cierre del negocio. La asociación con registros manuales y avisos de vencimiento tiene indicios en Irma y Santiago; los fallos eléctricos nocturnos y las emociones requieren verificar su procedencia. Este recorrido trata venta minorista y no equivale al seguimiento y recepción de un envío refrigerado.
+
+#### Guion As-Is para investigar el dominio vigente
+
+| Etapa propuesta | PP01: pregunta de observación | PP02: pregunta de observación | Evidencia que debe recolectarse |
+| :--- | :--- | :--- | :--- |
+| Antes del traslado | ¿Cómo prepara recursos y confirma condiciones? | ¿Cómo solicita el traslado y acuerda condiciones? | Caso real, actores, documentos y canales. |
+| Salida | ¿Cómo verifica que la carga puede iniciar el viaje? | ¿Cómo recibe la confirmación de despacho? | Registro o relato concreto de salida. |
+| En tránsito | ¿Cómo conoce ubicación y condiciones? | ¿Qué información recibe o solicita? | Frecuencia, canal, antigüedad y ausencia de datos. |
+| Incidencia | ¿Cómo decide y coordina una respuesta? | ¿Cómo se entera y qué puede decidir? | Último caso, secuencia, responsables y consecuencias. |
+| Entrega y cierre | ¿Cómo registra entrega y conserva evidencia? | ¿Cómo acepta u observa carga y obtiene historial? | Comprobaciones, documentos y reclamos. |
+
+Este guion no es una validación ni una curva emocional terminada. Tras las entrevistas se completarán acciones, pensamientos y emociones observadas, pains y canales, diferenciando citas, inferencias y oportunidades, y se exportarán las nuevas imágenes desde UXPressia.
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento objetivo: Jefes de almacén y supervisores logísticos de distribuidoras medianas**
+El Empathy Map organiza observaciones sobre lo que cada persona hace, ve, oye, dice, piensa y siente, junto con sus pains y gains. Para evitar atribuir frases inventadas, las citas deben vincularse a entrevistado y minuto del video; las inferencias del equipo deben identificarse.
+
+#### Mapa histórico: Javier Mendoza
 
 <div align="center">
-  <img src="assets/images/chapter-02/empathy-mapping-seg1.jpg" alt="Empathy Mapping - Segmento 1" width="600">
+  <img src="assets/images/chapter-02/empathy-mapping-seg1.jpg" alt="Empathy Map histórico de Javier Mendoza, pendiente de trazabilidad por campo" width="600">
 </div>
 
-**Segmento objetivo: Propietarios y administradores de bodegas y puestos en mercados de abastos**
+El mapa histórico agrupa preocupación por equipos de frío, registros manuales y pérdidas en almacén, y propone avisos e información continua como gains. Solo hay indicios parciales en el resumen de Jari; las frases entre comillas, mediciones de experiencia y escenas nocturnas de la imagen no se presentan como citas verificadas.
+
+#### Mapa histórico: Rosa Huamán
 
 <div align="center">
-  <img src="assets/images/chapter-02/empathy-mapping-seg2.jpg" alt="Empathy Mapping - Segmento 2" width="600">
+  <img src="assets/images/chapter-02/empathy-mapping-seg2.jpg" alt="Empathy Map histórico de Rosa Huamán, pendiente de trazabilidad por campo" width="600">
 </div>
 
-### 2.4. Big Picture EventStorming
+El mapa relaciona control manual y caducidad con tiempo, pérdidas y preocupación al cerrar el negocio. Los dos registros minoristas apoyan parte del problema de caducidad, pero no acreditan todas las frases, interrupciones eléctricas o monto mensual de pérdida que muestra la imagen. Su alcance sigue siendo inventario minorista.
 
-En la sesión de **Big Picture EventStorming**, el equipo exploró de forma visual el panorama general del dominio de **FrioTrack**, enfocado en la telemetría IoT para la cadena de frío y la gestión de inventarios de productos perecibles. Se identificaron los principales eventos del ciclo de vida de los productos, desde la recepción e ingreso de la mercadería hasta su despacho, considerando el monitoreo de las condiciones de almacenamiento y transporte.
+#### Preparación del mapa vigente
 
-Asimismo, se identificaron los sistemas externos que interactúan con la plataforma, como los sensores IoT y los servicios utilizados para generar alertas. Esta primera aproximación permitió alinear el entendimiento del equipo sobre el dominio y establecer las bases para el diseño detallado de la solución.
+| Dimensión | PP01: tema a investigar | PP02: tema a investigar |
+| :--- | :--- | :--- |
+| **Who / Needs to do** | Responsabilidad y límites para organizar y atender envíos. | Responsabilidad y límites al contratar, seguir o recibir carga. |
+| **Sees / Hears** | Información de unidad, conductor, cliente y mediciones que recibe actualmente. | Información que recibe del transportista y requisitos que escucha de calidad o recepción. |
+| **Says / Does** | Acciones y expresiones del último caso real, con referencia al video. | Acciones y expresiones del último envío real, con referencia al video. |
+| **Thinks / Feels** | Preocupaciones que el participante exprese; no inferirlas de la interfaz. | Incertidumbres que el participante exprese; no suponer frustración. |
+| **Pains / Gains** | Obstáculos documentados y mejora que la persona considera valiosa. | Obstáculos documentados y evidencia que necesita para decidir. |
+
+El proceso pendiente consiste en seleccionar a participantes pertinentes, ubicar el perfil al centro del mapa, codificar observaciones y citas, contrastar entre entrevistas y revisar contradicciones. Las nuevas fichas y mapas se construirán en UXPressia con esa trazabilidad.
+
+## 2.4. Big Picture EventStorming
+
+El artefacto histórico representa la exploración anterior de lotes, inventario, FEFO, telemetría, alertas y despacho. No consta en el informe una fecha, lista de participantes ni registro de etapas que permita afirmar cómo se realizó una sesión colaborativa. La explicación siguiente documenta el artefacto existente y propone la corrección para transporte; no inventa un taller realizado.
 
 <div align="center">
-  <img src="assets/images/chapter-02/big-picture.jpg" alt="Big Picture EventStorming - FrioTrack" width="600">
-  <p><i>Figura X. Big Picture EventStorming del proyecto FrioTrack.</i></p>
+  <img src="assets/images/chapter-02/big-picture.jpg" alt="Big Picture EventStorming histórico de inventario, alertas y despacho" width="900">
+  <p><i>Figura 2.1. Tablero histórico de exploración del dominio; requiere separar eventos, comandos, actores y vistas.</i></p>
 </div>
 
-**Primera fase: Eventos**
+### Lectura y límites del tablero histórico
 
-### 2.5. Ubiquitous Language
+La imagen contiene hechos como “Lote Perecible Ingresado”, “Desviación Térmica Detectada”, “Alerta Térmica Emitida” y “Lote Despachado”. También incluye comandos (“Registrar Ingreso de Lote”), vistas (“Dashboard de Telemetría”), un actor (“Comprador minorista”) y un canal (“Landing Page”) como notas del mismo color. Sin una leyenda y una secuencia no se distinguen hechos del negocio de acciones o elementos de software.
 
-El **Ubiquitous Language** de **FrioTrack** establece un lenguaje común entre los integrantes del equipo y los usuarios del sistema. Los siguientes términos representan los conceptos principales del dominio de monitoreo de la cadena de frío y gestión de productos perecibles.
+El flujo FEFO y sus promociones se conserva como antecedente, pero no se traslada al dominio vigente de transporte. La corrección debe partir del ciclo de un envío y de decisiones reales de los dos perfiles, antes de modelar componentes de software.
 
-- **Cold Chain (Cadena de Frío):** conjunto de procesos de almacenamiento y transporte que mantienen condiciones de temperatura adecuadas para conservar productos perecibles.
+### Propuesta de etapas para la sesión de transporte
 
-- **Perishable Batch (Lote Perecible):** agrupación de productos perecibles que comparten características de identificación y control, como procedencia, fecha de producción o fecha de vencimiento.
+| Etapa | Trabajo propuesto | Resultado que debe evidenciarse |
+| :--- | :--- | :--- |
+| **1. Eventos** | Identificar hechos significativos ya ocurridos durante un envío y escribirlos en pasado. | Captura inicial de eventos y casos de entrevistas que los sustentan. |
+| **2. Secuencia** | Ordenar salida, tránsito, incidencias y entrega; separar recorridos normales y alternativos. | Captura de la línea de tiempo y discusión de excepciones. |
+| **3. Actores y acciones** | Identificar quién puede realizar la acción que origina cada evento y quién recibe información. | Captura con comandos y actores diferenciados por leyenda. |
+| **4. Políticas y dependencias** | Discutir rangos, avisos, falta de lecturas, respuesta a incidentes y terceros involucrados. | Reglas confirmadas y decisiones que aún necesitan evidencia. |
+| **5. Hotspots y alcance** | Señalar conflictos, términos ambiguos y fronteras del negocio. | Preguntas abiertas, alcance acordado y glosario actualizado. |
 
-- **FEFO Policy (Primero en Vencer, Primero en Salir):** estrategia de gestión de inventario que prioriza la salida de los productos cuya fecha de vencimiento está más próxima.
+### Secuencia candidata del negocio, pendiente de validación
 
-- **Thermal Telemetry (Telemetría Térmica):** registro y transmisión periódica de datos de temperatura obtenidos mediante sensores.
+| Hecho candidato | Actor o fuente por confirmar | Continuación propuesta |
+| :--- | :--- | :--- |
+| **Shipment Scheduled** | Coordinador Logístico y acuerdo con Cliente de Carga. | Verificar condiciones, disponibilidad de unidad y conductor. |
+| **Vehicle Assigned / Driver Assigned** | Coordinador Logístico. | Preparar y confirmar la salida. |
+| **Shipment Departed** | Operación de transporte. | Recoger evidencia de ubicación y condiciones durante el trayecto. |
+| **Condition Reading Recorded** | Medición de la carga. | Evaluar los rangos acordados y la vigencia de la lectura. |
+| **Temperature Excursion Detected** | Evaluación de la lectura según condiciones acordadas. | Avisar a responsables y coordinar una respuesta. |
+| **Communication Gap Detected** | Ausencia de una lectura esperada. | Distinguir falta de datos de condiciones normales de carga. |
+| **Corrective Action Recorded** | Responsable operativo autorizado. | Conservar acción y responsable sin asumir recuperación automática. |
+| **Shipment Delivered** | Operación de transporte y recepción. | Revisar condiciones, registrar observaciones y conservar evidencia. |
 
-- **Thermal Threshold (Umbral Térmico):** límite mínimo y máximo de temperatura permitido para mantener un producto en condiciones adecuadas.
+Estos hechos candidatos no acreditan reglas aprobadas ni una integración IoT implementada. El equipo debe realizar y registrar la sesión, incluir participantes y fecha reales, exportar las capturas de cada etapa desde la herramienta indicada y explicar decisiones y hotspots. Ese resultado alimentará el Design-Level EventStorming del capítulo IV.
 
-- **Cold Breach (Ruptura de Cadena de Frío):** situación en la que la temperatura de almacenamiento o transporte se encuentra fuera del rango permitido durante un periodo determinado.
+## 2.5. Ubiquitous Language
 
-- **IoT Sensor Node (Nodo Sensor IoT):** dispositivo equipado con sensores que recopila información ambiental y la transmite a la plataforma.
+El glosario propone términos de negocio para el transporte refrigerado y utiliza inglés con definición en español. Debe revisarse con los participantes; evita vocabulario técnico de implementación y delimita el significado de cada término en este proyecto. Los conceptos de almacenamiento, picking, promociones y FEFO pertenecen al estudio anterior y no al alcance vigente.
 
-- **Storage Unit (Unidad de Almacenamiento):** espacio destinado al almacenamiento de productos perecibles bajo condiciones controladas de temperatura.
+| Término | Definición en el dominio de FríoTrack |
+| :--- | :--- |
+| **Cold Chain (Cadena de frío)** | Condiciones de conservación acordadas que deben mantenerse durante el traslado de la carga refrigerada. |
+| **Shipment (Envío)** | Traslado identificado de una carga desde un origen hasta un destino, con condiciones, participantes y estado propios. |
+| **Perishable Cargo (Carga perecible)** | Alimentos transportados cuya calidad depende de sus condiciones de conservación y del tiempo. |
+| **Refrigerated Carrier (Transportista refrigerado)** | Empresa u operador que realiza el traslado de carga con una unidad de refrigeración. |
+| **Logistics Coordinator (Coordinador Logístico)** | Persona del transportista que organiza recursos y coordina la operación y respuesta a incidencias. |
+| **Cargo Client (Cliente de Carga)** | Productor, exportador o comprador relacionado con un envío y autorizado a consultar información de su carga. |
+| **Driver (Conductor)** | Persona asignada a conducir la unidad que transporta un envío. |
+| **Refrigerated Vehicle (Vehículo refrigerado)** | Unidad utilizada para el traslado de carga bajo condiciones de conservación acordadas. |
+| **Origin / Destination (Origen / Destino)** | Lugares acordados de salida y recepción de un envío. |
+| **Route (Ruta)** | Trayecto planificado o recorrido por la unidad entre origen y destino; ambos deben distinguirse al mostrarlos. |
+| **Agreed Temperature Range (Rango térmico acordado)** | Límite inferior y superior de temperatura establecido para un envío; depende de la carga y del acuerdo operativo. |
+| **Agreed Humidity Range (Rango de humedad acordado)** | Límite inferior y superior de humedad, cuando su seguimiento sea pertinente para la carga. |
+| **Condition Reading (Lectura de condiciones)** | Medición de temperatura o humedad de la carga, identificada por su momento de obtención. |
+| **Last Known Location (Última ubicación conocida)** | Posición más reciente reportada para un envío, con su fecha y hora; no implica posición actual si está desactualizada. |
+| **Temperature Excursion (Desviación térmica)** | Medición fuera del rango acordado; su severidad y respuesta deben definirse según las reglas del envío. |
+| **Communication Gap (Intervalo sin información)** | Periodo en que no se dispone de una lectura esperada; no prueba que la carga esté dentro ni fuera de rango. |
+| **Alert (Alerta)** | Aviso de una condición que exige revisión por los responsables; se relaciona con un envío y un hecho identificable. |
+| **Shipment Incident (Incidencia de envío)** | Situación registrada durante el traslado que puede afectar condiciones, continuidad o entrega. |
+| **Corrective Action (Acción correctiva)** | Acción registrada por un responsable ante una incidencia; su registro no demuestra por sí solo que se haya resuelto. |
+| **Delivery (Entrega)** | Llegada y transferencia de la carga al receptor; debe distinguirse de su aceptación de calidad. |
+| **Receiving Observation (Observación de recepción)** | Condición o desacuerdo documentado por quien recibe la carga. |
+| **Shipment History (Historial de envío)** | Secuencia conservada de mediciones, ubicaciones, cambios de estado, incidencias y acciones de un envío. |
+| **Cold Chain Evidence (Evidencia de cadena de frío)** | Registros disponibles que permiten revisar condiciones del traslado; no equivale automáticamente a una certificación de inocuidad. |
+| **Product Loss (Pérdida de producto / Merma)** | Pérdida de carga por deterioro u otra causa documentada; su magnitud no se infiere de una alerta aislada. |
 
-- **Shrinkage / Merma:** pérdida de productos perecibles debido a vencimiento, deterioro o condiciones inadecuadas de almacenamiento.
-
-- **Critical Expiration Window (Ventana Crítica de Caducidad):** periodo previo al vencimiento de un producto durante el cual se requiere tomar acciones para evitar que se convierta en merma.
-
-- **Telemetry Ingestion (Ingesta de Telemetría):** proceso mediante el cual la plataforma recibe, valida y almacena los datos enviados por los sensores.
-
-- **Telemetry Loss (Pérdida de Comunicación Telemétrica):** condición en la que el sensor deja de transmitir información hacia la plataforma.
-
-- **Thermal Deviation Event (Evento de Desviación Térmica):** evento generado cuando una medición de temperatura supera los límites establecidos.
-
-- **Dispatch Order (Orden de Despacho):** instrucción utilizada para preparar los productos que serán transportados o entregados al cliente.
-
-- **Picking List (Lista de Picking):** listado que indica los productos y lotes que deben ser retirados del inventario para preparar un pedido.
-
-- **Emergency Alert (Alerta de Emergencia):** notificación generada ante una condición crítica que requiere atención inmediata.
-
-- **Clearance Discount (Descuento de Liquidación):** reducción de precio aplicada a productos próximos a vencer con el objetivo de acelerar su venta y reducir pérdidas.
-
-- **Warehouse Supervisor (Supervisor de Almacén):** usuario encargado de supervisar las operaciones relacionadas con el almacenamiento, inventario y condiciones de conservación de los productos.
-
-- **Retail Merchant (Comerciante Minorista):** usuario encargado de gestionar productos perecibles en tiendas, bodegas o puestos de mercados de abastos.
-
-- **MQTT Broker (Broker MQTT):** intermediario utilizado para gestionar la comunicación de mensajes entre los sensores IoT y los componentes de la plataforma.
-
-- **Thermal Recovery Time (Tiempo de Recuperación Térmica):** tiempo que necesita una unidad de almacenamiento para volver a su rango de temperatura adecuado después de una alteración térmica.
-
-- **Shelf Life (Vida Útil):** periodo durante el cual un producto perecible puede mantenerse en condiciones adecuadas para su comercialización y consumo.
+**Pendientes para cerrar el capítulo:** entrevistas pertinentes y completas; video consolidado con tiempos verificados; trazabilidad de características; User Personas, journeys y Empathy Maps actuales en UXPressia; y taller de EventStorming real con capturas. Las propuestas y correcciones textuales de esta versión no sustituyen esas evidencias.
